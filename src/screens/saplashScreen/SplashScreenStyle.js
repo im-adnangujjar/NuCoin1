@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Platform } from 'react-native'
 
 export const style = StyleSheet.create({
 
@@ -10,11 +10,14 @@ export const style = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
     },
+    logo: {
+        marginTop: Platform.OS === 'ios' ? 0 : -90,
+    },
     welcom: {
         fontSize: 30,
         fontWeight: '400',
         lineHeight: 45,
-        marginTop: 60
+        marginTop: 20
     },
     nuCion: {
         // font-family: Poppins;
@@ -22,7 +25,7 @@ export const style = StyleSheet.create({
         fontWeight: '700',
         lineHeight: 45,
         textAlign: 'center',
-        marginBottom: 16,
+        marginBottom: 10,
 
     },
     text: {
@@ -32,38 +35,39 @@ export const style = StyleSheet.create({
         lineHeight: 21,
         width: 214,
         textAlign: 'center',
-        color:'#7B7B7B',
-
+        color: '#7B7B7B',
     },
     artificial: {
         fontSize: 14,
         fontWeight: '700',
         textAlign: 'center',
-        marginTop:10,
+        marginTop: 10,
     },
     button_margin: {
-        marginTop:33,
-        marginBottom:39
+        marginTop: 33,
+        marginBottom: 39
     },
-    agree:{
+    agree: {
         // font-family: Poppins;
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
-        textAlign:'center',
-        color:'#7B7B7B',
-        marginTop:76,
+        textAlign: 'center',
+        color: '#7B7B7B',
+        marginTop: 30,
 
     },
-    terms:{
+    terms: {
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
         textAlign: 'center',
-        color:'#1F62C6',
+        color: '#1F62C6',
+        marginBottom: 20,
+
     },
-    color:{
-        color:'#7B7B7B',
+    color: {
+        color: '#7B7B7B',
     }
 })
 

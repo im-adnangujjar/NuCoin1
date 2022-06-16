@@ -14,10 +14,12 @@ export default function Wallet({ navigation }) {
   return (
     <ScrollView style={styles.container} >
       <SafeAreaView />
-
       <View style={styles.subContainer}>
-        <Header/>
+        <Header nav={navigation}/>
+        <View style={styles.display}>
         <Text style={styles.title}>Create Wallet</Text>
+        <Text style={styles.numbers}>01 .<Text style={styles.numbers1}>02</Text></Text>
+        </View>
         <LinearGradient start={{ x: 0, y: -1 }} end={{ x: 1, y: 1 }} colors={['#ECB8B8', '#FFFFFF']} style={styles.linearGradient}>
           <View  style={styles.bgColor}>
           <Image  source={warning} />
@@ -35,9 +37,9 @@ export default function Wallet({ navigation }) {
           <Text styles={styles.copy}>Copy to Clipboard</Text>
           <Image style={styles.icon} source={copy} />
         </View>
-        <View style={styles.bar}>
-          <Button text='cancal'  color='black' bgColor=' #E5E5E5' width='45%' height={54} bgColor='white' />
-          <Button click={() => navigation.navigate('Wallet3')} text='continue' width='45%' height={54}  />
+        <View style={styles.button}>
+          <Button text='cancal' click={() => navigation.goBack('Wallet2')}  color='black' bgColor=' #E5E5E5' width='45%' height={54}  />
+          <Button click={() => navigation.navigate('Wallet2')} text='continue' width='45%' height={54}  />
         </View>
       </View>
     </ScrollView>

@@ -7,15 +7,17 @@ import LinearGradient from 'react-native-linear-gradient';
 const GradientButton = ({item}) => {
     console.log('this is item',item);
     return (
+        <View style={{borderRadius:10}}>
         <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 0, y: 0 }} colors={[item.colorA, item.colorB]} style={styles.linearGradient}>
             <View style={styles.button}>
                 <View style={styles.button_align}>
                 <Image source={item.icon}/>
                 <Text style={styles.button_text} >{item.title}</Text>
                 </View>
-
             </View>
         </LinearGradient>
+        </View>
+
     )
 }
 

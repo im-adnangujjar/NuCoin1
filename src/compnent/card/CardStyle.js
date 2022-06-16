@@ -21,6 +21,9 @@ export const styles = StyleSheet.create({
         fontWeight: '500',
         color: 'white'
     },
+    linearGradient:{
+borderRadius:10,
+    },
     title: {
         fontSize: 12,
         fontWeight: '500',
@@ -43,7 +46,7 @@ export const styles = StyleSheet.create({
         fontSize: 26,
         fontWeight: '700',
         color: 'white',
-        marginLeft: 10
+        marginLeft:4
     },
     image: {
         tintColor: 'white',

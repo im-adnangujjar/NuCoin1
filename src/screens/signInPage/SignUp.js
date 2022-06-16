@@ -1,16 +1,20 @@
-import { StyleSheet, ScrollView, SafeAreaView, Text, View, TextInput } from 'react-native'
+import { StyleSheet, ScrollView, SafeAreaView, Text, View, TextInput, Image } from 'react-native'
 import { styles } from './SignUpStyle'
 import React from 'react'
 import Button from '../../compnent/button/Button'
-
-const SignIn = ({navigation}) => {
+import date from '../../assets/icons/calendar.png'
+const SignIn = ({ navigation }) => {
     return (
         <ScrollView style={styles.container}>
-            <SafeAreaView />
-            <View style= {styles.subContainer}>
-
-                <Text style={styles.title}>Sign up</Text>
-                <Text style={styles.title}>to continue</Text>
+            <View style={styles.subContainer}>
+                <SafeAreaView />
+                <View style={styles.titleFlex}>
+                    <View>
+                        <Text style={styles.title}>Sign up</Text>
+                        <Text style={styles.title}>to continue</Text>
+                    </View>
+                    <Text>01 . 02</Text>
+                </View>
                 <Text style={styles.lable}>User Name</Text>
                 <TextInput style={styles.input} placeholder="" />
                 <Text style={styles.lable}>First Name</Text>
@@ -18,7 +22,11 @@ const SignIn = ({navigation}) => {
                 <Text style={styles.lable}>Last Name</Text>
                 <TextInput style={styles.input} placeholder="" />
                 <Text style={styles.lable}>Birthdate</Text>
-                <TextInput style={styles.input} placeholder="" />
+                <View >
+                    <TextInput style={styles.input} placeholder="" />
+                    <Image style={styles.image} source={date} />
+                </View>
+
                 <Text style={styles.lable}>Select Gender</Text>
                 <View style={styles.buttons}>
                     <Button text='Male' width='45%' height={34} />

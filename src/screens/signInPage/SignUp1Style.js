@@ -1,17 +1,34 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
-    container:{
-backgroundColor:'white',
-    },
-  subContainer: {
+    // container: {
+    //     backgroundColor: '#E5E5E5',
+    // },
+    subContainer: {
         marginHorizontal: 50,
-        paddingTop: 146,
+        paddingTop: Platform.OS === 'ios' ? 146 : 50,
     },
     title: {
         fontSize: 30,
         fontWeight: '700',
-        marginBottom: 10
+    },
+    titleFlex: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginBottom: 30
+
+    },
+    numbers: {
+        // font-family: Poppins;
+        fontSize: 18,
+        fontWeight: '500'
+    },
+    numbers2: {
+        // font-family: Poppins;
+        fontSize: 12,
+        fontWeight: '500',
+        color:'#CFCFCF'
     },
     lable: {
         // font-family: Poppins;
@@ -30,6 +47,11 @@ backgroundColor:'white',
         color: 'black',
         marginBottom: 36
 
+    },
+    image: {
+        position: 'absolute',
+        right: 0,
+        bottom: 50
     },
     buttons: {
         flexDirection: 'row',
@@ -52,25 +74,25 @@ backgroundColor:'white',
         marginBottom: 75,
         textAlign: 'center',
         marginTop: 6,
-        color:'#1F62C6'
+        color: '#1F62C6'
     },
-    agree:{ 
+    agree: {
         //  font-family: Poppins;
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
-        textAlign:'center',
-        color:'#7B7B7B',
-        marginTop:76,
+        textAlign: 'center',
+        color: '#7B7B7B',
+        marginTop: 76,
     },
-    terms:{
+    terms: {
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
         textAlign: 'center',
-        color:'#1F62C6',
+        color: '#1F62C6',
     },
-    color:{
-        color:'#7B7B7B',
+    color: {
+        color: '#7B7B7B',
     }
 })

@@ -12,9 +12,9 @@ const SplashScreen = ({navigation}) => {
             {/* <ImageBackground source={bgLogo} resizeMode="cover" ></ImageBackground> */}
             <Image source={bgLogo}  alt="Logo"/>
             <View style={style.Text}>
-                <Image source={logo}  alt="Logo"/>
+                <Image style={style.logo}source={logo}  alt="Logo"/>
                 <View>
-                    <Text style={style.welcom}>welcome to</Text>
+                    <Text style={style.welcom}>Welcome to</Text>
                     <Text style={style.nuCion}>NuCoin</Text>
                 </View>
                 <View>

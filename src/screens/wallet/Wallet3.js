@@ -9,7 +9,7 @@ const Wallet3 = ({ navigation }) => {
         <ScrollView style={styles.container} >
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header />
+                <Header nav={navigation} />
                 <View style={styles.title_flex}>
                     <Text style={styles.title}>Create Wallet</Text>
                     <Text style={styles.numbers}>03. <Text style={styles.numbers1}>03</Text></Text>
@@ -18,7 +18,7 @@ const Wallet3 = ({ navigation }) => {
                 <TextInput style={styles.input} placeholder="Enter Wallet Password" />
                 <TextInput style={styles.input} placeholder="Confirm Wallet Password" />
                 <View style={styles.button_flex}>
-                    <Button text='Cancal' width='45%' height={54} bgColor='white'color='black' />
+                    <Button click={() => navigation.goBack('LastWallet')} text='Cancal' width='45%' height={54} bgColor='white'color='black' />
                     <Button click={() => navigation.navigate('LastWallet')} text='Submit' width='45%' height={54} /></View>
             </View>
         </ScrollView>

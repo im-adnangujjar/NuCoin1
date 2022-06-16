@@ -3,17 +3,9 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: 'white'
-
     },
     subContainer: {
         marginHorizontal: 24,
-
-    },
-    bar: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        marginTop: 50,
     },
     image: {
         flexDirection: 'row',
@@ -45,27 +37,27 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop: 30
     },
-    list: {
-        // font-family: Poppins;
-        fontSize: 16,
-        fontWeight: '700',
-    },
+  
     title: {
         // font-family: Poppins;
         fontSize: 12,
         fontWeight: '400', marginRight: 18
     },
+    list:{
+        // font-family: Poppins;
+        fontSize: 16,
+        fontWeight: '700',
+    color:'black'
+        
+    },
     card: {
         marginTop: 20
-    }, button: {
+    },
+    button: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         marginTop: 33
-    },
-    card_margin:{
-        marginTop:20,
-        marginBottom:12,
     }
 
 })

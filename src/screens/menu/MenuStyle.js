@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'white',
     },
     subContainer: {
-        marginHorizontal: '5%'
+        marginHorizontal: 19
     },
     image: {
         width: 82,
@@ -37,11 +37,22 @@ export const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'center'
     },
+    iconBg: {
+        width: 30,
+        height: 30,
+        backgroundColor: '#F3F2F3',
+        borderRadius: 10,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
     icon_flex: {
         marginLeft: '10%',
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        width: '60%',
+
     },
     icon_bg: {
         width: 38,
@@ -51,5 +62,49 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#F3F2F3',
         borderRadius: 40,
+    },
+    text_flex: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        width: '40%',
+        alignItems: 'center'
+    },
+    text: {
+        // font-family: Poppins;
+        fontSize: 16,
+        fontWeight: '600',
+        color: 'black',
+    },
+    off_button: {
+        fontSize: 16,
+        fontWeight: '400',
+        color: 'black',
+    },
+
+    kyc_flex: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginTop: 29,
+        marginBottom: 20,
+        marginRight: 20,
+    },
+    button: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius:10,
+        width: '100%',
+        height: 70,
+        backgroundColor: 'blue',
+        color: 'white',
+        marginTop: 126,
+
+    },
+    log: {
+        // fontamily: Poppins;
+        fontSize: 16,
+        fontWeight: '500',
+        color:'white'
     }
 })

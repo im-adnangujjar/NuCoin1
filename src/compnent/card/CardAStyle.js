@@ -11,6 +11,8 @@ export const styles = StyleSheet.create({
         paddingTop: 19,
         paddingLeft: 23,
         paddingRight: 30,
+        marginBottom:17
+
     },
     subContainer: {
         flexDirection: 'row',

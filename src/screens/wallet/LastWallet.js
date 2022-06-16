@@ -11,7 +11,7 @@ const LastWallet = ({navigation}) => {
         <ScrollView style={styles.container} >
             <SafeAreaView />
             <View style={styles.subContainer}>
-              <Header/>
+              <Header nav={navigation}/>
 
                 <Text style={styles.text}>Congratulation</Text>
                 <View style={styles.image_center}>

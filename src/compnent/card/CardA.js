@@ -1,30 +1,31 @@
 import { StyleSheet, Text, View, ScrollView, SafeAreaView, Image } from 'react-native'
 import React from 'react'
 import { styles } from './CardAStyle'
-import icon from '../../assets/icons/transfer.png'
+import arrow from '../../assets/icons/uparrow.png'
 
-const CardA = () => {
+const CardA = ({card}) => {
     return (
         <ScrollView style={styles.Container} >
             <SafeAreaView />
             <View style={styles.card}>
                 <View style={styles.subContainer}>
                     <View style={styles.image}>
-                        <Image source={icon} />
+                        <Image source={arrow} />
                     </View>
                     <View style={styles.container_margin}>
                         <View style={styles.flex}>
-                            <Text style={styles.title}>Transfer</Text>
-                            <Text style={styles.descripation}>1 week ago</Text>
+                            <Text style={styles.title}>{card.title}</Text>
+                            <Text style={styles.descripation}>{card.days}</Text>
                         </View>
-                    <Text style={styles.descripation}>Balance: 129.5999 NUC</Text>
+                    <Text style={styles.descripation}>{card.balance}</Text>
                     </View>
                 </View>
                 <View style={styles.flex1}>
-                    <Text style={styles.descripation}>0xe5f3643</Text>
-                    <Text style={styles.descripation}>5fty6212</Text>
-                </View>
+                    <Text style={styles.descripation}>{card.text}</Text>
+                    <Text style={styles.descripation}>{card.text}</Text>
             </View>
+            </View>
+
         </ScrollView>
     )
 }

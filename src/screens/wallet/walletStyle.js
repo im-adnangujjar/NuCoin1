@@ -26,7 +26,6 @@ export const styles = StyleSheet.create({
         // font-family: Poppins;
         fontSize: 24,
         fontWeight: '700',
-        marginTop: 39,
     },
     bgColor: {
         height: 156,
@@ -37,6 +36,26 @@ export const styles = StyleSheet.create({
         paddingLeft:'6%',
         paddingRight:'6%',
         marginTop:28
+    },
+    numbers: {
+        // font-family: Poppins;
+        fontSize: 18,
+        fontWeight: '500'
+    },
+    numbers1: {
+        // font-family: Poppins;
+        fontSize: 12,
+        fontWeight: '500',
+        color:'#CFCFCF'
+    },
+    display:{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginTop: 39,
+    },
+    linearGradient:{
+marginTop:30
     },
     descripation: {
         
@@ -65,5 +84,12 @@ export const styles = StyleSheet.create({
     },
     icon:{
 marginLeft:15
+    },
+    button:{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginTop: 50,
+        marginBottom:80
     }
 })  

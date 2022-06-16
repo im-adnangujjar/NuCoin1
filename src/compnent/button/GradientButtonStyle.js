@@ -2,8 +2,8 @@ import {StyleSheet} from 'react-native'
 
 export const styles = StyleSheet.create({
     button:{
-        width:79,
-        height:79,
+        width:70,
+        height:70,
         flexDirection:'row',
         justifyContent:'center',
         alignItems:'center',
@@ -14,6 +14,9 @@ export const styles = StyleSheet.create({
         flexDirection:'column',
         alignItems:'center',
         justifyContent:'center',color:'white'
+    },
+    linearGradient:{
+borderRadius:10
     },
     button_text:{
         color:'white',
