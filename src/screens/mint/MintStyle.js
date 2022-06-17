@@ -63,5 +63,47 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop: 200
     },
+    modaleBg: {
+        backgroundColor: 'white',
+        borderRadius:20
+
+    },
+    iconColor: {
+        tintColor: 'white',
+    },
+    iconBg: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'black',
+        width: 32,
+        height: 32,
+        borderRadius: 50,
+        tintColor: 'white'
+    },
+    modalText: {
+        // font-family: Poppins;
+        fontSize: 16,
+        fontWeight: '500',
+        color: 'black',
+        marginLeft:'16%',
+        marginRight:'14%',
+        marginTop:27,
+    },
+    button1: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginTop: 30,
+        marginBottom:54,
+        marginLeft:10,
+        marginRight:10,
+    },
+    align:{
+        flexDirection:'row',
+        justifyContent:"flex-end",
+        marginRight:30,
+        marginTop:18
+    }
 })
 

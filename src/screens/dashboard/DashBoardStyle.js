@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
         fontSize: 30,
         fontWeight: '700',
         marginTop: 10,
-        color:'black'
+        color: 'black'
     },
     flex: {
         flexDirection: 'row',
@@ -38,18 +38,19 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop: 30
     },
-  
+
     title: {
         // font-family: Poppins;
         fontSize: 12,
-        fontWeight: '400', marginRight: 18
+        fontWeight: '400',
+        marginRight: 18
     },
-    list:{
+    list: {
         // font-family: Poppins;
         fontSize: 16,
         fontWeight: '700',
-    color:'black'
-        
+        color: 'black'
+
     },
     card: {
         marginTop: 20
@@ -59,6 +60,27 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         marginTop: 33
-    }
+    },
+    modalBg: {
+        backgroundColor: 'white',
+        paddingHorizontal: 30,
+        marginTop: 220,
+        borderTopLeftRadius: 35,
+        borderTopRightRadius: 35,
+    },
+    borderCenter: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    border: {
+        marginTop: 10,
+        width: '40%',
+        borderWidth: 1,
+    },
+    wallet: {
+        marginTop: 20,
+        marginBottom: 28,
+    },
 
 })

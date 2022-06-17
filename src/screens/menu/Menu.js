@@ -9,7 +9,7 @@ import user from '../../assets/icons/user-check.png'
 import logout from '../../assets/icons/log-out.png'
 import HeaderA from '../../compnent/header/HeaderA'
 
-const Menu = ({ navigation }) => {
+const Menu = ({navigation}) => {
     return (
         <ScrollView style={styles.container}>
             <SafeAreaView />

@@ -36,7 +36,6 @@ import Mint4 from '../screens/mint/Mint4'
 import Mint5 from '../screens/mint/Mint5'
 import KycText from '../compnent/kycText/kycText'
 import KycUpload from '../screens/kyc/KycUpload'
-import SelectCard from '../screens/selectCard/SelectCard';
 import PersonalInformation from '../screens/personalInformation/PersonalInformation'
 
 

@@ -17,7 +17,8 @@ export const style = StyleSheet.create({
         fontSize: 30,
         fontWeight: '400',
         lineHeight: 45,
-        marginTop: 20
+        marginTop: 20,
+        color:'black'
     },
     nuCion: {
         // font-family: Poppins;
@@ -26,6 +27,7 @@ export const style = StyleSheet.create({
         lineHeight: 45,
         textAlign: 'center',
         marginBottom: 10,
+        color:'black',
 
     },
     text: {
@@ -42,10 +44,11 @@ export const style = StyleSheet.create({
         fontWeight: '700',
         textAlign: 'center',
         marginTop: 10,
+        color:'black'
     },
     button_margin: {
         marginTop: 33,
-        marginBottom: 39
+        marginBottom: 39,
     },
     agree: {
         // font-family: Poppins;
