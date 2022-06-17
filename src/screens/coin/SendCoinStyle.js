@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
     image: {
         flexDirection: 'row',
         justifyContent: 'center',
-        alignItems: 'center', 
+        alignItems: 'center',
         marginTop: 68,
     },
     transaction: {
@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
         fontWeight: '600',
         textAlign: 'center',
         marginTop: 35,
-        color:'black',
+        color: 'black',
         marginBottom: 16,
     },
     text: {
@@ -51,12 +51,12 @@ export const styles = StyleSheet.create({
         fontWeight: '400',
         textAlign: 'center',
         marginBottom: 5,
-        color:'black'
+        color: 'black'
     },
-    button:{
-        flexDirection:'row',
-        justifyContent:'center',
-        alignItems:'center',
+    button: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
         marginTop: 68,
 
     }

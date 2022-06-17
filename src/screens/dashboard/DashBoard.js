@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, ScrollView, SafeAreaView, Image,TouchableOpacity  } from 'react-native'
+import { StyleSheet, Text, View, ScrollView, SafeAreaView, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { styles } from './DashBoardStyle'
 import Header from '../../compnent/header/Header'
@@ -10,13 +10,8 @@ import Card from '../../compnent/card/Card'
 import GradientButton from '../../compnent/button/GradientButton'
 import DashBoardCard from '../../compnent/card/DashBoardCard'
 
-const DashBoard = ({navigation}) => {
+const DashBoard = ({ navigation }) => {
 
-  // const test=() =>{
-  //   navigation.navigate("profile")
-  // }
- 
-  
   return (
     <ScrollView style={styles.container} >
       <SafeAreaView />
@@ -30,9 +25,8 @@ const DashBoard = ({navigation}) => {
             </View>
             <Text style={styles.name}>Jhon Doe</Text>
           </View>
-          <TouchableOpacity onPress={ () => navigation.navigate("Wallet")}>
-          <Image  source={wallet} />
-
+          <TouchableOpacity onPress={() => navigation.navigate("Wallet")}>
+            <Image source={wallet} />
           </TouchableOpacity>
         </View>
         <View style={styles.image_flex}><Text style={styles.list}>Wallet List</Text>
@@ -48,24 +42,26 @@ const DashBoard = ({navigation}) => {
           {
             data1.map((item, index) => {
               return (
-                 <GradientButton key={index} item={item} />
-            
+                <GradientButton title={navigation} key={index} item={item} />
+
               )
             })
           }
         </View>
         <View style={styles.image_flex}><Text style={styles.list}>Recent Transactions</Text>
           <View style={styles.flex}>
-            <Text style={styles.title} >See All</Text>
+            <TouchableOpacity onPress={() => navigation.navigate("History")}>
+              <Text style={styles.title} >See All</Text>
+            </TouchableOpacity>
             <Image source={more} />
           </View>
         </View>
         <View style={styles.card}>
-        {
-          dashboard.map((item, index) => {
-            return <DashBoardCard dashboard={item} />
-          })
-        }
+          {
+            dashboard.map((item, index) => {
+              return <DashBoardCard dashboard={item} />
+            })
+          }
         </View>
 
       </View>

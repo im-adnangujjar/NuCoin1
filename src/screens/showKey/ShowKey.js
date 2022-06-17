@@ -6,12 +6,12 @@ import block from '../../assets/images/Block3.png'
 import Button from '../../compnent/button/Button'
 import eye from '../../assets/icons/eye.png'
 
-const ShowKey = () => {
+const ShowKey = ({navigation}) => {
     return (
         <ScrollView style={styles.container}>
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header />
+                <Header Nav={navigation} />
                 <View style={styles.textFlex}>
                     <Text style={styles.title}>Show Key</Text>
                     <Text>01 . 03</Text>
@@ -26,8 +26,8 @@ const ShowKey = () => {
                     <Image  style={styles.image} source={eye} />
                 </View>
                 <View style={styles.button}>
-                    <Button text='Cancal' width='45%' height={54} />
-                    <Button text='Submit' width='45%' height={54} />
+                    <Button click={()=>navigation.navigate('DashBoard')} text='Cancal'  color='black' bgColor='white' width='45%' height={54} />
+                    <Button click={()=>navigation.navigate('ShowKey2')} text='Submit' width='45%' height={54} />
                 </View>
 
 

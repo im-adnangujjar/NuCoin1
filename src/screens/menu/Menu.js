@@ -14,7 +14,7 @@ const Menu = ({ navigation }) => {
         <ScrollView style={styles.container}>
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <HeaderA title="Menu" nav={navigation}/>
+                <HeaderA title="Menu" Nav={navigation} />
                 <Text style={styles.title}>Account</Text>
                 <View style={styles.flex}>
                     <Image style={styles.image} source={person} />
@@ -53,11 +53,13 @@ const Menu = ({ navigation }) => {
                         <View style={styles.icon_bg}>
                             <Image source={user} />
                         </View>
-                        <Text style={styles.text}>KYC</Text>
+                        <TouchableOpacity onPress={() => navigation.navigate('Kyc')}>
+                            <Text style={styles.text}>KYC</Text>
+                        </TouchableOpacity>
                     </View>
                     <Image source={more} />
                 </View>
-                <TouchableOpacity onPress={() => navigation.navigate('RaceDetail')}>
+                <TouchableOpacity onPress={() => navigation.navigate('SplashScreen')}>
 
                     <View style={styles.button}>
                         <Image source={logout} />

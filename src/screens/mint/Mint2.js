@@ -27,8 +27,8 @@ const Mint2 = ({ navigation }) => {
                 <TextInput style={styles.input} placeholder='Enter your Mnemonic' />
                 <Button text='Load Mnemonic' width='100%' bgColor='#282B33' />
                 <View style={styles.button}>
-                    <Button text='Cancal' bgColor='white' color='black' width='45%' />
-                    <Button text='Continue' width='45%' bgColor='#34DDDC' />
+                    <Button click={()=>navigation.goBack('Mint3')}text='Cancal' bgColor='white' color='black' width='45%' />
+                    <Button  click={()=>navigation.navigate('Mint3')}text='Continue' width='45%' bgColor='#34DDDC' />
                 </View>
             </View>
         </ScrollView>

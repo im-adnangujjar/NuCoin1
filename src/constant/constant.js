@@ -9,6 +9,7 @@ import passport from '../assets/images/passport.png'
 import licence from '../assets/images/licence.png'
 import image1 from '../assets/images/image1.png'
 import image2 from '../assets/images/image2.png'
+import coin from '../assets/icons/coin.png'
 
 
 
@@ -58,25 +59,28 @@ export const data1 = [
     title: 'send',
     colorA: '#B736CA',
     colorB: '#D346A1',
-    // click
+    click: 'Coin',
   },
   {
     icon: icon1,
     title: 'Buy',
     colorA: '#3D339A',
     colorB: '#6F7AAB',
+    click: ''
   },
   {
     icon: icon2,
     title: 'Mint',
     colorA: '#2EDAE0',
     colorB: '#58E9C4',
+    click: 'Mint'
   },
   {
     icon: icon3,
     title: 'Show key',
     colorA: '#FFFFFF',
     colorB: '#5268A033',
+    click: 'ShowKey'
   },
 ]
 export const card = [
@@ -301,9 +305,9 @@ export const mintData = [
     text: 'dfhkdhs',
   },
 ]
-const selectCard = [
+export const select = [
   {
-    image: '',
+    image: coin,
     title: 'jane Doe',
     date: '02-10-2022 | 08:08:20 am',
     blance: 'Blance',
@@ -314,11 +318,11 @@ const selectCard = [
     bundal: 's-bundle',
   },
   {
-    image: '',
+    image: coin,
     title: 'jone Doe',
     date: '02-10-2022 | 08:08:20 am',
     blance: 'Blance',
-    coins: '40.920 NUC',
+    coins: '607380.920 NUC',
     mint: 'Mint Session:',
     id: '5Dy2dfhwwsaas',
     icon: copy,

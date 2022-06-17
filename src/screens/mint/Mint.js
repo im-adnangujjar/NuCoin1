@@ -21,8 +21,8 @@ const Mint = ({ navigation }) => {
                 </View>
                 <Text style={styles.text}>Reset Password</Text>
                 <View style={styles.button}>
-                    <Button text='Cancal' width='45%'bgColor='white' color='black'/>
-                    <Button text='Mint' width='45%' bgColor='#34DDDC' color='black'/>
+                    <Button click={()=>navigation.navigate('DashBoard')}text='Cancal' width='45%'bgColor='white' color='black'/>
+                    <Button click={()=>navigation.navigate()}text='Mint' width='45%' bgColor='#34DDDC' color='black'/>
                 </View>
 
 

@@ -5,9 +5,10 @@ import Button from '../../compnent/button/Button'
 import block from '../../assets/images/Block2.png'
 import Header from '../../compnent/header/Header'
 import eye from '../../assets/icons/eye.png'
+import Navigation from '../../navigation/Navigation'
 
 
-const Mint4 = () => {
+const Mint4 = ({navigation}) => {
     return (
         <View style={styles.subContainer}>
             <Header />
@@ -27,8 +28,8 @@ const Mint4 = () => {
                 <Image style={styles.icon} source={eye} />
             </View>
             <View style={styles.button}>
-                <Button text='Cancel' width="45%" bgColor='white' color='black' />
-                <Button text='continnu to Mint' width="45%" bgColor='#34DDDC' />
+                <Button click={()=>navigation.goBack('Mint5')}text='Cancel' width="45%" bgColor='white' color='black' />
+                <Button click={()=>navigation.navigate('Mint5')}text='continnu to Mint' width="45%" bgColor='#34DDDC' />
             </View>
         </View>
     )

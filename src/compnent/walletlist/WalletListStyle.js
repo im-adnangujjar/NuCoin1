@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
     list: {
         // font- family: Poppins;
         fontSize: 24,
-        fontWeight: '500'
-    }
+        fontWeight: '500',
+        color: 'black',
+    },
 })

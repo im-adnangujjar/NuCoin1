@@ -24,7 +24,8 @@ export const styles = StyleSheet.create({
         //    fontFamily: Poppins;
         fontSize: 30,
         fontWeight: '700',
-        marginTop: 10
+        marginTop: 10,
+        color:'black'
     },
     flex: {
         flexDirection: 'row',

@@ -5,13 +5,14 @@ import Header from '../../compnent/header/Header'
 import check from '../../assets/icons/check.png'
 import logo from '../../assets/images/wallet.png'
 import Button from '../../compnent/button/Button'
+import Navigation from '../../navigation/Navigation'
 
-const SendCoin = () => {
+const SendCoin = ({navigation}) => {
     return (
         <ScrollView style={styles.mainContainer}>
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header />
+                <Header nav={navigation} />
                 <View style={styles.flex}>
                     <Text style={styles.title}>Transaction Success</Text>
                     <View
@@ -22,7 +23,7 @@ const SendCoin = () => {
                 <Text style={styles.transaction}>Your transaction hash</Text>
                 <Text style={styles.text}>0tiewjiofj43rx023943xwq9er0890x30</Text>
                     <Text style={styles.text}>r09e09wx9090w39r890</Text>
-           <View style={styles.button}><Button text='close' width='80%'/></View>
+           <View style={styles.button}><Button click={()=>navigation.navigate('DashBoard')}text='close' width='80%'/></View>
             </View>
 
         </ScrollView>

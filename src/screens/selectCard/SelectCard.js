@@ -1,18 +1,26 @@
 import { StyleSheet, Text, View, ScrollView, SafeAreaView, Image } from 'react-native'
 import React from 'react'
 import { styles } from './SelectCardStyle'
-import close from '../../assets/icons/close_icon.png'
+import CardB from '../../compnent/card/CardB'
+import { select } from '../../constant/constant'
+import WalletList from '../../compnent/walletlist/WalletList'
 
-const SelectCard = () => {
+const SelectCard = ({ navigation }) => {
     return (
         <ScrollView style={styles.container}>
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <View style={styles.flex}>
-                    <Text>Wallet List</Text>
-                    <Image source={close} />
+                <View style={styles.borderCenter}>
+                    <View style={styles.border}></View>
                 </View>
-
+                <View style={styles.wallet}>
+                    <WalletList nav={navigation} />
+                </View>
+                {
+                    select.map((item) => {
+                        return <CardB select={item} />
+                    })
+                }
             </View>
         </ScrollView>
 

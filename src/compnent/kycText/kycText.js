@@ -12,8 +12,8 @@ export default function kycText() {
 
             </View>
             <View style={styles.flex}>
-                <Text style={styles.descripation}> Verication Icompleted</Text>
-                <Text style={styles.text}>0.1 .<Text style={styles.descripation}>04</Text></Text>
+                <Text style={styles.descripation}> Verication completed</Text>
+                {/* <Text style={styles.text}>0.1 .<Text style={styles.descripation}>04</Text></Text> */}
             </View>
         </View>
     )

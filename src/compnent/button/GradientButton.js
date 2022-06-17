@@ -1,13 +1,14 @@
-import { StyleSheet, Text, View, ScrollView, SafeAreaView, Image } from 'react-native'
+import { StyleSheet, Text, View, TouchableOpacity,Image } from 'react-native'
 import React from 'react'
 import {styles} from './GradientButtonStyle'
 import LinearGradient from 'react-native-linear-gradient';
 
 
-const GradientButton = ({item}) => {
+const GradientButton = ({item,title}) => {
     console.log('this is item',item);
+    const clickable= item.click
     return (
-        <View style={{borderRadius:10}}>
+        <TouchableOpacity onPress={() => title.navigate(clickable&&clickable)}>
         <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 0, y: 0 }} colors={[item.colorA, item.colorB]} style={styles.linearGradient}>
             <View style={styles.button}>
                 <View style={styles.button_align}>
@@ -16,7 +17,7 @@ const GradientButton = ({item}) => {
                 </View>
             </View>
         </LinearGradient>
-        </View>
+        </TouchableOpacity>
 
     )
 }
