@@ -17,9 +17,23 @@ import DashBoardCard from '../../compnent/card/DashBoardCard'
 
 const DashBoard = ({ navigation }) => {
   const [isModalVisible, setModalVisible] = useState(false);
+  const [isModalVisible1, setModalVisible1] = useState(false);
+  const [isModalVisible2, setModalVisible2] = useState(false);
+
+  const toggleModal2 = () => {
+    setModalVisible2(!isModalVisible2);
+  };
+  const toggleModal1 = (val) => {
+    if (val === "toggleModal1"){
+      setModalVisible1(true);
+    } else if (val === "toggleModal2") {
+      setModalVisible2(true)
+    }
+  };
   const toggleModal = () => {
     setModalVisible(!isModalVisible);
   };
+
   return (
     <ScrollView style={styles.container} >
       <SafeAreaView />
@@ -42,7 +56,7 @@ const DashBoard = ({ navigation }) => {
             <TouchableOpacity onPress={toggleModal}>
               <Text style={styles.title} >See All</Text>
             </TouchableOpacity>
-            <Modal backdropColor='blue' isVisible={isModalVisible}>
+            <Modal backdropColor='black' isVisible={isModalVisible}>
               <View style={styles.modalBg}>
 
                 <View style={styles.borderCenter}>
@@ -51,14 +65,51 @@ const DashBoard = ({ navigation }) => {
                 <View style={styles.wallet}>
                   <WalletList nav={navigation} />
                 </View>
-                {
-                  select.map((item) => {
-                    return <CardB select={item} />
-                  })
-                }
+                <CardB select={select[0]} />
+                <CardB select={select[1]} toggleModal1={toggleModal1} />
               </View>
             </Modal>
+            <Modal backdropColor='black' isVisible={isModalVisible1}>
+              <View style={styles.modalBg}>
+                <View style={styles.borderCenter}>
+                  <View style={styles.border}></View>
+                </View>
+                <View style={styles.wallet}>
+                  <WalletList nav={navigation} />
+                </View>
+                <CardB select={select[0]} />
+                <CardB select={select[1]}>
+                  {
+                    data1.map((item, index) => {
+                      return (
+                        <GradientButton title={navigation} key={index} item={item} />
+                      )
+                    })
+                  }
+                </CardB>
+              </View>
+            </Modal>
+            <Modal backdropColor='black' isVisible={isModalVisible1}>
+              <View style={styles.modalBg}>
+                <View style={styles.borderCenter}>
+                  <View style={styles.border}></View>
+                </View>
+                <View style={styles.wallet}>
+                  <WalletList nav={navigation} />
+                </View>
+                <CardB select={select[0]} toggleModal2={toggleModal2}>
+                  {
+                    data1.map((item, index) => {
+                      return (
+                        <GradientButton title={navigation} key={index} item={item} />
+                      )
+                    })
+                  }
+                </CardB>
 
+                <CardB select={select[1]} />
+              </View>
+            </Modal>
             <Image source={more} />
           </View>
         </View>
@@ -70,7 +121,6 @@ const DashBoard = ({ navigation }) => {
             data1.map((item, index) => {
               return (
                 <GradientButton title={navigation} key={index} item={item} />
-
               )
             })
           }
@@ -97,3 +147,4 @@ const DashBoard = ({ navigation }) => {
 }
 
 export default DashBoard
+

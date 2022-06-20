@@ -1,5 +1,5 @@
 import React from 'react';
-import { View ,Text} from 'react-native'
+import { View, Text } from 'react-native'
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -36,6 +36,7 @@ import Mint4 from '../screens/mint/Mint4'
 import Mint5 from '../screens/mint/Mint5'
 import KycText from '../compnent/kycText/kycText'
 import KycUpload from '../screens/kyc/KycUpload'
+import SelectCard from '../compnent/card/SelectCard'
 import PersonalInformation from '../screens/personalInformation/PersonalInformation'
 
 
@@ -54,6 +55,7 @@ function Navigation() {
                     headerShown: false
                 }}
             >
+                {/* <Stack.Screen name="Select" component={SelectCard} /> */}
                 <Stack.Screen name="SplashScreen" component={SplashScreen} />
                 <Stack.Screen name="RaceDetail" component={LogIn} />
                 <Stack.Screen name="SignUp1" component={SignUp1} />
@@ -97,7 +99,7 @@ function Tabs({ navigation }) {
                 <HeaderA title='Kyc' Nav={navigation} />
                 {/* <Text >Kyc Verification</Text>
                 <Text>Verification complite</Text> */}
-                <KycText/> 
+                <KycText />
             </View>
             <Tab.Navigator
                 //   initialRouteName="Feed"

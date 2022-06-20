@@ -1,14 +1,24 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
-    bgColor: {
+    bgColor1: {
         backgroundColor: '#F3F2F3',
         width: '100%',
-        height: 186,
+        height: 352,
         marginBottom: 20,
         paddingLeft: 24,
         paddingTop: 24,
-        borderRadius:10
+        borderRadius: 10
+    },
+    bgColor: {
+        backgroundColor: '#F3F2F3',
+        width: '100%',
+        height:'auto',
+        marginBottom: 20,
+        paddingLeft: 24,
+        paddingTop: 24,
+        paddingBottom:20,
+        borderRadius: 10
     },
     flex: {
         flexDirection: 'row',
@@ -49,20 +59,42 @@ export const styles = StyleSheet.create({
         // font-family: Poppins;
         fontSize: 10,
         fontWeight: '400',
-        color:'black',
-        marginLeft:18,
-        marginRight:4,
+        color: 'black',
+        marginLeft: 18,
+        marginRight: 4,
     },
-    aligns:{
+    aligns: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginTop:8
+        marginTop: 8
     },
-    bundle:{
+    bundle: {
         // font-family: Poppins;
         fontSize: 12,
         fontWeight: '500',
-        color:'black',
-        marginLeft:70,
-    }
+        color: 'black',
+        marginLeft: 70,
+    },
+   
+    iconBg:{
+        backgroundColor:'green',
+        width:32,
+        height:32,
+        borderRadius:50,
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    iconFlex:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        width:'80%',
+    },
+    buttons:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        alignsitem:'center',
+        marginTop:40,
+    },
+
 })

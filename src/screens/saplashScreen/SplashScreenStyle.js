@@ -18,10 +18,12 @@ export const style = StyleSheet.create({
         fontWeight: '400',
         lineHeight: 45,
         marginTop: 20,
-        color:'black'
+        color:'black',
+        fontFamily:'Poppins-Regular'
+
     },
     nuCion: {
-        // font-family: Poppins;
+        fontFamily: 'Poppins-Regular',
         fontSize: 30,
         fontWeight: '700',
         lineHeight: 45,
@@ -31,7 +33,7 @@ export const style = StyleSheet.create({
 
     },
     text: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '400',
         lineHeight: 21,
@@ -39,7 +41,8 @@ export const style = StyleSheet.create({
         textAlign: 'center',
         color: '#7B7B7B',
     },
-    artificial: {
+    artificial:{
+        fontFamily: 'Poppins',
         fontSize: 14,
         fontWeight: '700',
         textAlign: 'center',

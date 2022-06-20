@@ -10,6 +10,7 @@ import licence from '../assets/images/licence.png'
 import image1 from '../assets/images/image1.png'
 import image2 from '../assets/images/image2.png'
 import coin from '../assets/icons/coin.png'
+import check from '../assets/icons/check.png'
 
 
 
@@ -316,6 +317,7 @@ export const select = [
     id: '5Dy2dfhwwsaas',
     icon: copy,
     bundal: 's-bundle',
+    click:'toggleModal'
   },
   {
     image: coin,
@@ -327,5 +329,20 @@ export const select = [
     id: '5Dy2dfhwwsaas',
     icon: copy,
     bundal: 's-bundle',
+    icon1: check,
+    click:'toggleModal1'
+  },
+  {
+    image: coin,
+    title: 'jone Doe',
+    date: '02-10-2022 | 08:08:20 am',
+    blance: 'Blance',
+    coins: '607380.920 NUC',
+    mint: 'Mint Session:',
+    id: '5Dy2dfhwwsaas',
+    icon: copy,
+    bundal: 's-bundle',
+    icon1: check,
+    click:'toggleModal2'
   },
 ]

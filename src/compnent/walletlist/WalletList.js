@@ -3,11 +3,11 @@ import React from 'react'
 import close from '../../assets/icons/close_icon.png'
 import { styles } from './WalletListStyle'
 
-const walletList = (props) => {
+const walletList = ({nav}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.list}>walletList</Text>
-      <TouchableOpacity onPress={()=> props.nav.navigate('DashBoard')}>
+      <TouchableOpacity onPress={()=>nav.navigate("DashBoard")}>
         <Image source={close} />
       </TouchableOpacity>
     </View>

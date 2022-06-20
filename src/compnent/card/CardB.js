@@ -1,15 +1,25 @@
-import { StyleSheet, Text, View, Image, } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
+import React, { useState } from 'react'
 import { styles } from './CardBStyle'
 
-const CardB = ({ select }) => {
+
+
+const CardB = ({ select, toggleModal1 = () => { }, totoggleModal2, children }) => {
+
     return (
         <View style={styles.bgColor}>
             <View style={styles.flex}>
                 <Image style={styles.image} source={select.image} />
-                <View >
-                    <Text style={styles.title}>{select.title}</Text>
-                    <Text style={styles.text}>{select.date}</Text>
+                <View style={styles.iconFlex}>
+                    <View>
+                        <Text style={styles.title}>{select.title}</Text>
+                        <Text style={styles.text}>{select.date}</Text>
+                    </View>
+                    <TouchableOpacity onPress={() => toggleModal1('select.click')}>
+                        <View style={styles.iconBg}>
+                            <Image style={styles.icon} source={select.icon1} />
+                        </View>
+                    </TouchableOpacity>
                 </View>
             </View>
             <Text style={styles.blance}>{select.blance}</Text>
@@ -23,6 +33,11 @@ const CardB = ({ select }) => {
                 </View>
                 <Text style={styles.bundle}>{select.bundal}</Text>
             </View>
+            {
+                children && <View style={styles.buttons}>
+                    {children}
+                </View>
+            }
         </View>
     )
 }

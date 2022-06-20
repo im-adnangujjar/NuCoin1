@@ -4,11 +4,11 @@ import {styles} from './GradientButtonStyle'
 import LinearGradient from 'react-native-linear-gradient';
 
 
-const GradientButton = ({item,title}) => {
+const GradientButton = ({item,title, ...props}) => {
     console.log('this is item',item);
     const clickable= item.click
     return (
-        <TouchableOpacity onPress={() => title.navigate(clickable&&clickable)}>
+        <TouchableOpacity {...props} onPress={() => title.navigate(clickable&&clickable)}>
         <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 0, y: 0 }} colors={[item.colorA, item.colorB]} style={styles.linearGradient}>
             <View style={styles.button}>
                 <View style={styles.button_align}>
