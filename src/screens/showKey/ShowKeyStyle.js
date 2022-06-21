@@ -1,7 +1,9 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
-
+    container: {
+        backgroundColor: 'white',
+    },
     subContainer: {
         marginHorizontal: 50,
     },
@@ -12,19 +14,19 @@ export const styles = StyleSheet.create({
         fontWeight: '700',
         color: 'black'
     },
-    textFlex:{
+    textFlex: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        marginTop:39
+        marginTop: 39
     },
     imageBg: {
         width: 138,
         height: 134,
-        backgroundColor: 'red',
+        backgroundColor: '#E7E7E7',
         borderRadius: 200,
         marginTop: 81,
     },
-    imageCenter:{
+    imageCenter: {
         flexDirection: 'row',
         justifyContent: 'center',
     },
@@ -35,11 +37,11 @@ export const styles = StyleSheet.create({
         paddingRight: 19,
         marginTop: 80,
     },
-    image:{
-        tintColor:'black',
-        position:'absolute',
-        right:0,
-        bottom:10
+    image: {
+        tintColor: 'black',
+        position: 'absolute',
+        right: 0,
+        bottom: 10
     },
     button: {
         flexDirection: 'row',

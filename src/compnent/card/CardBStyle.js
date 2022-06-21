@@ -1,19 +1,17 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
-    bgColor1: {
-        backgroundColor: '#F3F2F3',
-        width: '100%',
-        height: 352,
-        marginBottom: 20,
-        paddingLeft: 24,
-        paddingTop: 24,
-        borderRadius: 10
-    },
+  
     bgColor: {
         backgroundColor: '#F3F2F3',
         width: '100%',
         height:'auto',
+        marginTop:20,
+        borderRadius: 10,
+        paddingLeft:5,
+        paddingRight:5,
+    },
+    subContainer:{
         marginBottom: 20,
         paddingLeft: 24,
         paddingTop: 24,
@@ -94,7 +92,6 @@ export const styles = StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between',
         alignsitem:'center',
-        marginTop:40,
     },
 
 })

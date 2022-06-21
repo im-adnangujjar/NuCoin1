@@ -1,11 +1,30 @@
-import { View, Text } from 'react-native'
+import { View, Text,Image } from 'react-native'
 import React from 'react'
 
-function IconButton() {
+function IconButton(props) {
+    const styles = StyleSheet.create({
+        button:{
+            backgroundColor:props.bgColor||'blue',
+            borderRadius:10,
+            width:props.width || 200,
+            height:props.height || 57,
+            borderWidth:1,
+            borderColor:'#E7E7E7',
+            flexDirection:'row',
+            justifyContent:'center',
+            alignItems:'center'
+        },
+        button_text:{
+            color:props.color||'white'
+                }
+    })
     return (
-        <View>
-            <Text>IconButton</Text>
-        </View>
+        <TouchableOpacity onPress={props.click}  style={styles.button}>
+            <Image source={props.image}/>
+            <Text style={styles.button_text} >
+                {props.text}
+            </Text>
+        </TouchableOpacity>
     )
 }
 export default IconButton

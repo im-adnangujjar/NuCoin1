@@ -22,7 +22,7 @@ const SplashScreen = ({navigation}) => {
                     <Text style={style.artificial}>Artificial Intellegence</Text>
                 </View>
                 <View style={style.button_margin}>
-                    <Button click={() => navigation.navigate('RaceDetail')} text='start Now' width={261} />
+                    <Button click={() => navigation.navigate('RaceDetail')} text='Start Now' width={261} />
                 </View>
                 <View><Text style={style.text}>NuCoin by NuGenesis</Text></View>
                 <View>

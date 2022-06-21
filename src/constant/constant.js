@@ -329,6 +329,7 @@ export const select = [
     id: '5Dy2dfhwwsaas',
     icon: copy,
     bundal: 's-bundle',
+    bgColor:'green',
     icon1: check,
     click:'toggleModal1'
   },
@@ -343,6 +344,7 @@ export const select = [
     icon: copy,
     bundal: 's-bundle',
     icon1: check,
+    bgColor:'green',
     click:'toggleModal2'
   },
 ]

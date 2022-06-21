@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center'
     },
     imageBg: {
-        backgroundColor: 'red',
+        backgroundColor: '#F3F2F3',
         width: 140,
         height: 140,
         borderRadius: 100,

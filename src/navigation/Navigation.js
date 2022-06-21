@@ -38,6 +38,7 @@ import KycText from '../compnent/kycText/kycText'
 import KycUpload from '../screens/kyc/KycUpload'
 import SelectCard from '../compnent/card/SelectCard'
 import PersonalInformation from '../screens/personalInformation/PersonalInformation'
+import IconButton from '../compnent/button/IconButton';
 
 
 
@@ -55,6 +56,7 @@ function Navigation() {
                     headerShown: false
                 }}
             >
+                {/* <Stack.screen name="Button" component={IconButton}/> */}
                 {/* <Stack.Screen name="Select" component={SelectCard} /> */}
                 <Stack.Screen name="SplashScreen" component={SplashScreen} />
                 <Stack.Screen name="RaceDetail" component={LogIn} />

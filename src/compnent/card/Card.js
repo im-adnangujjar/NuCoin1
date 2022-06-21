@@ -31,9 +31,6 @@ const Card = () => {
                                 <Image style={styles.image} source={icon} />
                             </View>
                         </View>
-
-
-
                     </View>
                 </LinearGradient>
 
@@ -41,5 +38,4 @@ const Card = () => {
         </ScrollView >
     )
 }
-
 export default Card

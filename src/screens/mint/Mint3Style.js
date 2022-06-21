@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
         marginTop: 36,
     },
     imagBg: {
-        backgroundColor: 'red',
+        backgroundColor: '#F3F2F3',
         width: 140,
         height: 140,
         borderRadius: 100,

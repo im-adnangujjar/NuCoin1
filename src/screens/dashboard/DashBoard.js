@@ -13,6 +13,7 @@ import Card from '../../compnent/card/Card'
 import WalletList from '../../compnent/walletlist/WalletList'
 import GradientButton from '../../compnent/button/GradientButton'
 import DashBoardCard from '../../compnent/card/DashBoardCard'
+import NewCard from '../../compnent/modal/NewCard'
 
 
 const DashBoard = ({ navigation }) => {
@@ -20,20 +21,19 @@ const DashBoard = ({ navigation }) => {
   const [isModalVisible1, setModalVisible1] = useState(false);
   const [isModalVisible2, setModalVisible2] = useState(false);
 
+  const toggleModal = () => {
+    setModalVisible(!isModalVisible);
+  };
   const toggleModal2 = () => {
     setModalVisible2(!isModalVisible2);
   };
   const toggleModal1 = (val) => {
-    if (val === "toggleModal1"){
+    if (val === "toggleModal1") {
       setModalVisible1(true);
     } else if (val === "toggleModal2") {
       setModalVisible2(true)
     }
   };
-  const toggleModal = () => {
-    setModalVisible(!isModalVisible);
-  };
-
   return (
     <ScrollView style={styles.container} >
       <SafeAreaView />
@@ -56,26 +56,14 @@ const DashBoard = ({ navigation }) => {
             <TouchableOpacity onPress={toggleModal}>
               <Text style={styles.title} >See All</Text>
             </TouchableOpacity>
-            <Modal backdropColor='black' isVisible={isModalVisible}>
-              <View style={styles.modalBg}>
-
-                <View style={styles.borderCenter}>
-                  <View style={styles.border}></View>
-                </View>
-                <View style={styles.wallet}>
-                  <WalletList nav={navigation} />
-                </View>
-                <CardB select={select[0]} />
-                <CardB select={select[1]} toggleModal1={toggleModal1} />
-              </View>
-            </Modal>
-            <Modal backdropColor='black' isVisible={isModalVisible1}>
+        
+            {/* <Modal backdropColor='black' isVisible={isModalVisible1}>
               <View style={styles.modalBg}>
                 <View style={styles.borderCenter}>
                   <View style={styles.border}></View>
                 </View>
                 <View style={styles.wallet}>
-                  <WalletList nav={navigation} />
+                  <WalletList />
                 </View>
                 <CardB select={select[0]} />
                 <CardB select={select[1]}>
@@ -88,8 +76,8 @@ const DashBoard = ({ navigation }) => {
                   }
                 </CardB>
               </View>
-            </Modal>
-            <Modal backdropColor='black' isVisible={isModalVisible1}>
+            </Modal> */}
+            {/* <Modal backdropColor='black' isVisible={isModalVisible1}>
               <View style={styles.modalBg}>
                 <View style={styles.borderCenter}>
                   <View style={styles.border}></View>
@@ -109,7 +97,7 @@ const DashBoard = ({ navigation }) => {
 
                 <CardB select={select[1]} />
               </View>
-            </Modal>
+            </Modal> */}
             <Image source={more} />
           </View>
         </View>
@@ -142,6 +130,11 @@ const DashBoard = ({ navigation }) => {
         </View>
 
       </View>
+      <Modal isVisible={isModalVisible} style={{
+        margin: 0
+      }}>
+          <NewCard navigation={navigation}/>
+        </Modal>
     </ScrollView>
   )
 }
