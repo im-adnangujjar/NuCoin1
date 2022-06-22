@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
 
 
     title:{
-        // font-family: Poppins;
+        fontFamily: Poppins-Regular,
         fontSize: 16,
         fontWeight: '700'   ,
         color:'black',
@@ -21,5 +21,6 @@ export const styles = StyleSheet.create({
         justifyContent:'center',
         alignItems:'center',
         marginTop:27
-    }
+    },
+   
 })

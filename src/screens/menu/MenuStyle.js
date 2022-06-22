@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
         height: 82
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 22,
         fontWeight: '600',
         color: 'black',
@@ -21,11 +21,13 @@ export const styles = StyleSheet.create({
 
     },
     name: {
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '600',
         color: 'black',
     },
     information: {
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '400',
         color: 'black'
@@ -70,12 +72,13 @@ export const styles = StyleSheet.create({
         alignItems: 'center'
     },
     text: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '600',
         color: 'black',
     },
     off_button: {
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '400',
         color: 'black',
@@ -102,7 +105,7 @@ export const styles = StyleSheet.create({
 
     },
     log: {
-        // fontamily: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '500',
         color:'white'

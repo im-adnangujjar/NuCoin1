@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
         alignItems:'center'
     },
     text:{
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '700',
         color:'black',
@@ -28,11 +28,25 @@ export const styles = StyleSheet.create({
         
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '500',
-        color:'green',
+        color:'#40C16C',
         marginLeft:33
+    },
+    iconflex:{
+flexDirection:'row',
+justifyContent:'space-between',
+width:'100%'
+    },
+    iconBg:{
+        width: 20,
+        height: 20,
+        backgroundColor: '#40C16C',
+        flexDirection: 'row',
+        justifyContent:'center',
+        alignItems:'center',
+        borderRadius:60,
     }
 })
 

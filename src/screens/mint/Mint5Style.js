@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
         marginHorizontal: 19
     },
     title: {
+        fontFamily:'Poppins-Regular',
         fontSize: 20,
         fontWeight: '700',
         color: 'black'
@@ -28,7 +29,7 @@ export const styles = StyleSheet.create({
         marginTop: 175,
     },
     text: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,

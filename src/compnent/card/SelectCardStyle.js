@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
         paddingTop: 23
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '500',
         color: 'black',
@@ -28,14 +28,14 @@ export const styles = StyleSheet.create({
         marginRight: 18
     },
     text: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 10,
         fontWeight: '500',
         color: 'black',
         marginRight: 17,
     },
     blance: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 10,
         fontWeight: '400',
         color: 'black',
@@ -43,12 +43,14 @@ export const styles = StyleSheet.create({
         marginBottom: 7,
     },
     coins: {
+        fontFamily:'Poppins-Regular',
         fontSize: 20,
         fontWeight: '700',
         color: 'black',
         marginBottom: 22,
     },
     bundle: {
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         color: 'black'

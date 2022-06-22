@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
         marginBottom: 5
     },
     name: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '500',
         color: 'white'
@@ -25,11 +25,13 @@ export const styles = StyleSheet.create({
 borderRadius:10,
     },
     title: {
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '500',
         color: 'white'
     },
     title1: {
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         color: 'white',
@@ -39,10 +41,10 @@ borderRadius:10,
     image_flex: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginBottom: 30,
+        marginBottom: 20,
     },
     coin: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 26,
         fontWeight: '700',
         color: 'white',
@@ -55,7 +57,7 @@ borderRadius:10,
     flex: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginTop:10
+        marginTop:5
     },
     icon_flex:{
         flexDirection: 'row',

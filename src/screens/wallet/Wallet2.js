@@ -37,9 +37,9 @@ export default function Wallet2({ navigation }) {
         </View>
         
         <View style={styles.button}>
-          <Button click={() => navigation.goBack('Wallet3')} text='Reset'  color='black' bgColor=' #E5E5E5' width='45%' height={54}  />
+          <Button onPress={() => navigation.goBack('Wallet3')} text='Reset'  color='black' bgColor=' #E5E5E5' width='45%' height={54}  />
           <Button 
-          click={() => navigation.navigate('Wallet3')} 
+          onPress={() => navigation.navigate('Wallet3')} 
           text='continue' width='45%' height={54}  />
         </View>
       </View>

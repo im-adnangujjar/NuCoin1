@@ -17,7 +17,7 @@ const ShowKey4 = ({ navigation }) => {
                         recieved in your email</Text>
                     <Text style={styles.numbers}>02. <Text style={styles.numbers1}>03</Text></Text>
                 </View>
-                <TextInput style={styles.input} placeholder='Enter OTP code' />
+                <TextInput style={styles.input} placeholder='252272' />
                     <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} colors={['#8FA7FF','#FFFFFF']} style={styles.linearGradient}>
                         <Text style={styles.name}>
                             pipe, rush, chance, peel, bottom, apparatus,
@@ -28,7 +28,7 @@ const ShowKey4 = ({ navigation }) => {
                     <Text style={styles.text}>Copy to Clipboard</Text>
                     <Image source={copy} />
                 </View>
-                <Button  onPress={()=>navigation.navigate('DashBoard')}text='close'  width='100%' />
+                <Button  onPress={()=>navigation.navigate('DashBoard')}text='Close'  width='100%' />
             </View>
         </ScrollView>
     )

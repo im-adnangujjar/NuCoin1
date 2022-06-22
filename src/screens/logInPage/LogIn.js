@@ -27,7 +27,7 @@ const Profile = ({ navigation }) => {
               placeholder="Enter password"
             />
             <View style={styles.image}>
-              <Image source={icon1} alt="icon" />
+              <Image style={styles.iconImage}source={icon1} alt="icon" />
             </View>
           </View>
           <Text style={styles.forget} >Forget your password</Text>

@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     },
 
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 24,
         fontWeight: '700',
         color: 'black'

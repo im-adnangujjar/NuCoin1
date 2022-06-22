@@ -33,7 +33,7 @@ const Mint3 = ({ navigation }) => {
           <Text style={styles.text}>pipe rush chance peel bottom appararatus
             chew democratic wash make chicken national</Text>
         </View>
-        <Button text='Load Mnemonic' width='100%' bgColor='#282B33' />
+        <Button onPress={()=>navigation.navigate('Wallet2')}text='Load Mnemonic' width='100%' bgColor='#282B33' />
         <View style={styles.button}>
           <Button  onPress={()=>navigation.goBack('Mint4')}text='Cancal' bgColor='white' color='black' width='45%' />
           <Button  onPress={()=>navigation.navigate('Mint4')}text='Continue' width='45%' bgColor='#34DDDC' />

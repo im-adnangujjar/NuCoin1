@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
         marginHorizontal: 19
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '700'
     },

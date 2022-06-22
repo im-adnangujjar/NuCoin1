@@ -5,7 +5,7 @@ import Header from '../../compnent/header/Header'
 import block from '../../assets/images/Block1.png'
 import Button from '../../compnent/button/Button'
 import Navigation from '../../navigation/Navigation'
-const Coin = ({navigation}) => {
+const Coin = ({ navigation }) => {
   return (
     <ScrollView>
       <SafeAreaView />
@@ -18,9 +18,8 @@ const Coin = ({navigation}) => {
         </View>
         <TextInput style={styles.input} placeholder='Enter Reciever Address' />
         <TextInput style={styles.input} placeholder='Enter Amount' />
-        <View style={styles.button}><Button click={() => navigation.goBack('CoinA')} text="cancal" width="45%" color='black' bgColor='white' />
-
-          <Button click={() => navigation.navigate('CoinA')} text="Submit" width="45%" />
+        <View style={styles.button}><Button onPress={() => navigation.goBack('CoinA')} text="Cancal" width="45%" color='black' bgColor='white' />
+          <Button onPress={() => navigation.navigate('CoinA')} text="Submit" width="45%" />
 
 
         </View>

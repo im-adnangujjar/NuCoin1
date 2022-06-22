@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         marginTop: 105,
     },
     description: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         width: '100%',
         fontSize: 16,
         fontWeight: '400',

@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
         tintColor: "blue"
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: ' 700',
         color: 'black',
@@ -43,7 +43,7 @@ export const styles = StyleSheet.create({
         paddingRight: 4,
     },
     text: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '500',
         color: 'blue',

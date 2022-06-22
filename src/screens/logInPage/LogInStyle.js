@@ -1,18 +1,18 @@
-import { StyleSheet,Platform } from 'react-native'
+import { StyleSheet, Platform } from 'react-native'
 
 export const styles = StyleSheet.create({
     container: {
         marginHorizontal: 50,
-        paddingTop: Platform.OS==='ios'?146:50,
+        paddingTop: Platform.OS === 'ios' ? 146 : 50,
     },
 
     title: {
         fontSize: 30,
         fontWeight: '700',
-        marginBottom:10
+        marginBottom: 10
     },
     input_title: {
-        // font- family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         color: '#7B7B7B',
@@ -26,12 +26,12 @@ export const styles = StyleSheet.create({
         borderBottomWidth: 1,
         fontSize: 14,
         fontWeight: '700',
-        color:'black',
+        color: 'black',
         marginBottom: 10,
 
     },
     passWord_input: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '400',
         lineHeight: 21,
@@ -43,15 +43,18 @@ export const styles = StyleSheet.create({
         marginBottom: 13,
 
     },
-    image:{
-        flexDirection:'row',
-        justifyContent:'flex-end',
-        position:'absolute',
-        right:0,
-        bottom:20
+    image: {
+        flexDirection: 'row',
+        justifyContent: 'flex-end',
+        position: 'absolute',
+        right: 0,
+        bottom: 20,
+    },
+    iconImage: {
+        tintColor: 'gray',
     },
     forget: {
-        // fontFamily: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
@@ -60,33 +63,26 @@ export const styles = StyleSheet.create({
         // marginTop: 15,
     },
     button: {
-    flexDirection:'row',
-    justifyContent:"center",
+        flexDirection: 'row',
+        justifyContent: "center",
         marginBottom: 88,
         marginTop: 120,
     },
-    user:{
+    user: {
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
-        textAlign:'center',
-        color: '#B9B9B9' ,
-        marginBottom:20
-
+        textAlign: 'center',
+        color: '#B9B9B9',
+        marginBottom: 20
     },
     account: {
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
         color: '#1F62C6',
-        textAlign:'center',
+        textAlign: 'center',
         // marginTop:6,
         // marginBottom:106
     },
-    // image:{
-    //     flexDirection:'column',
-    //     justifyContent:'center',
-    //     aligItems:'center'
-    // }
-
 })

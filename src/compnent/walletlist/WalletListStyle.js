@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center'
     },
     list: {
-        // font- family: Poppins;
+        fontFamily: 'Poppins-Regular',
         fontSize: 24,
         fontWeight: '500',
         color: 'black',

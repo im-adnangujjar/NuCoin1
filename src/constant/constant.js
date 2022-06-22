@@ -212,6 +212,7 @@ export const kycUpload = [
     title: 'Passport Image',
     text: 'Upload Image',
     img: image,
+   
   },
   {
     title: 'Driving Licence',
@@ -238,26 +239,29 @@ export const upload = [
     img: passport,
     title1: 'Your passport is',
     text: 'successfully validated',
+    icon:check,
   },
   {
     title: 'Driving Licence',
     img: licence,
     title1: 'Your driving licence is',
     text: 'successfully validated',
+    icon:check,
   },
   {
     title: 'Photo ID',
     img: image1,
     title1: 'Your photo Id is not',
     text: ' successfully validated',
-    color: 'red'
-
+    color: 'red',
+    icon:check,
   },
   {
     title: 'Selfie Image',
     img: image2,
     title1: 'Your selfie is ',
     text: 'successfully validated',
+    icon:check,
   },
 ]
 export const mintData = [
@@ -378,5 +382,11 @@ export const numbers =[
   },
   {
     title:10
+  },
+  {
+    title:11
+  },
+  {
+    title:12
   },
 ]

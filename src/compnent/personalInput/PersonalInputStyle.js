@@ -10,13 +10,13 @@ export const styles = StyleSheet.create({
     
     },
     title:{
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '400',
         color:'black'
     },
     input: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         width:'65%',
         paddingLeft:15,
         borderBottomWidth: 1,

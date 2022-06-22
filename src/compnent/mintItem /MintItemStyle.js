@@ -10,9 +10,9 @@ export const styles = StyleSheet.create({
         alignItems: 'center'
     },
     title: {
-        // font-family: Poppins;
+        fontFamily: 'Poppins-Regular',
         fontSize: 14,
         fontWeight: '500',
-        bcolor: 'black',
+        color: 'black',
     }
 })

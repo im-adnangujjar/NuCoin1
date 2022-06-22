@@ -31,12 +31,13 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
+        width:'82%'
     },
     container_margin: {
         marginLeft: 17
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '700'
     },
@@ -46,11 +47,13 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         marginLeft:55,
-        marginTop:8
+        marginTop:8,
+        width:'87%'
 
     },
     descripation: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
+
         fontSize: 14,
         fontWeight: '500',
 

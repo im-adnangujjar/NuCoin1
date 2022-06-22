@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
-import circle from '../../assets/icons/circle-information.png'
+import check from '../../assets/icons/check.png'
 import { styles } from './KycTextStyle'
 
 export default function kycText() {
@@ -8,7 +8,9 @@ export default function kycText() {
         <View>
             <View style={styles.imageFlex}>
                 <Text style={styles.title} >KYC Verification</Text>
-            <Image source={circle} />
+                <View style={styles.iconBg}>
+                    <Image source={check} />
+                </View>
 
             </View>
             <View style={styles.flex}>

@@ -8,19 +8,19 @@ export const styles = StyleSheet.create({
         marginHorizontal: 19
     },
     password: {
-        // font-family: Poppins;
+         fontFamily:'Poppins-Regular',
         fontSize: 24,
         fontWeight: '700',
         color: 'black'
     },
     numbers: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 18,
         fontWeight: '500',
         color: 'black'
     },
     numbers1: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '500',
         color: 'black',
@@ -37,6 +37,7 @@ export const styles = StyleSheet.create({
         borderColor: '#000000',
         borderWidth: 2,
         fontSize: 14,
+        fontFamily:'Poppins-Regular',
         borderRadius: 10,
         fontWeight: '700',
         paddingTop: 18,
@@ -82,7 +83,7 @@ export const styles = StyleSheet.create({
         tintColor: 'white'
     },
     modalText: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '500',
         color: 'black',

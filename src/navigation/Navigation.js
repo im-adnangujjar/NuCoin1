@@ -38,7 +38,6 @@ import KycText from '../compnent/kycText/kycText'
 import KycUpload from '../screens/kyc/KycUpload'
 import SelectCard from '../compnent/card/SelectCard'
 import PersonalInformation from '../screens/personalInformation/PersonalInformation'
-import IconButton from '../compnent/button/IconButton';
 
 
 
@@ -56,8 +55,6 @@ function Navigation() {
                     headerShown: false
                 }}
             >
-                {/* <Stack.Screen name="Button" component={IconButton}/> */}
-                {/* <Stack.Screen name="Select" component={SelectCard} /> */}
                 <Stack.Screen name="SplashScreen" component={SplashScreen} />
                 <Stack.Screen name="RaceDetail" component={LogIn} />
                 <Stack.Screen name="SignUp1" component={SignUp1} />
@@ -84,8 +81,6 @@ function Navigation() {
                 <Stack.Screen name="Mint4" component={Mint4} />
                 <Stack.Screen name="Mint5" component={Mint5} />
                 <Stack.Screen name="Kyc" component={Tabs} />
-
-
             </Stack.Navigator>
         </NavigationContainer>
     );
@@ -99,12 +94,11 @@ function Tabs({ navigation }) {
         < >
             <View style={{ paddingLeft: 19, backgroundColor: 'white', paddingBottom: 40 }}>
                 <HeaderA title='Kyc' Nav={navigation} />
-                {/* <Text >Kyc Verification</Text>
-                <Text>Verification complite</Text> */}
+                
                 <KycText />
             </View>
             <Tab.Navigator
-                //   initialRouteName="Feed"
+               
                 screenOptions={{
                     // tabBarActiveTintColor: '#e91e63',
                     tabBarLabelStyle: { fontSize: 8, fontWeight: '400' },

@@ -29,12 +29,12 @@ export const styles = StyleSheet.create({
         marginTop:49
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '500',
         color: 'black'
     },
-    // font-family: Poppins;
+    fontFamily:'Poppins-Regular',
     fontSize: 10,
     fontWeight: '400'
 })

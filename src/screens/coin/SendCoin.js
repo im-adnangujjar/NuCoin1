@@ -23,7 +23,7 @@ const SendCoin = ({navigation}) => {
                 <Text style={styles.transaction}>Your transaction hash</Text>
                 <Text style={styles.text}>0tiewjiofj43rx023943xwq9er0890x30</Text>
                     <Text style={styles.text}>r09e09wx9090w39r890</Text>
-           <View style={styles.button}><Button click={()=>navigation.navigate('DashBoard')}text='close' width='80%'/></View>
+           <View style={styles.button}><Button onPress={()=>navigation.navigate('DashBoard')}text='Close' width='80%'/></View>
             </View>
 
         </ScrollView>

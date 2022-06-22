@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
         marginRight: 23
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 24,
         fontWeight: '700',
     },
@@ -38,12 +38,12 @@ export const styles = StyleSheet.create({
         marginTop:28
     },
     numbers: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 18,
         fontWeight: '500'
     },
     numbers1: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '500',
         color:'#CFCFCF'
@@ -58,8 +58,7 @@ export const styles = StyleSheet.create({
 marginTop:30
     },
     descripation: {
-        
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         lineHeight: 18,
@@ -78,7 +77,7 @@ marginTop:30
 
     },
     copy:{
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '500',
     },

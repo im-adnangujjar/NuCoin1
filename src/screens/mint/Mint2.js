@@ -19,22 +19,24 @@ const Mint2 = ({ navigation }) => {
                         <Image source={block} />
                     </View>
                 </View>
-                {
-                    numbers.map((item) => { 
-                        <MintItem1/>
-                     }) 
-                }
+                <View style={styles.button_align}>
+                    {
+                        numbers.map((item) => {
+                            return <MintItem1 numbers={item} />
+                        })
+                    }
+                </View>
                 <TextInput style={styles.input} placeholder='Enter your Mnemonic' />
                 {/* {
                     numbers.map((item ,index)=>{
                        return <MintItem1/>
                     })
                 } */}
-                
+
                 <Button text='Load Mnemonic' width='100%' bgColor='#282B33' />
                 <View style={styles.button}>
-                    <Button  onPress={()=>navigation.goBack('Mint3')}text='Cancal' bgColor='white' color='black' width='45%' />
-                    <Button   onPress={()=>navigation.navigate('Mint3')}text='Continue' width='45%' bgColor='#34DDDC' />
+                    <Button onPress={() => navigation.goBack('Mint3')} text='Cancal' bgColor='white' color='black' width='45%' />
+                    <Button onPress={() => navigation.navigate('Mint3')} text='Continue' width='45%' bgColor='#34DDDC' />
                 </View>
             </View>
         </ScrollView>

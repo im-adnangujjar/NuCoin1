@@ -15,13 +15,14 @@ export const styles = StyleSheet.create({
         marginRight: 23
     },
     morning: {
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '400',
         marginLeft: 8,
     },
     name: {
 
-        //    fontFamily: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 30,
         fontWeight: '700',
         marginTop: 10,
@@ -40,13 +41,13 @@ export const styles = StyleSheet.create({
     },
 
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         marginRight: 18
     },
     list: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 16,
         fontWeight: '700',
         color: 'black'

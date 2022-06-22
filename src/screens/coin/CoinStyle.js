@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
         marginBottom:51,
     },
     input:{
+        fontFamily:'Poppins-Regular',
         width: '100%',
         height: 58,
         borderColor: '#000000',

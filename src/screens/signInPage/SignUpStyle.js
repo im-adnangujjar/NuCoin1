@@ -12,11 +12,11 @@ export const styles = StyleSheet.create({
         fontSize: 30,
         fontWeight: '700',
     },
-    titleFlex:{
-flexDirection:'row',
-justifyContent:'space-between',
-alignItems:'center',
-marginBottom: 30
+    titleFlex: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginBottom: 30
 
     },
     lable: {
@@ -40,7 +40,8 @@ marginBottom: 30
     image: {
         position: 'absolute',
         right: 0,
-        bottom: 45
+        bottom: 45,
+        // tintColor:'#EAEAEA'
     },
     buttons: {
         flexDirection: 'row',

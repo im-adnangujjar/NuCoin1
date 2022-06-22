@@ -27,7 +27,7 @@ const CoinA = ({ navigation }) => {
         <TextInput style={styles.input} placeholder='Enter password' />
         <View style={styles.button}>
           <IconButton click={() => navigation.goBack('SendCoin')} text='Cancel' width="45%" color='black' bgColor='white' />
-          <IconButton click={() => navigation.navigate('SendCoin')} text='tarancfer' width="45%" image={icon} imageColor='white'/>
+          <IconButton click={() => navigation.navigate('SendCoin')} text='Tarancfer' width="45%" image={icon} imageColor='white'/>
         </View>
       </View> 
     </ScrollView>

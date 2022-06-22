@@ -33,25 +33,26 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
     },
     password: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 24,
         fontWeight: '700',
         color: 'black'
     },
     numbers: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 18,
         fontWeight: '500',
         color: 'black'
     },
     numbers1: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '500',
         color: 'black',
     },
     input: {
-        idth: '100%',
+        fontFamily:'Poppins-Regular',
+        width: '100%',
         height: 58,
         borderColor: '#000000',
         borderWidth: 2,

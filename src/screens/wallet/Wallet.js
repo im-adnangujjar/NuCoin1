@@ -38,8 +38,8 @@ export default function Wallet({ navigation }) {
           <Image style={styles.icon} source={copy} />
         </View>
         <View style={styles.button}>
-          <Button text='cancal' click={() => navigation.goBack('Wallet2')}  color='black' bgColor=' #E5E5E5' width='45%' height={54}  />
-          <Button click={() => navigation.navigate('Wallet2')} text='continue' width='45%' height={54}  />
+          <Button text='cancal' onPress={() => navigation.goBack('Wallet2')}  color='black' bgColor=' #E5E5E5' width='45%' height={54}  />
+          <Button onPress={() => navigation.navigate('Wallet2')} text='continue' width='45%' height={54}  />
         </View>
       </View>
     </ScrollView>

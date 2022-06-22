@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
         marginRight: 23
     },
     title: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 24,
         fontWeight: '700',
 
@@ -34,11 +34,12 @@ export const styles = StyleSheet.create({
         marginBottom: 54,
     },
     numbers: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 18,
         fontWeight: '500',
     },
     numbers1: {
+        fontFamily:'Poppins-Regular',
         Weight:'500',
         Size: 12
     },

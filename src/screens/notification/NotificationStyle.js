@@ -17,10 +17,8 @@ export const styles = StyleSheet.create({
     },
     text: {
         textAlign: 'center',
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '400'
-
-
     }
 })

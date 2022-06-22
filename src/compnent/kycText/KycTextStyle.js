@@ -9,32 +9,39 @@ export const styles = StyleSheet.create({
         marginTop: 20
     },
     title: {
-        // font-family: Poppins;
+        fontFamily: 'Poppins-Regular',
         fontSize: 30,
         fontWeight: '700',
         color: 'black',
         marginRight: 18,
-
     },
     descripation: {
-        // font-family: Poppins;
+        fontFamily: 'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         color: 'black'
-
-
     },
+    iconBg:{
+    width: 20,
+    height: 20,
+    backgroundColor: '#40C16C',
+    flexDirection: 'row',
+    justifyContent:'center',
+    alignItems:'center',
+    borderRadius:60,
+},
     text: {
-        fontSize: 18,
-        fontWeight: '500',
-        color: 'black'
+    fontFamily: 'Poppins-Regular',
+    fontSize: 18,
+    fontWeight: '500',
+    color: 'black'
 
-    },
+},
     flex: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        marginTop: 10
-    },
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 10
+},
  
 })

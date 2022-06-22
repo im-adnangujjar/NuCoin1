@@ -28,26 +28,26 @@ export const styles = StyleSheet.create({
         
     },
     title: {
-        // fontFamily: Poppins
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '500',
         color: 'black',
     },
     text: {
-        // font-family: Poppins
+        fontFamily:'Poppins-Regular',
         fontSize: 10,
         fontWeight: '500',
         color: 'black'
     },
     blance: {
-        // font-family: Poppins
+        fontFamily:'Poppins-Regular',
         fontSize: 10,
         fontWeight: '400',
         color: 'black',
         marginTop: 13,
     },
     number: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 20,
         fontWeight: '700',
         color: 'black',
@@ -56,7 +56,7 @@ export const styles = StyleSheet.create({
 
     },
     copy: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 10,
         fontWeight: '400',
         color: 'black',
@@ -69,7 +69,7 @@ export const styles = StyleSheet.create({
         marginTop: 8
     },
     bundle: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '500',
         color: 'black',

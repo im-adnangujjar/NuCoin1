@@ -8,8 +8,7 @@ export const styles = StyleSheet.create({
         marginHorizontal: 19
     },
     descripation: {
-        // Font
-        // Poppins
+        fontFamily:'Poppins-Regular',
         FontSize: 14,
         FontWeight: '700',
         LineHeight: 21,

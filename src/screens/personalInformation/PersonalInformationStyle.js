@@ -37,14 +37,14 @@ export const styles = StyleSheet.create({
         marginTop:36
     },
     title: {
-        // fontFamily: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 22,
         fontWeight: '600',
         color: 'black',
         marginTop: 61
     },
     text: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '400',
         color: 'black',
@@ -58,7 +58,7 @@ export const styles = StyleSheet.create({
 
     },
     upload: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '400',
         textAlign: 'center',
@@ -73,7 +73,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center'
     },
     update: {
-        // font-family: Poppins;
+        fontFamily:'Poppins-Regular',
         fontSize: 14,
         fontWeight: '600',
         color: 'black',

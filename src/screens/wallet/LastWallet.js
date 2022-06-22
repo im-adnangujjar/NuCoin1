@@ -18,9 +18,9 @@ const LastWallet = ({navigation}) => {
                     <Image source={wallet} />
                 </View>
                 <Text style={styles.title}>Your wallet with the name </Text>
-                <Text style={styles.title}>Jhon Doe is created successfully</Text>
+                <Text style={styles.title}><Text style={styles.jone}>Jhon Doe</Text> is created successfully</Text>
                 <View style={styles.button}>
-                <Button click={()=> navigation.navigate('DashBoard')} text='close' width={269}/>
+                <Button onPress={()=> navigation.navigate('DashBoard')} text='close' width={269}/>
 
                 </View>
 

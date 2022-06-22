@@ -23,6 +23,7 @@ export const styles = StyleSheet.create({
         marginRight: 23
     },
     text: {
+        fontFamily:'Poppins-Regular',
         fontSize: 24,
         fontWeight: '700',
         textAlign: 'center',
@@ -36,11 +37,16 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         alignContent: 'center'
     },
+    jone:{
+color:'green',
+    },
     title: {
+        fontFamily:'Poppins-Regular',
         textAlign: 'center',
         fontWeight: '400',
         marginBottom:10,
         fontSize: 18,
+        color:'black',
     },
     button: {
         marginTop: 85,

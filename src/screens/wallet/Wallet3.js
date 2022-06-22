@@ -18,8 +18,8 @@ const Wallet3 = ({ navigation }) => {
                 <TextInput style={styles.input} placeholder="Enter Wallet Password" />
                 <TextInput style={styles.input} placeholder="Confirm Wallet Password" />
                 <View style={styles.button_flex}>
-                    <Button click={() => navigation.goBack('LastWallet')} text='Cancal' width='45%' height={54} bgColor='white'color='black' />
-                    <Button click={() => navigation.navigate('LastWallet')} text='Submit' width='45%' height={54} /></View>
+                    <Button onPress={() => navigation.goBack('LastWallet')} text='Cancal' width='45%' height={54} bgColor='white'color='black' />
+                    <Button onPress={() => navigation.navigate('LastWallet')} text='Submit' width='45%' height={54} /></View>
             </View>
         </ScrollView>
     )

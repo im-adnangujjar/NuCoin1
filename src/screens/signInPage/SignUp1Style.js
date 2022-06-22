@@ -1,9 +1,9 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
-    // container: {
-    //     backgroundColor: '#E5E5E5',
-    // },
+    container: {
+        backgroundColor:'white'
+    },
     subContainer: {
         marginHorizontal: 50,
         paddingTop: Platform.OS === 'ios' ? 146 : 50,
@@ -17,7 +17,10 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         marginBottom: 30
-
+    },
+    flage: {
+        position: 'absolute',
+        bottom: 45,
     },
     numbers: {
         // font-family: Poppins;
@@ -28,7 +31,7 @@ export const styles = StyleSheet.create({
         // font-family: Poppins;
         fontSize: 12,
         fontWeight: '500',
-        color:'#CFCFCF'
+        color: '#CFCFCF'
     },
     lable: {
         // font-family: Poppins;
@@ -45,13 +48,15 @@ export const styles = StyleSheet.create({
         fontSize: 14,
         fontWeight: '700',
         color: 'black',
-        marginBottom: 36
+        marginBottom: 36,
+        paddingLeft:30
 
     },
     image: {
         position: 'absolute',
         right: 0,
-        bottom: 50
+        bottom: 40,
+        tintColor:'gray'
     },
     buttons: {
         flexDirection: 'row',
