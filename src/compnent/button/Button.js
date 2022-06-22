@@ -20,7 +20,7 @@ function Button(props) {
                 }
     })
     return (
-        <TouchableOpacity onPress={props.click}  style={styles.button}>
+        <TouchableOpacity onPress={props.onPress}  style={styles.button}>
             <Text style={styles.button_text} >
                 {props.text}
             </Text>

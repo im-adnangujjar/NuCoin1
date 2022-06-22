@@ -2,9 +2,17 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
     modalBg: {
         backgroundColor: 'white',
-        width:'100%',
+        width: '100%',
         paddingHorizontal: 30,
-        // marginTop: 220,
+        marginTop: 250,
+        borderTopLeftRadius: 35,
+        borderTopRightRadius: 35,
+    },
+    modalBg1: {
+        backgroundColor: 'white',
+        width: '100%',
+        paddingHorizontal: 30,
+        marginTop: 100,
         borderTopLeftRadius: 35,
         borderTopRightRadius: 35,
     },
@@ -20,7 +28,11 @@ export const styles = StyleSheet.create({
     },
     wallet: {
         marginTop: 20,
-        marginBottom: 28,
+    },
+    button: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center'
     },
 })
 

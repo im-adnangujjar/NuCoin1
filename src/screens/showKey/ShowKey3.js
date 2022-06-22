@@ -18,8 +18,8 @@ const ShowKey3 = ({ navigation }) => {
                 <TextInput style={styles.input} placeholder='Enter OTP code' />
                 <Text style={styles.descripation}>Didn’t recieved the code? Send Again</Text>
                 <View style={styles.button}>
-                    <Button click={() => navigation.navigate('DashBoard')} text='close' color='black' bgColor='white' width='45%' />
-                    <Button click={() => navigation.navigate('ShowKey4')} text='Proceed' width='45%' />
+                    <Button onPress={() => navigation.navigate('DashBoard')} text='close' color='black' bgColor='white' width='45%' />
+                    <Button onPress={() => navigation.navigate('ShowKey4')} text='Proceed' width='45%' />
                 </View>
             </View>
         </ScrollView>

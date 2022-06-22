@@ -3,10 +3,10 @@ import React, { useState } from 'react'
 import { styles } from './NewCardStyle'
 import WalletList from '../walletlist/WalletList'
 import CardB from '../card/CardB'
-import  Modal from 'react-native-modal'
-import ModalCard from './ModalCard'
 import { select, data1 } from '../../constant/constant'
 import GradientButton from '../button/GradientButton'
+import IconButton from '../../compnent/button/IconButton'
+import check from '../../assets/icons/check.png'
 
 
 const NewCard1 = ({ navigation }) => {
@@ -16,23 +16,32 @@ const NewCard1 = ({ navigation }) => {
         navigation.navigate('ShowKey');
     };
     return (
-        <View style={styles.modalBg}>
+        <View style={styles.modalBg1}>
             <View style={styles.borderCenter}>
                 <View style={styles.border}></View>
             </View>
             <View style={styles.wallet}>
-                <WalletList />
+                <WalletList navigation={navigation} />
             </View>
             <CardB select={select[0]} />
-            <CardB select={select[2]} toggleModal1={toggleModal2}>
-                {
-                    data1.map((item, index) => {
-                        return (
-                            <GradientButton title={navigation} key={index} item={item} />
-                        )
-                    })
-                }
-            </CardB>
+            <View style={{ backgroundColor: '#F3F2F3', borderRadius: 10, }}>
+                <CardB select={select[2]} toggleModal1={toggleModal2}>
+
+                    {
+                        data1.map((item, index) => {
+                            return (
+                                <GradientButton title={navigation} key={index} item={item} />
+                            )
+                        })
+                    }
+
+                </CardB>
+                <View style={styles.button}> 
+                    <IconButton text='primry wallet' color='green' bgColor='white' image={check} border='green' />
+                </View>
+            </View>
+
+
         </View>
     )
 }

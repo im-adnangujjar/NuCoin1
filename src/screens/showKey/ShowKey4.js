@@ -28,7 +28,7 @@ const ShowKey4 = ({ navigation }) => {
                     <Text style={styles.text}>Copy to Clipboard</Text>
                     <Image source={copy} />
                 </View>
-                <Button  click={()=>navigation.navigate('DashBoard')}text='close'  width='100%' />
+                <Button  onPress={()=>navigation.navigate('DashBoard')}text='close'  width='100%' />
             </View>
         </ScrollView>
     )

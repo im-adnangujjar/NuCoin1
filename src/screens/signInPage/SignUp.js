@@ -1,9 +1,12 @@
 import { StyleSheet, ScrollView, SafeAreaView, Text, View, TextInput, Image } from 'react-native'
 import { styles } from './SignUpStyle'
-import React from 'react'
+import React, { useState } from 'react'
 import Button from '../../compnent/button/Button'
 import date from '../../assets/icons/calendar.png'
+
 const SignIn = ({ navigation }) => {
+    const [active, setActive] = useState('male')
+
     return (
         <ScrollView style={styles.container}>
             <View style={styles.subContainer}>
@@ -29,10 +32,24 @@ const SignIn = ({ navigation }) => {
 
                 <Text style={styles.lable}>Select Gender</Text>
                 <View style={styles.buttons}>
-                    <Button text='Male' width='45%' height={34} />
-                    <Button text='Female' width='45%' height={34} color='black' bgColor='white' />
+                    <Button
+                        text='Male'
+                        width='45%'
+                        height={34}
+                        color={active === 'male' ? 'white' : "black"}
+                        bgColor={active === 'male' ? 'blue' : "white"}
+                        onPress={() => setActive('male')}
+                    />
+                    <Button
+                        text='Female'
+                        width='45%'
+                        height={34}
+                        color={active === 'female' ? 'white' : "black"}
+                        bgColor={active === 'female' ? 'blue' : "white"}
+                        onPress={() => setActive('female')}
+                    />
                 </View>
-                <Button click={() => navigation.navigate('SignUp1')} text='Next' width='100%' />
+                <Button onPress={() => navigation.navigate('SignUp1')} text='Next' width='100%' />
                 <Text style={styles.account}>Already have an account?</Text>
                 <Text style={styles.log}>Log In</Text>
             </View>

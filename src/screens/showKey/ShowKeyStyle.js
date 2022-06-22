@@ -40,7 +40,7 @@ export const styles = StyleSheet.create({
     image: {
         tintColor: 'black',
         position: 'absolute',
-        right: 0,
+        right: 10,
         bottom: 10
     },
     button: {

@@ -34,8 +34,8 @@ const SignUp1 = ({ navigation }) => {
         <Image  style={styles.image}source={icon1} alt="icon" />
         </View>
         <View style={styles.buttons}>
-          <Button click={() => navigation.goBack('RaceDetail')}text='Back' width='45%' bgColor='#F3F3F3' color='black' />
-          <Button click={() => navigation.navigate('RaceDetail')} text='Sign Up' width='45%' />
+          <Button onPress={() => navigation.goBack('RaceDetail')}text='Back' width='45%' bgColor='#F3F3F3' color='black' />
+          <Button onPress={() => navigation.navigate('RaceDetail')} text='Sign Up' width='45%' />
         </View>
 
         <Text style={styles.account}>Already have an account?</Text>

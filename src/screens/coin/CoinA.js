@@ -3,7 +3,8 @@ import { styles } from './CoinAStyle'
 import React from 'react'
 import Header from '../../compnent/header/Header'
 import block from '../../assets/images/Block2.png'
-import Button from '../../compnent/button/Button'
+import icon from '../../assets/icons/export.png'
+import IconButton from '../../compnent/button/IconButton'
 
 
 const CoinA = ({ navigation }) => {
@@ -25,10 +26,10 @@ const CoinA = ({ navigation }) => {
         </View>
         <TextInput style={styles.input} placeholder='Enter password' />
         <View style={styles.button}>
-          <Button click={() => navigation.goBack('SendCoin')} text='Cancel' width="45%" color='black' bgColor='white' />
-          <Button click={() => navigation.navigate('SendCoin')} text='tarancfer' width="45%" />
+          <IconButton click={() => navigation.goBack('SendCoin')} text='Cancel' width="45%" color='black' bgColor='white' />
+          <IconButton click={() => navigation.navigate('SendCoin')} text='tarancfer' width="45%" image={icon} imageColor='white'/>
         </View>
-      </View>
+      </View> 
     </ScrollView>
 
 

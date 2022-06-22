@@ -26,8 +26,8 @@ const ShowKey = ({navigation}) => {
                     <Image  style={styles.image} source={eye} />
                 </View>
                 <View style={styles.button}>
-                    <Button click={()=>navigation.navigate('DashBoard')} text='Cancal'  color='black' bgColor='white' width='45%' height={54} />
-                    <Button click={()=>navigation.navigate('ShowKey2')} text='Submit' width='45%' height={54} />
+                    <Button onPress={()=>navigation.navigate('DashBoard')} text='Cancal'  color='black' bgColor='white' width='45%' height={54} />
+                    <Button onPress={()=>navigation.navigate('ShowKey2')} text='Submit' width='45%' height={54} />
                 </View>
 
 

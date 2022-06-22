@@ -19,6 +19,12 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         width: '100%'
     },
+    flex:{
+flexDirection:'row',
+justifyContent:'center',
+alignItems:'center',
+marginTop:100,
+    },
     align: {
         marginTop: 175,
     },

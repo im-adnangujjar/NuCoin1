@@ -3,8 +3,7 @@ import React, { Component } from 'react'
 import { styles } from './Mint5Style'
 import Header from '../../compnent/header/Header'
 import icon from '../../assets/icons/warning.png'
-// import ProgressBar from 'react-native-progress/Bar';
-
+import CircularProgress from 'react-native-circular-progress-indicator'
 
 const Mint5 = ({ navigation }) => {
     return (
@@ -13,10 +12,22 @@ const Mint5 = ({ navigation }) => {
             <View style={styles.subContainer}>
                 <Header nav={navigation} />
                 <Text style={styles.title}>Processing Mint</Text>
-                {/* <Progress.Bar progress={0.3} width={200} />
-                <Progress.Pie progress={0.4} size={50} />
-                <Progress.Circle size={30} indeterminate={true} />
-                <Progress.CircleSnail color={['red', 'green', 'blue']} /> */}
+                <View style={styles.flex}>
+                <CircularProgress
+                    radius={100}
+                    value={100}
+                    textColor='#222'
+                    fontSize={20}
+                    valueSuffix={'%'}
+                    inActiveStrokeColor={'green'}
+                    inActiveStrokeOpacity={0.2}
+                    inActiveStrokeWidth={6}
+                    duration={3000}
+                    // onAnimationComplete={() => setValue(50)}
+                />
+                </View>
+
+                {/* <statusbar style={"auto"} />  */}
                 <View style={styles.align}>
                     <View style={styles.center}>
                         <Image style={styles.icon} source={icon} />

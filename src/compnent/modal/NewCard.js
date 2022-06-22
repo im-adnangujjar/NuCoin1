@@ -28,7 +28,7 @@ const NewCard = ({navigation}) => {
                     <View style={styles.border}></View>
                 </View>
                 <View style={styles.wallet}>
-                    <WalletList nav={navigation} />
+                    <WalletList navigation={navigation} />
                 </View>
                 <CardB select={select[0]} />
                 <CardB select={select[1]} toggleModal1={toggleModal1} />

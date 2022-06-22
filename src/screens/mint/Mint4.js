@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput, Image } from 'react-native'
+import { StyleSheet, Text, View, TextInput,SafeAreaView, Image, ScrollView } from 'react-native'
 import React from 'react'
 import { styles } from '../coin/CoinAStyle'
 import Button from '../../compnent/button/Button'
@@ -9,7 +9,8 @@ import eye from '../../assets/icons/eye.png'
 
 const Mint4 = ({ navigation }) => {
     return (
-        <View style={styles.mainContainer}>
+        <ScrollView style={styles.mainContainer}>
+            <SafeAreaView/>
             <View style={styles.subContainer}>
                 <Header />
                 <View style={styles.flex}>
@@ -28,11 +29,11 @@ const Mint4 = ({ navigation }) => {
                     <Image style={styles.icon} source={eye} />
                 </View>
                 <View style={styles.button}>
-                    <Button click={() => navigation.goBack('Mint5')} text='Cancel' width="45%" bgColor='white' color='black' />
-                    <Button click={() => navigation.navigate('Mint5')} text='continnu to Mint' width="45%" bgColor='#34DDDC' />
+                    <Button  onPress={() => navigation.goBack('Mint5')} text='Cancel' width="45%" bgColor='white' color='black' />
+                    <Button  onPress={() => navigation.navigate('Mint5')} text='continnu to Mint' width="45%" bgColor='#34DDDC' />
                 </View>
             </View>
-        </View>
+        </ScrollView>
 
     )
 }

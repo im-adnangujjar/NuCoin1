@@ -4,8 +4,8 @@ import { styles } from './Mint2Style'
 import Header from '../../compnent/header/Header'
 import block from '../../assets/images/Block4.png'
 import Button from '../../compnent/button/Button'
-import { mintData } from '../../constant/constant'
-import MintItem from '../../compnent/mintItem /MintItem'
+import { mintData, numbers } from '../../constant/constant'
+import MintItem1 from '../../compnent/mintItem /MintItem1'
 
 const Mint2 = ({ navigation }) => {
     return (
@@ -20,15 +20,21 @@ const Mint2 = ({ navigation }) => {
                     </View>
                 </View>
                 {
-                    mintData.map((item) => {
-                        <MintItem  mintData={item}/>
-                    })
+                    numbers.map((item) => { 
+                        <MintItem1/>
+                     }) 
                 }
                 <TextInput style={styles.input} placeholder='Enter your Mnemonic' />
+                {/* {
+                    numbers.map((item ,index)=>{
+                       return <MintItem1/>
+                    })
+                } */}
+                
                 <Button text='Load Mnemonic' width='100%' bgColor='#282B33' />
                 <View style={styles.button}>
-                    <Button click={()=>navigation.goBack('Mint3')}text='Cancal' bgColor='white' color='black' width='45%' />
-                    <Button  click={()=>navigation.navigate('Mint3')}text='Continue' width='45%' bgColor='#34DDDC' />
+                    <Button  onPress={()=>navigation.goBack('Mint3')}text='Cancal' bgColor='white' color='black' width='45%' />
+                    <Button   onPress={()=>navigation.navigate('Mint3')}text='Continue' width='45%' bgColor='#34DDDC' />
                 </View>
             </View>
         </ScrollView>

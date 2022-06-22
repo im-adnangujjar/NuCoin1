@@ -1,21 +1,22 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
-  
+
     bgColor: {
         backgroundColor: '#F3F2F3',
         width: '100%',
-        height:'auto',
-        marginTop:20,
+        height: 'auto',
+        marginTop: 10,
         borderRadius: 10,
-        paddingLeft:5,
-        paddingRight:5,
+        paddingLeft: 5,
+        paddingRight: 5,
+        marginBottom:10,
     },
-    subContainer:{
-        marginBottom: 20,
+    subContainer: {
+        // marginBottom: 20,
         paddingLeft: 24,
         paddingTop: 24,
-        paddingBottom:20,
+        paddingBottom: 10,
         borderRadius: 10
     },
     flex: {
@@ -23,7 +24,8 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
     },
     image: {
-        marginRight: 10
+        marginRight: 10,
+        
     },
     title: {
         // fontFamily: Poppins
@@ -73,25 +75,25 @@ export const styles = StyleSheet.create({
         color: 'black',
         marginLeft: 70,
     },
-   
-    iconBg:{
-        backgroundColor:'green',
-        width:32,
-        height:32,
-        borderRadius:50,
-        flexDirection:'row',
-        justifyContent:'center',
-        alignItems:'center',
+
+    iconBg: {
+        backgroundColor: 'green',
+        width: 32,
+        height: 32,
+        borderRadius: 50,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
-    iconFlex:{
-        flexDirection:'row',
-        justifyContent:'space-between',
-        width:'80%',
+    iconFlex: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        width: '80%',
     },
-    buttons:{
-        flexDirection:'row',
-        justifyContent:'space-between',
-        alignsitem:'center',
+    buttons: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignsitem: 'center',
     },
 
 })

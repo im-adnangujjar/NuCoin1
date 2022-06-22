@@ -27,8 +27,8 @@ const Mint = ({ navigation }) => {
                 </View>
                 <Text style={styles.text}>Reset Password</Text>
                 <View style={styles.button}>
-                    <Button click={() => navigation.navigate('DashBoard')} text='Cancal' width='45%' bgColor='white' color='black' />
-                    <Button click={toggleModal} text='Mint' width='45%' bgColor='#34DDDC' color='black' />
+                    <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancal' width='45%' bgColor='white' color='black' />
+                    <Button  onPress={toggleModal} text='Mint' width='45%' bgColor='#34DDDC' color='black' />
                 </View>
                 <Modal isVisible={isModalVisible}>
                     <View style={styles.modaleBg}>
@@ -39,8 +39,8 @@ const Mint = ({ navigation }) => {
                         </TouchableOpacity>
                         <Text style={styles.modalText}>Please retrieve and enter your mnemonics in the same order when you created this wallet.</Text>
                         <View style={styles.button1}>
-                            <Button click={() => navigation.navigate('DashBoard')} text='Cancal' width='45%' bgColor='white' color='black' />
-                            <Button click={() => navigation.navigate('Mint2')} text='Ok' width='45%' bgColor='#34DDDC' color='black' />
+                            <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancal' width='45%' bgColor='white' color='black' />
+                            <Button  onPress={() => navigation.navigate('Mint2')} text='Ok' width='45%' bgColor='#34DDDC' color='black' />
                         </View>
                     </View>
                 </Modal>

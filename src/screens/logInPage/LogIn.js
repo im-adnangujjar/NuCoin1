@@ -32,7 +32,7 @@ const Profile = ({ navigation }) => {
           </View>
           <Text style={styles.forget} >Forget your password</Text>
           <View style={styles.button}>
-            <Button click={() => navigation.navigate('DashBoard')} text='LogIn' width={261} />
+            <Button onPress={() => navigation.navigate('DashBoard')} text='LogIn' width={261} />
           </View>
           <Text style={styles.user}>
             New User?

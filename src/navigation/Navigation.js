@@ -56,7 +56,7 @@ function Navigation() {
                     headerShown: false
                 }}
             >
-                {/* <Stack.screen name="Button" component={IconButton}/> */}
+                {/* <Stack.Screen name="Button" component={IconButton}/> */}
                 {/* <Stack.Screen name="Select" component={SelectCard} /> */}
                 <Stack.Screen name="SplashScreen" component={SplashScreen} />
                 <Stack.Screen name="RaceDetail" component={LogIn} />

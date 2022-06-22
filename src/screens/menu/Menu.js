@@ -6,8 +6,9 @@ import more from '../../assets/icons/more.png'
 import moon from '../../assets/icons/moon.png'
 import off from '../../assets/icons/off.png'
 import user from '../../assets/icons/user-check.png'
-import logout from '../../assets/icons/log-out.png'
 import HeaderA from '../../compnent/header/HeaderA'
+import IconButton from '../../compnent/button/IconButton'
+import icon from '../../assets/icons/logOut.png'
 
 const Menu = ({navigation}) => {
     return (
@@ -59,13 +60,7 @@ const Menu = ({navigation}) => {
                     </View>
                     <Image source={more} />
                 </View>
-                <TouchableOpacity onPress={() => navigation.navigate('SplashScreen')}>
-
-                    <View style={styles.button}>
-                        <Image source={logout} />
-                        <Text style={styles.log}> Log out</Text>
-                    </View>
-                </TouchableOpacity>
+              <IconButton text='LogOut' click={()=>navigation.navigate('SplashScreen')} height={57} width='100%' image={icon} imageColor='white' />
 
             </View>
         </ScrollView>

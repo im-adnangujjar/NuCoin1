@@ -35,8 +35,8 @@ const Mint3 = ({ navigation }) => {
         </View>
         <Button text='Load Mnemonic' width='100%' bgColor='#282B33' />
         <View style={styles.button}>
-          <Button click={()=>navigation.goBack('Mint4')}text='Cancal' bgColor='white' color='black' width='45%' />
-          <Button click={()=>navigation.navigate('Mint4')}text='Continue' width='45%' bgColor='#34DDDC' />
+          <Button  onPress={()=>navigation.goBack('Mint4')}text='Cancal' bgColor='white' color='black' width='45%' />
+          <Button  onPress={()=>navigation.navigate('Mint4')}text='Continue' width='45%' bgColor='#34DDDC' />
         </View>
 
       </View>
