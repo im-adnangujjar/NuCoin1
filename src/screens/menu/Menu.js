@@ -8,7 +8,7 @@ import off from '../../assets/icons/off.png'
 import user from '../../assets/icons/user-check.png'
 import HeaderA from '../../compnent/header/HeaderA'
 import IconButton from '../../compnent/button/IconButton'
-import icon from '../../assets/icons/logOut.png'
+import icon from '../../assets/icons/log-out (1).png'
 
 const Menu = ({navigation}) => {
     return (

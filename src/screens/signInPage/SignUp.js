@@ -2,6 +2,7 @@ import { StyleSheet, ScrollView, SafeAreaView, Text, View, TextInput, Image } fr
 import { styles } from './SignUpStyle'
 import React, { useState } from 'react'
 import Button from '../../compnent/button/Button'
+import IconButton from '../../compnent/button/IconButton'
 import date from '../../assets/icons/calendar.png'
 
 const SignIn = ({ navigation }) => {
@@ -32,24 +33,24 @@ const SignIn = ({ navigation }) => {
 
                 <Text style={styles.lable}>Select Gender</Text>
                 <View style={styles.buttons}>
-                    <Button
+                    <IconButton
                         text='Male'
-                        width='45%'
-                        height={34}
+                        width='80%'
+                        height={40}
                         color={active === 'male' ? 'white' : "black"}
-                        bgColor={active === 'male' ? 'blue' : "white"}
-                        onPress={() => setActive('male')}
+                        colors={active === 'male' ? ['#508ADF','#1E61C6' ] : ["white", 'white']}
+                        click={() => setActive('male')}
                     />
-                    <Button
+                    <IconButton
                         text='Female'
-                        width='45%'
-                        height={34}
+                        width='80%'
+                        height={40}
                         color={active === 'female' ? 'white' : "black"}
-                        bgColor={active === 'female' ? 'blue' : "white"}
-                        onPress={() => setActive('female')}
+                        colors={active === 'female' ? ['#508ADF','#1E61C6' ] : ["white", 'white']}
+                        click={() => setActive('female')}
                     />
                 </View>
-                <Button onPress={() => navigation.navigate('SignUp1')} text='Next' width='100%' />
+                <IconButton click={() => navigation.navigate('SignUp1')} text='Next' width='100%' />
                 <Text style={styles.account}>Already have an account?</Text>
                 <Text style={styles.log}>Log In</Text>
             </View>

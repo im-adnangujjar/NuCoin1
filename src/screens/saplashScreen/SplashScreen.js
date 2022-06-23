@@ -3,7 +3,7 @@ import React from 'react'
 import { style } from './SplashScreenStyle'
 import logo from '../../assets/images/logo.png'
 import bgLogo from '../../assets/images/backgroundLogo.png'
-import Button from '../../compnent/button/Button'
+import IconButton from '../../compnent/button/IconButton'
 
 const SplashScreen = ({navigation}) => {
     return (
@@ -22,7 +22,7 @@ const SplashScreen = ({navigation}) => {
                     <Text style={style.artificial}>Artificial Intellegence</Text>
                 </View>
                 <View style={style.button_margin}>
-                    <Button onPress={() => navigation.navigate('RaceDetail')} text='Start Now' width={261} />
+                    <IconButton click={() => navigation.navigate('RaceDetail')} text='Start Now' width={261} />
                 </View>
                 <View><Text style={style.text}>NuCoin by NuGenesis</Text></View>
                 <View>

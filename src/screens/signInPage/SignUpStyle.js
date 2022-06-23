@@ -44,9 +44,10 @@ export const styles = StyleSheet.create({
         // tintColor:'#EAEAEA'
     },
     buttons: {
+        width:'100%',
         flexDirection: 'row',
         justifyContent: 'space-between',
-        allignItems: 'cemter',
+        allignItems: 'center',
         marginBottom: 54
     },
 

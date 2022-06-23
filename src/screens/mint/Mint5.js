@@ -18,20 +18,22 @@ const Mint5 = ({ navigation }) => {
                 <Text style={styles.title}>Processing Mint</Text>
                 <View style={styles.flex}>
                     <CircularProgress
-                        radius={100}
+                        radius={140}
                         value={100}
                         textColor='#222'
-                        fontSize={20}
+                        title='Prossing Mint'
+                        titleColor='black'
+                        titleFontSize={25}
                         valueSuffix={'%'}
                         inActiveStrokeColor={'green'}
                         inActiveStrokeOpacity={0.2}
-                        inActiveStrokeWidth={6}
+                        inActiveStrokeWidth={20}
                         duration={3000}
                         onAnimationComplete={() => setComplet(true)}
                     />
                 </View>
 
-                {/* <statusbar style={"auto"} />  */}
+                {/* <Statusbar style={"auto"} />  */}
                 <View style={styles.align}>
                     {complet === true ?
 

@@ -1,7 +1,8 @@
 import { StyleSheet, TextInput, ScrollView, SafeAreaView, Text, View, Image,TouchableOpacity } from 'react-native'
 import React from 'react'
 import { styles } from './LogInStyle'
-import Button from '../../compnent/button/Button'
+import IconButton from '../../compnent/button/IconButton'
+
 import icon from '../../assets/icons/check1.png'
 import icon1 from '../../assets/icons/eye.png'
 
@@ -32,7 +33,7 @@ const Profile = ({ navigation }) => {
           </View>
           <Text style={styles.forget} >Forget your password</Text>
           <View style={styles.button}>
-            <Button onPress={() => navigation.navigate('DashBoard')} text='LogIn' width={261} />
+            <IconButton click={() => navigation.navigate('DashBoard')} text='LogIn' width={261} />
           </View>
           <Text style={styles.user}>
             New User?

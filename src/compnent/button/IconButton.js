@@ -1,16 +1,17 @@
-import { StyleSheet , View, Text, Image, TouchableOpacity } from 'react-native'
+import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
-import icon from '../../assets/icons/wallet.png'
+import LinearGradient from 'react-native-linear-gradient';
+
 
 function IconButton(props) {
     const styles = StyleSheet.create({
-        button: {
-            backgroundColor: props.bgColor || 'blue',
+        linearGradient: {
+            // backgroundColor: props.bgColor || 'blue',
             borderRadius: 10,
             width: props.width || 200,
             height: props.height || 50,
             borderWidth: 1,
-            borderColor:props.border||'#E7E7E7',
+            borderColor: props.border || '#E7E7E7',
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center'
@@ -19,17 +20,19 @@ function IconButton(props) {
             color: props.color || 'white'
         },
         image: {
-        tintColor:props.imageColor||'green',
-        marginRight:10,
-        }
+            tintColor: props.imageColor || 'green',
+            marginRight: 10,
+        },
     })
     return (
         <TouchableOpacity onPress={props.click} style={styles.button}>
-        
-            <Image style={styles.image} source={props.image} />
-            <Text style={styles.button_text} >
-                {props.text}
-            </Text>
+            <LinearGradient start={{ x: 1, y: 2 }} end={{ x: 0, y: 0 }} colors={props.colors || ['#508ADF','#1E61C6' ]} style={styles.linearGradient}>
+                <Image style={styles.image} source={props.image} />
+                <Text style={styles.button_text} >
+                    {props.text}
+                </Text>
+            </LinearGradient>
+
         </TouchableOpacity>
     )
 }
