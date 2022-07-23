@@ -52,8 +52,8 @@ const SignIn = ({navigation}) => {
               active === 'male' ? ['#508ADF', '#1E61C6'] : ['white', 'white']
             }
             click={() => setActive('male')}
-            icon="check"
-
+            iconColor="white"
+            icon={active === 'male' ? check : ''}
           />
           <IconButton
             text="Female"
@@ -64,6 +64,8 @@ const SignIn = ({navigation}) => {
               active === 'female' ? ['#508ADF', '#1E61C6'] : ['white', 'white']
             }
             click={() => setActive('female')}
+            iconColor="white"
+            icon={active === 'female' ? check : ''}
           />
         </View>
         <GradientButton1

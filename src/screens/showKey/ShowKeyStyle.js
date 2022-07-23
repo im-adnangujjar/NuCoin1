@@ -31,6 +31,8 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     input: {
+        width:'100%',
+        height:50,
         borderWidth: 1,
         borderRadius: 10,
         paddingLeft: 28,

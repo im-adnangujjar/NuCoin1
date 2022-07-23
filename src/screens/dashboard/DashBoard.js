@@ -82,7 +82,7 @@ const DashBoard = ({navigation}) => {
       <Modal
         isVisible={isModalVisible}
         style={{ margin: 0}}>
-        <NewCard navigation={navigation} />
+        <NewCard modal={toggleModal} navigation={navigation} />
       </Modal>
     </ScrollView>
   );

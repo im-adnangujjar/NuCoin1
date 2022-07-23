@@ -7,7 +7,7 @@ import { select } from '../../constant/constant'
 import NewCard1 from './NewCard1'
 import Modal from "react-native-modal";
 
-const NewCard = ({navigation}) => {
+const NewCard = ({navigation,modal}) => {
 
     const [isModalVisible1, setModalVisible1] = useState(false);
     const toggleModal1 = () => {
@@ -28,13 +28,13 @@ const NewCard = ({navigation}) => {
                     <View style={styles.border}></View>
                 </View>
                 <View style={styles.wallet}>
-                    <WalletList navigation={navigation} />
+                    <WalletList modal={modal} navigation={navigation} />
                 </View>
                 <CardB select={select[0]} />
                 <CardB select={select[1]} toggleModal1={toggleModal1} />
             </View>
-            <Modal  style={{margin:0}}backdropColor='blur' isVisible={isModalVisible1}>
-                <NewCard1 navigation={navigation}/>
+            <Modal hasBackdrop={false} backdropOpacity={1} style={{margin:0}}backdropColor='blur' isVisible={isModalVisible1}>
+                <NewCard1 modal={modal} navigation={navigation}/>
             </Modal>
         </View>
 

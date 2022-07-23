@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     title: {
         fontFamily:'Poppins-Regular',
         fontSize: 16,
-        fontWeight: ' 700',
+        fontWeight: '700',
         color: 'black',
         marginTop: 37,
         marginBottom: 17

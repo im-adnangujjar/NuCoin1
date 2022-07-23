@@ -81,7 +81,7 @@ export const styles = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     color: '#7B7B7B',
-    marginTop: 76,
+    marginTop:0,
   },
   terms: {
     fontSize: 12,
@@ -89,6 +89,7 @@ export const styles = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     color: '#1F62C6',
+    marginBottom:20,
   },
   color: {
     color: '#7B7B7B',

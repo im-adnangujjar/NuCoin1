@@ -60,7 +60,7 @@ const Menu = ({navigation}) => {
                     </View>
                     <Image source={more} />
                 </View>
-              <IconButton text='LogOut' click={()=>navigation.navigate('SplashScreen')} height={57} width='100%' image={icon} imageColor='white' />
+              <IconButton text='LogOut' click={()=>navigation.navigate('SplashScreen')} height={57} width='100%' icon={icon} iconColor='white' />
 
             </View>
         </ScrollView>
