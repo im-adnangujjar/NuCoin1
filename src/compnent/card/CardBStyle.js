@@ -1,7 +1,6 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-
     bgColor: {
         backgroundColor: '#F3F2F3',
         width: '100%',
@@ -10,14 +9,14 @@ export const styles = StyleSheet.create({
         borderRadius: 10,
         paddingLeft: 5,
         paddingRight: 5,
-        marginBottom:10,
+        marginBottom: 10,
     },
     subContainer: {
         // marginBottom: 20,
         paddingLeft: 24,
         paddingTop: 24,
         paddingBottom: 10,
-        borderRadius: 10
+        borderRadius: 10,
     },
     flex: {
         flexDirection: 'row',
@@ -25,38 +24,36 @@ export const styles = StyleSheet.create({
     },
     image: {
         marginRight: 10,
-        
     },
     title: {
-        fontFamily:'Poppins-Regular',
+        fontFamily: 'Poppins-Regular',
         fontSize: 14,
         fontWeight: '500',
         color: 'black',
     },
     text: {
-        fontFamily:'Poppins-Regular',
+        fontFamily: 'Poppins-Regular',
         fontSize: 10,
         fontWeight: '500',
-        color: 'black'
+        color: 'black',
     },
     blance: {
-        fontFamily:'Poppins-Regular',
+        fontFamily: 'Poppins-Regular',
         fontSize: 10,
         fontWeight: '400',
         color: 'black',
         marginTop: 13,
     },
     number: {
-        fontFamily:'Poppins-Regular',
+        fontFamily: 'Poppins-Regular',
         fontSize: 20,
         fontWeight: '700',
         color: 'black',
         marginTop: 5,
         marginBottom: 18,
-
     },
     copy: {
-        fontFamily:'Poppins-Regular',
+        fontFamily: 'Poppins-Regular',
         fontSize: 10,
         fontWeight: '400',
         color: 'black',
@@ -66,14 +63,14 @@ export const styles = StyleSheet.create({
     aligns: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginTop: 8
+        marginTop: 8,
     },
     bundle: {
-        fontFamily:'Poppins-Regular',
+        fontFamily: 'Poppins-Regular',
         fontSize: 12,
         fontWeight: '500',
         color: 'black',
-        marginLeft: 70,
+        marginLeft: 50,
     },
 
     iconBg: {
@@ -95,5 +92,4 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignsitem: 'center',
     },
-
-})
+});

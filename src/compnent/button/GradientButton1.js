@@ -1,9 +1,9 @@
-import { StyleSheet, Text, View ,TouchableOpacity,Image} from 'react-native'
+import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
-import check from '../../assets/icons/check.png'
 import LinearGradient from 'react-native-linear-gradient';
 
-function IconButton(props) {
+
+function GradientButton1(props) {
     const styles = StyleSheet.create({
         linearGradient: {
             // backgroundColor: props.bgColor || 'blue',
@@ -27,7 +27,7 @@ function IconButton(props) {
     return (
         <TouchableOpacity style={{width:props.width}} onPress={props.click} >
             <LinearGradient start={{ x: 1, y: 2 }} end={{ x: 0, y: 0 }} colors={props.colors || ['#508ADF','#1E61C6' ]} style={styles.linearGradient}>
-                <Image style={styles.image} source={check} />
+                {/* <Image style={styles.image} source={props.image} /> */}
                 <Text style={styles.button_text} >
                     {props.text}
                 </Text>
@@ -36,5 +36,4 @@ function IconButton(props) {
         </TouchableOpacity>
     )
 }
-export default IconButton
-
+export default GradientButton1

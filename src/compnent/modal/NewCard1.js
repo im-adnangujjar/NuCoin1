@@ -5,7 +5,7 @@ import WalletList from '../walletlist/WalletList'
 import CardB from '../card/CardB'
 import { select, data1 } from '../../constant/constant'
 import GradientButton from '../button/GradientButton'
-import IconButton from '../../compnent/button/IconButton'
+import IconButton from '../button/GradientButton1'
 import check from '../../assets/icons/check.png'
 
 

@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        width:'82%'
+        width:'79%'
     },
     container_margin: {
         marginLeft: 17
@@ -39,7 +39,8 @@ export const styles = StyleSheet.create({
     title: {
         fontFamily:'Poppins-Regular',
         fontSize: 14,
-        fontWeight: '700'
+        fontWeight: '700',
+        color:'#000000'
     },
 
     flex1: {
@@ -48,14 +49,15 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         marginLeft:55,
         marginTop:8,
-        width:'87%'
+        width:'80%'
 
     },
     descripation: {
         fontFamily:'Poppins-Regular',
-
-        fontSize: 14,
+        fontSize: 12,
         fontWeight: '500',
+        color:'#000000',
+    
 
     }
 })
