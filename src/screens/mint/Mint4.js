@@ -32,7 +32,7 @@ const Mint4 = ({ navigation }) => {
                 </View>
                 <View style={styles.button}>
                     <Button  onPress={() => navigation.goBack('Mint5')} text='Cancel' width="45%" bgColor='white' color='black' />
-                    <Button  onPress={() => navigation.navigate('Mint5')} text='continnu to Mint' width="45%" bgColor='#34DDDC' />
+                    <Button  onPress={() => navigation.navigate('Mint5')} text='Continnu to Mint' width="45%" bgColor='#34DDDC' />
                 </View>
             </View>
         </ScrollView>

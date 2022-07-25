@@ -14,13 +14,15 @@ import block from '../../assets/images/Block2.png';
 import icon from '../../assets/icons/export.png';
 import Button from '../../compnent/button/Button';
 import IconButton from '../../compnent/button/IconButton';
+import logo from '../../assets/images/walletlogo.png'
+
 
 const CoinA = ({navigation}) => {
   return (
     <ScrollView style={styles.mainContainer}>
       <SafeAreaView />
-      <View style={styles.subContainer}>
-        <Header nav={navigation} />
+      <View   style={styles.subContainer}>
+        <Header logo={logo} nav={navigation} />
         <View style={styles.flex}>
           <Text>Set Password</Text>
           <Text>02.03</Text>

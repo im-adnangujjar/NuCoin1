@@ -1,8 +1,11 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
+    container:{
+        flex:1,
+    },
     subContainer: {
-        marginHorizontal: 20
+        paddingHorizontal: 20
     },
     image: {
         flexDirection: 'row',

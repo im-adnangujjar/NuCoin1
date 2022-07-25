@@ -4,6 +4,7 @@ import { styles } from './Wallet3Style'
 import Button from '../../compnent/button/Button'
 import Header from '../../compnent/header/Header'
 import logo from '../../assets/images/walletlogo.png'
+import GradientButton1 from '../../compnent/button/GradientButton1'
 
 
 const Wallet3 = ({ navigation }) => {
@@ -21,7 +22,7 @@ const Wallet3 = ({ navigation }) => {
                 <TextInput style={styles.input} placeholder="Confirm Wallet Password" />
                 <View style={styles.button_flex}>
                     <Button onPress={() => navigation.goBack('LastWallet')} text='Cancal' width='45%' height={54} bgColor='white'color='black' />
-                    <Button onPress={() => navigation.navigate('LastWallet')} text='Submit' width='45%' height={54} /></View>
+                    <GradientButton1 click={() => navigation.navigate('LastWallet')} text='Submit' width='45%' height={54} /></View>
             </View>
         </ScrollView>
     )

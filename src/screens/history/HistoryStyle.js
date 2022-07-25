@@ -11,6 +11,28 @@ export const styles = StyleSheet.create({
     image: {
         tintColor: "blue"
     },
+    iconBg: {
+        width: 30,
+        height: 30,
+        backgroundColor: '#F3F2F3',
+        borderRadius: 10,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    bar: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginTop: 50,
+    },
+    image1: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    image_margin: {
+        marginRight: 23
+    },
     title: {
         fontFamily:'Poppins-Regular',
         fontSize: 16,

@@ -4,6 +4,7 @@ import { styles } from './ShowKey3Style'
 import Header from '../../compnent/header/Header'
 import Button from '../../compnent/button/Button'
 import logo from '../../assets/images/walletlogo.png'
+import GradientButton1 from '../../compnent/button/GradientButton1'
 
 
 const ShowKey3 = ({ navigation }) => {
@@ -21,7 +22,7 @@ const ShowKey3 = ({ navigation }) => {
                 <Text style={styles.descripation}>Didn’t recieved the code? Send Again</Text>
                 <View style={styles.button}>
                     <Button onPress={() => navigation.navigate('DashBoard')} text='Close' color='black' bgColor='white' width='45%' />
-                    <Button onPress={() => navigation.navigate('ShowKey4')} text='Proceed' width='45%' />
+                    <GradientButton1 click={() => navigation.navigate('ShowKey4')} text='Proceed' width='45%' height={57}/>
                 </View>
             </View>
         </ScrollView>

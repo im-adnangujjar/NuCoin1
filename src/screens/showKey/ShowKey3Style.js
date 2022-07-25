@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'white',
     },
     subContainer: {
-        marginHorizontal: 19
+        paddingHorizontal: 20,
     },
     title: {
         fontFamily:'Poppins-Regular',

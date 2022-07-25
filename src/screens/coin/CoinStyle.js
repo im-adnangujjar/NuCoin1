@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
     subContainer: {
-        marginHorizontal: 24,
+        marginHorizontal: 20,
     },
     image: {
         flexDirection: 'row',

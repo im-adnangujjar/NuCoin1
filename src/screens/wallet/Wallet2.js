@@ -9,6 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Header from '../../compnent/header/Header'
 import warning from '../../assets/icons/warning.png'
 import logo from '../../assets/images/walletlogo.png'
+import GradientButton1 from '../../compnent/button/GradientButton1'
 
 
 export default function Wallet2({ navigation }) {
@@ -40,8 +41,8 @@ export default function Wallet2({ navigation }) {
         
         <View style={styles.button}>
           <Button onPress={() => navigation.goBack('Wallet3')} text='Reset'  color='black' bgColor=' #E5E5E5' width='45%' height={54}  />
-          <Button 
-          onPress={() => navigation.navigate('Wallet3')} 
+          <GradientButton1
+          click={() => navigation.navigate('Wallet3')} 
           text='continue' width='45%' height={54}  />
         </View>
       </View>

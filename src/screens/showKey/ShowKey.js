@@ -6,6 +6,7 @@ import block from '../../assets/images/Block3.png'
 import Button from '../../compnent/button/Button'
 import eye from '../../assets/icons/eye.png'
 import logo from '../../assets/images/walletlogo.png'
+import GradientButton1 from '../../compnent/button/GradientButton1'
 
 
 const ShowKey = ({navigation}) => {
@@ -28,8 +29,8 @@ const ShowKey = ({navigation}) => {
                     <Image  style={styles.image} source={eye} />
                 </View>
                 <View style={styles.button}>
-                    <Button onPress={()=>navigation.navigate('DashBoard')} text='Cancal'  color='black' bgColor='white' width='45%' height={54} />
-                    <Button onPress={()=>navigation.navigate('ShowKey2')} text='Submit' width='45%' height={54} />
+                    <Button onPress={()=>navigation.navigate('DashBoard')} text='Cancel'  color='black' bgColor='white' width='45%' height={54} />
+                    <GradientButton1 click={()=>navigation.navigate('ShowKey2')} text='Submit' width='45%' height={54} />
                 </View>
 
 

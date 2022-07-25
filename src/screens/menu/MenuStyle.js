@@ -12,14 +12,14 @@ export const styles = StyleSheet.create({
     height: 82,
   },
   title: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'bold',
     fontSize: 22,
     fontWeight: '600',
     color: 'black',
     marginTop: 61,
   },
   name: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'bold',
     fontSize: 16,
     fontWeight: '600',
     color: 'black',
@@ -72,7 +72,7 @@ export const styles = StyleSheet.create({
   text_flex: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    width: '30%',
+    width: '32%',
     alignItems: 'center',
   },
   text: {

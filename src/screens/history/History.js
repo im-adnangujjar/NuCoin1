@@ -5,6 +5,7 @@ import {
   SafeAreaView,
   ScrollView,
   Image,
+  TouchableOpacity,
 } from 'react-native';
 import React from 'react';
 import {styles} from './HistoryStyle';
@@ -13,15 +14,31 @@ import icon from '../../assets/icons/Download_icon.png';
 import CardA from '../../compnent/card/CardA';
 import {card} from '../../constant/constant';
 import drop from '../../assets/icons/dropIcon.png';
-
-
+import image from '../../assets/images/person.png';
+import icon1 from '../../assets/icons/notification.png';
+import icon2 from '../../assets/icons/arrow-left.png';
 
 const History = ({navigation}) => {
   return (
     <ScrollView style={styles.mainContainer}>
       <SafeAreaView />
       <View style={styles.subContainer}>
-        <Header nav={navigation} />
+        <View style={styles.bar}>
+          <TouchableOpacity onPress={() => navigation.goBack()}>
+            <View style={styles.iconBg}>
+              <Image source={icon2} />
+            </View>
+          </TouchableOpacity>
+          <View style={styles.image1}>
+            <TouchableOpacity
+              onPress={() => navigation.navigate('Notification')}>
+              <Image style={styles.image_margin} source={icon1} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('profile')}>
+              <Image source={image} />
+            </TouchableOpacity>
+          </View>
+        </View>
         <Text style={styles.title}>Recent Transactions</Text>
         <View style={styles.buttonAlign}>
           <View style={styles.bgButton}>
