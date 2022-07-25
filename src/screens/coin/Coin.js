@@ -18,7 +18,7 @@ const Coin = ({ navigation }) => {
         </View>
         <TextInput style={styles.input} placeholder='Enter Reciever Address' />
         <TextInput style={styles.input} placeholder='Enter Amount' />
-        <View style={styles.button}><Button onPress={() => navigation.goBack('CoinA')} text="Cancal" width="45%" color='black' bgColor='white' />
+        <View style={styles.button}><Button onPress={() => navigation.goBack()} text="Cancal" width="45%" color='black' bgColor='white' />
           <Button onPress={() => navigation.navigate('CoinA')} text="Submit" width="45%" />
 
 

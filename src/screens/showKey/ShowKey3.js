@@ -3,13 +3,15 @@ import React from 'react'
 import { styles } from './ShowKey3Style'
 import Header from '../../compnent/header/Header'
 import Button from '../../compnent/button/Button'
+import logo from '../../assets/images/walletlogo.png'
+
 
 const ShowKey3 = ({ navigation }) => {
     return (
         <ScrollView style={styles.container} >
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header nav={navigation} />
+                <Header logo={logo} nav={navigation} />
                 <View style={styles.flex}>
                     <Text style={styles.title}>Enter the OTP you
                         recieved in your email</Text>

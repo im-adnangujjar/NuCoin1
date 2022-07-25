@@ -6,13 +6,15 @@ import block from '../../assets/images/Block4.png'
 import Button from '../../compnent/button/Button'
 import { mintData, numbers } from '../../constant/constant'
 import MintItem1 from '../../compnent/mintItem /MintItem1'
+import logo from '../../assets/images/walletlogo.png'
+
 
 const Mint2 = ({ navigation }) => {
     return (
         <ScrollView style={styles.container} >
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header nav={navigation} />
+                <Header logo={logo} nav={navigation} />
                 <Text style={styles.title}>Confirm Mnemonic</Text>
                 <View style={styles.imageCenter}>
                     <View style={styles.imagBg}>

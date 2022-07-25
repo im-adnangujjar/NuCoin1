@@ -5,6 +5,8 @@ import Button from '../../compnent/button/Button'
 import block from '../../assets/images/Block2.png'
 import Header from '../../compnent/header/Header'
 import eye from '../../assets/icons/eye.png'
+import logo from '../../assets/images/walletlogo.png'
+
 
 
 const Mint4 = ({ navigation }) => {
@@ -12,7 +14,7 @@ const Mint4 = ({ navigation }) => {
         <ScrollView style={styles.mainContainer}>
             <SafeAreaView/>
             <View style={styles.subContainer}>
-                <Header />
+                <Header logo={logo} />
                 <View style={styles.flex}>
                     <Text style={styles.password}>Set Password</Text>
                     <Text style={styles.numbers}>02.<Text style={styles.numbers1}>03</Text></Text>

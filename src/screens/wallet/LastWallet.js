@@ -4,6 +4,8 @@ import { styles } from './LastWalletStyle'
 import wallet from '../../assets/images/wallet.png'
 import Button from '../../compnent/button/Button'
 import Header from '../../compnent/header/Header'
+import logo from '../../assets/images/walletlogo.png'
+
 
 
 const LastWallet = ({navigation}) => {
@@ -11,7 +13,7 @@ const LastWallet = ({navigation}) => {
         <ScrollView style={styles.container} >
             <SafeAreaView />
             <View style={styles.subContainer}>
-              <Header nav={navigation}/>
+              <Header logo={logo} nav={navigation}/>
 
                 <Text style={styles.text}>Congratulation</Text>
                 <View style={styles.image_center}>

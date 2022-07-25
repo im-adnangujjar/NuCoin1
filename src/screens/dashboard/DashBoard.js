@@ -20,6 +20,8 @@ import Card from '../../compnent/card/Card';
 import GradientButton from '../../compnent/button/GradientButton';
 import DashBoardCard from '../../compnent/card/DashBoardCard';
 import NewCard from '../../compnent/modal/NewCard';
+import logo from '../../assets/images/walletlogo.png'
+
 
 const DashBoard = ({navigation}) => {
   const [isModalVisible, setModalVisible] = useState(false);
@@ -32,7 +34,7 @@ const DashBoard = ({navigation}) => {
     <ScrollView style={styles.container}>
       <SafeAreaView />
       <View style={styles.subContainer}>
-        <Header nav={navigation} />
+        <Header logo={logo} nav={navigation} />
         <View style={styles.image_flex}>
           <View>
             <View style={styles.flex}>
@@ -83,6 +85,7 @@ const DashBoard = ({navigation}) => {
         isVisible={isModalVisible}
         style={{ margin: 0}}>
         <NewCard modal={toggleModal} navigation={navigation} />
+
       </Modal>
     </ScrollView>
   );

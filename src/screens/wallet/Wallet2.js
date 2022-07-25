@@ -8,6 +8,8 @@ import Button from '../../compnent/button/Button'
 import LinearGradient from 'react-native-linear-gradient';
 import Header from '../../compnent/header/Header'
 import warning from '../../assets/icons/warning.png'
+import logo from '../../assets/images/walletlogo.png'
+
 
 export default function Wallet2({ navigation }) {
 
@@ -16,7 +18,7 @@ export default function Wallet2({ navigation }) {
       <SafeAreaView />
 
       <View style={styles.subContainer}>
-        <Header nav={navigation}/>
+        <Header logo={logo} nav={navigation}/>
         <View style={styles.display}>
         <Text style={styles.title}>Create Wallet</Text>
         <Text style={styles.numbers}>01 .<Text style={styles.numbers1}>03</Text></Text>

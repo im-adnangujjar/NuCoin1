@@ -16,7 +16,7 @@ const PersonalInformation = ({navigation}) => {
             <SafeAreaView />
             <View style={styles.subContainer}>
                 <View style={styles.display}>
-                    <TouchableOpacity onPress={() => navigation.goBack('PersonalInformation')}>
+                    <TouchableOpacity onPress={() => navigation.goBack()}>
                         <View style={styles.iconBg}>
                             <Image source={icon} />
                         </View>

@@ -27,6 +27,13 @@ export const styles = StyleSheet.create({
         marginBottom: 37
 
     },
+    month:{
+        fontFamily:'Poppins-Regular',
+        fontSize: 14,
+        fontWeight: '500',
+        color: 'black',
+        marginLeft: 20
+    },
     bgButton: {
         width: '40%',
         height: 41,
@@ -47,7 +54,7 @@ export const styles = StyleSheet.create({
         fontSize: 14,
         fontWeight: '500',
         color: 'blue',
-        marginLeft: 20
+        marginLeft: 10
     },
     flex: {
         flexDirection: 'row',

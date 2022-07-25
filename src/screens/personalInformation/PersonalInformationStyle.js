@@ -82,7 +82,8 @@ export const styles = StyleSheet.create({
     imageFlex:{
         flexDirection:'row',
         alignItems:'center',
-        marginTop:49
+        marginTop:49,
+        marginBottom:100,
     },
     iconFlex:{
         flexDirection:'row',

@@ -6,6 +6,8 @@ import Header from '../../compnent/header/Header'
 import block from '../../assets/images/Block4.png'
 import WalletButton from '../../compnent/walletButoon /WalletButton'
 import Button from '../../compnent/button/Button'
+import logo from '../../assets/images/walletlogo.png'
+
 
 
 const Mint3 = ({ navigation }) => {
@@ -13,7 +15,7 @@ const Mint3 = ({ navigation }) => {
     <ScrollView style={styles.container} >
       <SafeAreaView />
       <View style={styles.subContainer}>
-        <Header nav={navigation} />
+        <Header logo={logo} nav={navigation} />
         <Text style={styles.title}>Confirm Mnemonic</Text>
         <View style={styles.imageCenter}>
           <View style={styles.imagBg}>

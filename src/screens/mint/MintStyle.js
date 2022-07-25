@@ -104,7 +104,8 @@ export const styles = StyleSheet.create({
         flexDirection:'row',
         justifyContent:"flex-end",
         marginRight:30,
-        marginTop:18
+        marginTop:18,
+        marginBootm:50,
     }
 })
 

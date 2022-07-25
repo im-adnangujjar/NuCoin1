@@ -6,6 +6,7 @@ import Header from '../../compnent/header/Header'
 import eye from '../../assets/icons/eye.png'
 import Button from '../../compnent/button/Button'
 import Modal from "react-native-modal";
+import logo from '../../assets/images/walletlogo.png'
 import close from '../../assets/icons/close_icon.png'
 
 const Mint = ({ navigation }) => {
@@ -16,7 +17,7 @@ const Mint = ({ navigation }) => {
     return (
         <ScrollView style={styles.container}>
             <SafeAreaView />
-            <View style={styles.subContainer}><Header nav={navigation} />
+            <View style={styles.subContainer}><Header logo={logo} nav={navigation} />
                 <View style={styles.flex}>
                     <Text style={styles.password}>Set Password</Text>
                     <Text style={styles.numbers}> 01 . <Text style={styles.numbers1}>03</Text></Text>
@@ -40,7 +41,10 @@ const Mint = ({ navigation }) => {
                         <Text style={styles.modalText}>Please retrieve and enter your mnemonics in the same order when you created this wallet.</Text>
                         <View style={styles.button1}>
                             <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancal' width='45%' bgColor='white' color='black' />
-                            <Button  onPress={() => navigation.navigate('Mint2')} text='Ok' width='45%' bgColor='#34DDDC' color='black' />
+                            <Button  onPress={() => {
+                                setModalVisible(false)
+                                navigation.navigate('Mint2')
+                            }} text='Ok' width='45%' bgColor='#34DDDC' color='black' />
                         </View>
                     </View>
                 </Modal>

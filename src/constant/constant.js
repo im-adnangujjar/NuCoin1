@@ -153,13 +153,14 @@ export const input = [
     title: 'Name',
     text: 'jhon Doe'
   },
-  {
-    title: 'Email',
-    text: 'jhondoe@mail.com'
-  },
+  
   {
     title: 'Mobile Number',
     text: '+123 456 7890'
+  },
+  {
+    title: 'Email',
+    text: 'jhondoe@mail.com'
   },
   {
     title: 'Address',

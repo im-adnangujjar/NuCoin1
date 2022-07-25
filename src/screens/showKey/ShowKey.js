@@ -5,13 +5,15 @@ import Header from '../../compnent/header/Header'
 import block from '../../assets/images/Block3.png'
 import Button from '../../compnent/button/Button'
 import eye from '../../assets/icons/eye.png'
+import logo from '../../assets/images/walletlogo.png'
+
 
 const ShowKey = ({navigation}) => {
     return (
         <ScrollView style={styles.container}>
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header Nav={navigation} />
+                <Header logo={logo} nav={navigation} />
                 <View style={styles.textFlex}>
                     <Text style={styles.title}>Show Key</Text>
                     <Text>01 . 03</Text>

@@ -3,13 +3,15 @@ import React from 'react'
 import { styles } from './Wallet3Style'
 import Button from '../../compnent/button/Button'
 import Header from '../../compnent/header/Header'
+import logo from '../../assets/images/walletlogo.png'
+
 
 const Wallet3 = ({ navigation }) => {
     return (
         <ScrollView style={styles.container} >
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header nav={navigation} />
+                <Header logo={logo} nav={navigation} />
                 <View style={styles.title_flex}>
                     <Text style={styles.title}>Create Wallet</Text>
                     <Text style={styles.numbers}>03. <Text style={styles.numbers1}>03</Text></Text>

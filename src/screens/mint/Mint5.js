@@ -5,6 +5,8 @@ import Header from '../../compnent/header/Header'
 import icon from '../../assets/icons/warning.png'
 import CircularProgress from 'react-native-circular-progress-indicator'
 import Button from '../../compnent/button/Button'
+import logo from '../../assets/images/walletlogo.png'
+
 
 
 const Mint5 = ({ navigation }) => {
@@ -14,7 +16,7 @@ const Mint5 = ({ navigation }) => {
         <ScrollView style={styles.container} >
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header nav={navigation} />
+                <Header logo={logo} nav={navigation} />
                 <Text style={styles.title}>Processing Mint</Text>
                 <View style={styles.flex}>
                     <CircularProgress

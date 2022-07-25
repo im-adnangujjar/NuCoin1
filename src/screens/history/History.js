@@ -13,6 +13,9 @@ import icon from '../../assets/icons/Download_icon.png';
 import CardA from '../../compnent/card/CardA';
 import {card} from '../../constant/constant';
 import drop from '../../assets/icons/dropIcon.png';
+
+
+
 const History = ({navigation}) => {
   return (
     <ScrollView style={styles.mainContainer}>
@@ -23,7 +26,7 @@ const History = ({navigation}) => {
         <View style={styles.buttonAlign}>
           <View style={styles.bgButton}>
             <View style={styles.iconAlign}>
-              <Text>This month</Text>
+              <Text style={styles.month}>This month</Text>
               <Image source={drop} />
             </View>
           </View>

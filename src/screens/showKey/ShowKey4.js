@@ -5,13 +5,15 @@ import Header from '../../compnent/header/Header'
 import copy from '../../assets/icons/copy_icon.png'
 import Button from '../../compnent/button/Button'
 import LinearGradient from 'react-native-linear-gradient'
+import logo from '../../assets/images/walletlogo.png'
+
 
 const ShowKey4 = ({ navigation }) => {
     return (
         <ScrollView style={styles.container}>
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <Header nav={navigation} />
+                <Header logo={logo} nav={navigation} />
                 <View style={styles.flex}>
                     <Text style={styles.title}>Enter the OTP you
                         recieved in your email</Text>

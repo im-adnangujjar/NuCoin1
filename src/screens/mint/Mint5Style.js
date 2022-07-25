@@ -27,6 +27,7 @@ export const styles = StyleSheet.create({
     },
     align: {
         marginTop: 175,
+        marginBottom:50,
     },
     text: {
         fontFamily:'Poppins-Regular',
