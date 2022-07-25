@@ -12,6 +12,7 @@ import React from 'react';
 import Header from '../../compnent/header/Header';
 import block from '../../assets/images/Block2.png';
 import icon from '../../assets/icons/export.png';
+import Button from '../../compnent/button/Button'
 import IconButton from '../../compnent/button/IconButton';
 
 const CoinA = ({navigation}) => {
@@ -33,8 +34,8 @@ const CoinA = ({navigation}) => {
         </View>
         <TextInput style={styles.input} placeholder="Enter password" />
         <View style={styles.button}>
-          <IconButton
-            click={() => navigation.goBack('SendCoin')}
+          <Button
+            onPress={() => navigation.goBack('SendCoin')}
             text="Cancel"
             width="45%"
             color="black"

@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   list: {
-    fontFamily: 'bold',
+    // fontFamily: 'bold',
     fontSize: 24,
     fontWeight: '500',
     color: 'black',
@@ -15,8 +15,8 @@ export const styles = StyleSheet.create({
     backgroundColor: '#F3F2F3',
     width: 30,
     height: 30,
-    borderRadius:20,
-    justifyContent:'center',
-    alignItems:'center',
+    borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });

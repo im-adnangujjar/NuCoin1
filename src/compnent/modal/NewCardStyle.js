@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'white',
         width: '100%',
         paddingHorizontal: 30,
-        marginTop: 100,
+        marginTop: Platform.OS === 'ios' ? 100 : 70,
         borderTopLeftRadius: 35,
         borderTopRightRadius: 35,
     },

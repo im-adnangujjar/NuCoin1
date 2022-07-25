@@ -44,7 +44,8 @@ export const styles = StyleSheet.create({
         fontFamily:'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
-        marginRight: 18
+        marginRight: 18,
+        color:'black'
     },
     list: {
         fontFamily:'Poppins-Regular',
