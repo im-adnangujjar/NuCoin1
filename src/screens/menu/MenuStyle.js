@@ -67,6 +67,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
     width: '40%',
     alignItems: 'center',
+    // ljfoxcvl
   },
   text_flex: {
     flexDirection: 'row',
