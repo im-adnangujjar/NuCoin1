@@ -13,6 +13,7 @@ import Button from '../../compnent/button/Button';
 import icon1 from '../../assets/icons/eye.png';
 import flage from '../../assets/icons/flage.png';
 import IconButton from '../../compnent/button/IconButton';
+import down from '../../assets/icons/Icon.png'
 import GradientButton1 from '../../compnent/button/GradientButton1';
 
 const SignUp1 = ({navigation}) => {
@@ -34,6 +35,8 @@ const SignUp1 = ({navigation}) => {
         <View>
           <TextInput style={styles.input} placeholder="+44" />
           <Image style={styles.flage} source={flage} />
+          <Image style={styles.down}source={down}/>
+
         </View>
         <Text style={styles.lable}>Email</Text>
         <TextInput style={styles.input} placeholder="" />

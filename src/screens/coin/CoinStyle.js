@@ -10,6 +10,31 @@ export const styles = StyleSheet.create({
         marginTop: 77,
         marginBottom:51,
     },
+    title:{
+        fontFamily: 'Poppins-Bold',
+        fontSize: 24,
+        fontWeight: '700',
+       
+        color: 'black',
+    },
+    flex: {
+        marginTop:46,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+      },
+    numbers: {
+        fontFamily: 'Poppins-Medium',
+        fontSize: 18,
+        fontWeight: '500',
+        color: 'black',
+      },
+      numbers1: {
+        fontFamily: 'Poppins-Medium',
+        fontSize: 12,
+        fontWeight: '500',
+        color: 'black',
+      },
     input:{
         fontFamily:'Poppins-Regular',
         width: '100%',
@@ -28,7 +53,7 @@ export const styles = StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between',
         alignItems:'center',
-        marginTop:136,
+        marginTop:100,
         marginBottom:146
     }
 

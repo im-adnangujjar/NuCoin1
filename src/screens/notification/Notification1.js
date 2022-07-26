@@ -21,8 +21,10 @@ const Notification1 = () => {
             <Image style={styles.image} source={download} />
           </View>
           <View>
-            <Text style={styles.title}>Wallet Jhon Doe</Text>
-            <Text style={styles.title}>Minted 20 Minutes Ago</Text>
+            <Text style={styles.title}>
+              Wallet <Text style={styles.jhon}>Jhon Doe</Text>
+            </Text>
+            <Text style={styles.jhon}>Minted 20 Minutes Ago</Text>
             <Text style={styles.text}>20 Minutes Ago</Text>
           </View>
         </View>
@@ -31,9 +33,11 @@ const Notification1 = () => {
             <Image style={styles.image} source={transfer} />
           </View>
           <View>
-            <Text style={styles.title}>Account Jhon Doe Transfered .100</Text>
+            <Text style={styles.title}>
+              Account <Text style={styles.jhon}>Jhon Doe </Text>Transfered .100
+            </Text>
             <Text style={styles.title1}>
-              09 NUC To Reciever <Text>5Dy2dfhwwsaas</Text>
+              09 NUC To Reciever <Text style={styles.jhon}>5Dy2dfhwwsaas</Text>
             </Text>
             <Text style={styles.text}>20 Minutes Ago</Text>
           </View>

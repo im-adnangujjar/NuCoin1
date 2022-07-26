@@ -22,6 +22,11 @@ export const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 45,
   },
+  down: {
+    position: 'absolute',
+    bottom: 52,
+    left:30,
+  },
   numbers: {
     // font-family: Poppins;
     fontSize: 18,
@@ -49,13 +54,13 @@ export const styles = StyleSheet.create({
     fontWeight: '700',
     color: 'black',
     marginBottom: 36,
-    paddingLeft: 30,
+    paddingLeft: 50,
   },
   image: {
     position: 'absolute',
     right: 0,
     bottom: 40,
-    tintColor: 'gray',
+    tintColor: '#EAEAEA',
   },
 
   account: {

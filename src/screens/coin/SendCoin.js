@@ -15,6 +15,7 @@ import logo from '../../assets/images/walletlogo.png'
 
 import Button from '../../compnent/button/Button';
 import Navigation from '../../navigation/Navigation';
+import GradientButton1 from '../../compnent/button/GradientButton1';
 
 const SendCoin = ({navigation}) => {
   return (
@@ -35,10 +36,11 @@ const SendCoin = ({navigation}) => {
         <Text style={styles.text}>0tiewjiofj43rx023943xwq9er0890x30</Text>
         <Text style={styles.text}>r09e09wx9090w39r890</Text>
         <View style={styles.button}>
-          <Button
-            onPress={() => navigation.navigate('DashBoard')}
+          <GradientButton1
+            click={() => navigation.navigate('DashBoard')}
             text="Close"
             width="80%"
+            height={57}
           />
         </View>
       </View>

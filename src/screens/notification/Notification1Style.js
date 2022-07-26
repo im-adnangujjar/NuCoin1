@@ -30,7 +30,13 @@ export const styles = StyleSheet.create({
   title: {
     fontFamily: 'Poppins-Regular',
     fontSize: 16,
-    fontWeight: '500',
+    fontWeight: '400',
+    color: 'black',
+  },
+  jhon:{
+    fontFamily: 'Poppins-Medium',
+    fontSize: 16,
+    fontWeight: '600',
     color: 'black',
   },
   title1: {
@@ -40,7 +46,7 @@ export const styles = StyleSheet.create({
     color: 'black',
   },
   text: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 10,
     fontWeight: '400',
     color:'#646464'

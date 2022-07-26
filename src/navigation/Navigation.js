@@ -137,8 +137,8 @@ function MyTabs({ navigation }) {
                 //   initialRouteName="Feed"
                 screenOptions={{
                     // tabBarActiveTintColor: '#e91e63',
-                    tabBarLabelStyle: { fontSize: 8, fontWeight: '400' },
-                    tabBarStyle: { backgroundColor: 'white', elevation: 0, marginRight: 19, marginLeft: 19 },
+                    tabBarLabelStyle: { fontSize: 16, fontWeight: '700', fontFamily:'Poppins-Bold', },
+                    tabBarStyle: { backgroundColor: 'white', elevation: 0, marginRight: 19, marginLeft: 19  },
                 }}
                 style={{ backgroundColor: 'white', }}
 

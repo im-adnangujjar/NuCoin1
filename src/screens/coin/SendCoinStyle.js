@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
 
     },
     title: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Bold',
         fontSize: 24,
         fontWeight: '700',
         textAlign: 'center',
@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
     , image_bg: {
         width: '8%',
         height: 25,
-        backgroundColor: 'green',
+        backgroundColor: '#40C16C',
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
         marginTop: 68,
     },
     transaction: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Bold',
         fontSize: 18,
         fontWeight: '600',
         textAlign: 'center',
