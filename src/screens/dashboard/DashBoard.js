@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import React, {useState} from 'react';
-
+import { BlurView, VibrancyView } from "@react-native-community/blur";
 import {styles} from './DashBoardStyle';
 import Header from '../../compnent/header/Header';
 import sun from '../../assets/icons/sunIcon.png';
@@ -32,6 +32,7 @@ const DashBoard = ({navigation}) => {
 
   return (
     <ScrollView style={styles.container}>
+   
       <SafeAreaView />
       <View style={styles.subContainer}>
         <Header logo={logo} nav={navigation} />
@@ -82,11 +83,24 @@ const DashBoard = ({navigation}) => {
         </View>
       </View>
       <Modal
+      
         isVisible={isModalVisible}
         style={{ margin: 0}}>
         <NewCard modal={toggleModal} navigation={navigation} />
 
       </Modal>
+      {isModalVisible && <BlurView
+          style={{   position: "absolute",
+          top: 0,
+          left: 0,
+          bottom: 0,
+          right: 0}}
+          blurType="light"
+          blurAmount={10}
+          reducedTransparencyFallbackColor="white"
+       
+        />}
+      
     </ScrollView>
   );
 };

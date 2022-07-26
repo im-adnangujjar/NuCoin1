@@ -23,7 +23,12 @@ const NewCard1 = ({navigation, modal}) => {
         <WalletList modal={modal} navigation={navigation} />
       </View>
       <CardB select={select[0]} />
-      <View style={{backgroundColor: '#F3F2F3', borderRadius: 10, paddingBottom:20}}>
+      <View
+        style={{
+          backgroundColor: '#F3F2F3',
+          borderRadius: 10,
+          paddingBottom: 20,
+        }}>
         <CardB select={select[2]} toggleModal1={toggleModal2}>
           {data1.map((item, index) => {
             return (
@@ -35,8 +40,7 @@ const NewCard1 = ({navigation, modal}) => {
           <IconButton
             text="primry wallet"
             icon={icon}
-            bgColor1="white"
-            bgColor2="white"
+            colors={['white', 'white']}
             color="green"
             border="green"
           />

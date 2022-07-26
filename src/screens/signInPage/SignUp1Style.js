@@ -89,7 +89,7 @@ export const styles = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     color: '#1F62C6',
-    marginBottom:20,
+    marginBottom:50,
   },
   color: {
     color: '#7B7B7B',

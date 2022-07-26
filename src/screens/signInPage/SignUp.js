@@ -27,7 +27,9 @@ const SignIn = ({navigation}) => {
             <Text style={styles.title}>Sign up</Text>
             <Text style={styles.title}>to continue</Text>
           </View>
-          <Text>01 . 02</Text>
+          <Text style={styles.numbers}>
+            01 . <Text style={styles.numbers1}>02</Text>
+          </Text>
         </View>
         <Text style={styles.lable}>User Name</Text>
         <TextInput style={styles.input} placeholder="" />

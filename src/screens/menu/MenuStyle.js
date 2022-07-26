@@ -12,14 +12,14 @@ export const styles = StyleSheet.create({
     height: 82,
   },
   title: {
-    fontFamily: 'bold',
+    fontFamily: 'Poppins-Bold',
     fontSize: 22,
     fontWeight: '600',
     color: 'black',
     marginTop: 61,
   },
   name: {
-    fontFamily: 'bold',
+    fontFamily: 'Poppins-Bold',
     fontSize: 16,
     fontWeight: '600',
     color: 'black',

@@ -24,11 +24,11 @@ const SplashScreen = ({navigation}) => {
                 <View style={style.button_margin}>
                     <IconButton click={() => navigation.navigate('RaceDetail')} text='Start Now'/>
                 </View>
-                <View><Text style={style.text}>NuCoin by NuGenesis</Text></View>
-                <View>
+                <View><Text style={style.NuGenesis}>NuCoin by NuGenesis</Text></View>
+                {/* <View>
                     <Text style={style.agree}>I have read and agreed to</Text>
                     <Text style={style.terms}>Terms and Conditions <Text style={style.color}>and </Text>Privacy Policy</Text>
-                </View>
+                </View> */}
             </View>
         </ScrollView>
     )

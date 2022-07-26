@@ -4,6 +4,7 @@ export const style = StyleSheet.create({
 
     container: {
         flex: 1,
+        // marginBottom:100,
 
     },
     Text: {
@@ -23,7 +24,7 @@ export const style = StyleSheet.create({
 
     },
     nuCion: {
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Poppins-Bold',
         fontSize: 30,
         fontWeight: '700',
         lineHeight: 45,
@@ -70,7 +71,16 @@ export const style = StyleSheet.create({
         textAlign: 'center',
         color: '#1F62C6',
         marginBottom: 20,
-
+    },
+    NuGenesis:{
+        fontFamily:'Poppins-Regular',
+        fontSize: 14,
+        fontWeight: '400',
+        lineHeight: 21,
+        width: 214,
+        textAlign: 'center',
+        color: '#7B7B7B',
+        marginBottom:100,
     },
     color: {
         color: '#7B7B7B',

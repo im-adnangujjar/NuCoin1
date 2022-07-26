@@ -18,7 +18,7 @@ function IconButton(props) {
     },
     button_text: {
       color: props.color || 'white',
-      fontFamily:'bold',
+      fontFamily:'Poppins-Bold',
     },
     image: {
       tintColor: props.iconColor || 'green',
@@ -30,7 +30,7 @@ function IconButton(props) {
       <LinearGradient
         start={{x: 1, y: 2}}
         end={{x: 0, y: 0}}
-        colors={props.bgColor1 && props.bgColor2 ?  [props.bgColor1,props.bgColor2] : ['#508ADF', '#1E61C6']}
+        colors={props.colors ?  props.colors : ['#508ADF', '#1E61C6']}
         style={styles.linearGradient}>
         <Image style={styles.image} source={props.icon} />
         <Text style={styles.button_text}>{props.text}</Text>

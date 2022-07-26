@@ -27,7 +27,7 @@ const SignUp1 = ({navigation}) => {
             <Text style={styles.title}>to continue</Text>
           </View>
           <Text style={styles.numbers}>
-            01 . <Text style={styles.numbers2}>02</Text>
+            02 . <Text style={styles.numbers2}>02</Text>
           </Text>
         </View>
         <Text style={styles.lable}>Phone Number</Text>

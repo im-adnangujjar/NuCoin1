@@ -7,6 +7,8 @@ export const styles = StyleSheet.create({
     },
 
     title: {
+        fontFamily:'Poppins-Bold',
+        color:'black',
         fontSize: 30,
         fontWeight: '700',
         marginBottom: 10
@@ -82,7 +84,6 @@ export const styles = StyleSheet.create({
         lineHeight: 18,
         color: '#1F62C6',
         textAlign: 'center',
-        // marginTop:6,
-        // marginBottom:106
+        marginBottom:100,
     },
 })

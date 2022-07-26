@@ -40,8 +40,8 @@ const Profile = ({navigation}) => {
           <View style={styles.button}>
             <GradientButton1
               click={() => navigation.navigate('DashBoard')}
-              text="LogIn"
-              width={261}
+              text="Log In"
+              width='100%'
             />
           </View>
           <Text style={styles.user}>New User?</Text>
