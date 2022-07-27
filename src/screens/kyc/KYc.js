@@ -9,8 +9,8 @@ import { kycData } from '../../constant/constant'
 
 const KYc = () => {
     return (
-        <View>
-            <ScrollView style={styles.container}>
+        <View style={styles.container}>
+            <ScrollView >
                 <SafeAreaView />
                 <View style={styles.subContainer}>
                     {/* <HeaderA title='kyc' /> */}

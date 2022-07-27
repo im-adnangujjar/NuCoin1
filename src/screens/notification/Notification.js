@@ -13,7 +13,9 @@ const Notification = () => {
                     <Image style={styles.image} source={image} />
                 </View>
                 <Text style={styles.text}>Currently, there is no  notification</Text>
+           
             </View>
+
         </ScrollView>
     )
 }

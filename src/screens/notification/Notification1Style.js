@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   subContainer: {
-    marginHorizontal: 40,
+    // marginHorizontal: 40,
   },
   image: {
     tintColor: 'black',

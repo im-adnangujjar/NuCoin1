@@ -35,6 +35,7 @@ import Mint3 from '../screens/mint/Mint3'
 import Mint4 from '../screens/mint/Mint4'
 import Mint5 from '../screens/mint/Mint5'
 import KycText from '../compnent/kycText/kycText'
+import NotificationTabView from '../screens/notification/NotificationTabView';
 import KycUpload from '../screens/kyc/KycUpload'
 import SelectCard from '../compnent/card/SelectCard'
 import PersonalInformation from '../screens/personalInformation/PersonalInformation'
@@ -66,7 +67,10 @@ function Navigation() {
                 <Stack.Screen name="DashBoard" component={DashBoard} />
                 <Stack.Screen name="profile" component={Menu} />
                 <Stack.Screen name="PersonalInformation" component={PersonalInformation} />
-                <Stack.Screen name="Notification" component={MyTabs} />
+                <Stack.Screen name="Notification" component={NotificationTabView} />
+                <Stack.Screen name="Notifications" component={Notification} />
+                <Stack.Screen name="Notification1" component={Notification1} />
+                <Stack.Screen name="Notification2" component={Notification2} />
                 <Stack.Screen name="History" component={History} />
                 <Stack.Screen name="Coin" component={Coin} />
                 <Stack.Screen name="CoinA" component={CoinA} />
@@ -127,40 +131,44 @@ function Tabs({ navigation }) {
         </>
     );
 }
-function MyTabs({ navigation }) {
-    return (
-        < >
-            <View style={{ paddingLeft: 19, backgroundColor: 'white', paddingBottom: 67 }}>
-                <HeaderA title='Kyc' Nav={navigation} />
-            </View>
-            <Tab.Navigator
-                //   initialRouteName="Feed"
-                screenOptions={{
-                    // tabBarActiveTintColor: '#e91e63',
-                    tabBarLabelStyle: { fontSize: 16, fontWeight: '700', fontFamily:'Poppins-Bold', },
-                    tabBarStyle: { backgroundColor: 'white', elevation: 0, marginRight: 19, marginLeft: 19  },
-                }}
-                style={{ backgroundColor: 'white', }}
+// function MyTabs({ navigation }) {
+//     return (
+//         < >
+//             <View style={{ paddingLeft: 19, backgroundColor: 'white', paddingBottom: 67 }}>
+//                 <HeaderA title='Kyc' Nav={navigation} />
+//             </View>
+//             <Tab.Navigator
+//               initialRouteName="Home"
+//               activeColor="#f0edf6"
+//               inactiveColor="#3e2465"
+//               barStyle={{ paddingBottom: 60 }}
+             
 
-            >
-                <Tab.Screen
-                    name="Feed"
-                    component={Notification}
-                    options={{ tabBarLabel: 'Announcements' }}
-                />
-                <Tab.Screen
-                    name="Notifications"
-                    component={Notification1}
-                    options={{ tabBarLabel: 'All' }}
-                />
-                <Tab.Screen
-                    name="trdfg"
-                    component={Notification2}
-                    options={{ tabBarLabel: 'Unread' }}
-                />
+//             >
+//                 <Tab.Screen
+//                     name="Feed"
+//                     component={Notification}
+//                     options={{ tabBarLabel: 'Announcements' }}
+//                 />
+//                 <Tab.Screen
 
-            </Tab.Navigator>
-        </>
+//                     name="Notifications"
+//                     component={Notification1}
+//                     options={{
+//                         tabBarLabel: 'All',
+//                         tabBarIcon: ({ color }) => (
+//                           <View style={{backgroundColor:'47CED3',width:17, height:17, borderRadius:20,}}><Text>2</Text></View>
+//                         ),
+//                       }}
+//                 />
+//                 <Tab.Screen
+//                     name="trdfg"
+//                     component={Notification2}
+//                     options={{ tabBarLabel: 'Unread' }}
+//                 />
 
-    );
-}
+//             </Tab.Navigator>
+//         </>
+
+//     );
+// }

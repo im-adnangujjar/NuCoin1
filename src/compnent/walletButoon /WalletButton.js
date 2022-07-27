@@ -13,11 +13,16 @@ const WalletButton = ({ item }) => {
       justifyContent: 'center',
       alignItems: 'center',
       marginBottom: 11
+    },
+    text:{
+      fontSize:14,
+      fontFamily:'Poppins-Medium',
+      fontWeight:'500',
     }
   })
   return (
     <View style={styles.button}>
-      <Text>{item.title}</Text>
+      <Text style={styles.text}>{item.title}</Text>
     </View>
   )
 }

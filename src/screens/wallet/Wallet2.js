@@ -22,10 +22,10 @@ export default function Wallet2({ navigation }) {
         <Header logo={logo} nav={navigation}/>
         <View style={styles.display}>
         <Text style={styles.title}>Create Wallet</Text>
-        <Text style={styles.numbers}>01 .<Text style={styles.numbers1}>03</Text></Text>
+        <Text style={styles.numbers}>02.<Text style={styles.numbers1}>03</Text></Text>
         </View>
      
-        <LinearGradient start={{ x: 0, y: -1 }} end={{ x: 1, y: 1 }} colors={['#ECB8B8', '#FFFFFF']} style={styles.linearGradient}>
+        <LinearGradient start={{ x: -4, y: -2.5 }} end={{ x: 1, y: 0.5 }} colors={['#ECB8B8', '#FFFFFF']} style={styles.linearGradient}>
           <View  style={styles.bgColor}>
           <Image  source={warning} />
 

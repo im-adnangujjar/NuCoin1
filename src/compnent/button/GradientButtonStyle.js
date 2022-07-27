@@ -13,7 +13,8 @@ export const styles = StyleSheet.create({
     button_align:{
         flexDirection:'column',
         alignItems:'center',
-        justifyContent:'center',color:'white'
+        justifyContent:'center',
+        color:'white'
     },
     linearGradient:{
 borderRadius:10
@@ -21,7 +22,8 @@ borderRadius:10
     button_text:{
         color:'white',
         fontSize:12,
-        fontWeight:'500'
+        fontWeight:'500',
+        marginTop:8,
     }
 
 })

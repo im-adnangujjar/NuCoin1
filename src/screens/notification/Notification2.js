@@ -4,7 +4,7 @@ import { styles } from './NotificationStyle'
 import HeaderA from '../../compnent/header/HeaderA'
 import image from '../../assets/images/notification-off.png'
 
-const Notification = () => {
+const Notification2 = () => {
     return (
         <ScrollView style={styles.container} >
             <SafeAreaView />
@@ -17,4 +17,4 @@ const Notification = () => {
         </ScrollView>
     )
 }
-export default Notification
+export default Notification2
