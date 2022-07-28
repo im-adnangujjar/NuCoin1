@@ -37,13 +37,13 @@ const DashBoard = ({navigation}) => {
         <View style={styles.image_flex}>
           <View>
             <View style={styles.flex}>
-              <Image source={sun} />
+              <Image style={styles.sun} source={sun} />
               <Text style={styles.morning}>Good Morning</Text>
             </View>
             <Text style={styles.name}>Jhon Doe</Text>
           </View>
           <TouchableOpacity onPress={() => navigation.navigate('Wallet')}>
-            <Image source={wallet} />
+            <Image style={styles.walletImage} source={wallet} />
           </TouchableOpacity>
         </View>
         <View style={styles.image_flex}>
@@ -52,7 +52,7 @@ const DashBoard = ({navigation}) => {
             <TouchableOpacity onPress={toggleModal}>
               <Text style={styles.title}>See All</Text>
             </TouchableOpacity>
-            <Image source={more} />
+            <Image style={styles.more} source={more} />
           </View>
         </View>
         <View style={styles.card}>
@@ -71,7 +71,7 @@ const DashBoard = ({navigation}) => {
             <TouchableOpacity onPress={() => navigation.navigate('History')}>
               <Text style={styles.title}>See All</Text>
             </TouchableOpacity>
-            <Image source={more} />
+            <Image style={styles.more} source={more} />
           </View>
         </View>
         <View style={styles.card}>

@@ -20,7 +20,7 @@ const Card = () => {
                         <Text style={styles.title}>02-10-2022 | 08:08:20 am</Text>
                         <Text style={styles.title1}>Balance</Text>
                         <View style={styles.image_flex}>
-                            <Image source={coin} />
+                            <Image style={styles.coinImage} source={coin} />
                             <Text style={styles.coin}>607380.920 NUC</Text>
                         </View>
                         <Text style={styles.title}>Mint Session: 02-10-2022 | 08:08:20 am</Text>

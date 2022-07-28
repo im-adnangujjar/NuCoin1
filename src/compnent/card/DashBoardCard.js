@@ -10,7 +10,7 @@ const DashBoardCard= ({dashboard}) => {
             <View style={styles.card}>
                 <View style={styles.subContainer}>
                     <View style={styles.image}>
-                        <Image source={dashboard.image} />
+                        <Image style={styles.imageTransfar}source={dashboard.image} />
                     </View>
                     <View style={styles.container_margin}>
                         <View style={styles.flex}>

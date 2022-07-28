@@ -9,12 +9,12 @@ const Header = (props) => {
     return (
         <View style={styles.bar}>
             <Image source={props.logo} />
-            <View style={styles.image}>
+            <View style={styles.images}>
                 <TouchableOpacity onPress={() => props.nav.navigate('Notification')}>
                     <Image style={styles.image_margin} source={icon1} />
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => props.nav.navigate('profile')}>
-                    <Image source={image} />
+                    <Image style={styles.image} source={image} />
                 </TouchableOpacity>
 
             </View>

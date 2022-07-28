@@ -19,6 +19,10 @@ export const styles = StyleSheet.create({
   linearGradient: {
     borderRadius: 10,
   },
+  iconSize:{
+width:18,
+height:21,
+  },
   button_text: {
     color: 'white',
     fontSize: 12,

@@ -33,6 +33,10 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         width:'79%'
     },
+    imageTransfar:{
+width:13,
+height:17,
+    },
     container_margin: {
         marginLeft: 17
     },

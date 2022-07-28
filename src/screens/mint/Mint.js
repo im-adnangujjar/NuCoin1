@@ -17,7 +17,8 @@ const Mint = ({ navigation }) => {
         setModalVisible(!isModalVisible);
     };
     return (
-        <ScrollView style={styles.container}>
+        <View style={styles.container}>
+        <ScrollView showsVerticalScrollIndicator={false}>
             <SafeAreaView />
             <View style={styles.subContainer}><Header logo={logo} nav={navigation} />
                 <View style={styles.flex}>
@@ -67,6 +68,7 @@ const Mint = ({ navigation }) => {
 
 
         </ScrollView>
+        </View>
     )
 }
 
