@@ -16,13 +16,13 @@ export const styles = StyleSheet.create({
         color:'black',
     },
     numbers: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Medium',
         fontSize: 18,
         fontWeight: '500',
         color: 'black',
     },
     numbers1: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Medium',
         fontSize: 12,
         fontWeight: '500',
     },

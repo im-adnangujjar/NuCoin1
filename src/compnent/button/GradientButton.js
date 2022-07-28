@@ -5,7 +5,6 @@ import LinearGradient from 'react-native-linear-gradient';
 
 
 const GradientButton = ({ item, title, ...props }) => {
-    // console.log('this is item', item);
     const clickable = item.click
     return (
         <TouchableOpacity onPress={() => title.navigate(clickable && clickable)}>

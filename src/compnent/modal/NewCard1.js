@@ -9,6 +9,7 @@ import icon from '../../assets/icons/check.png';
 import GradientButton from '../button/GradientButton';
 
 const NewCard1 = ({navigation, modal ,closeModal}) => {
+console.log('closeModal',closeModal);
   const toggleModal2 = () => {
     navigation.navigate('ShowKey');
   };

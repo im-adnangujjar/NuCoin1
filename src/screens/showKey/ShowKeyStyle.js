@@ -20,6 +20,17 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         marginTop: 39
     },
+    numbers: {
+        fontFamily:'Poppins-Medium',
+        fontSize: 18,
+        fontWeight: '500',
+        color: 'black',
+    },
+    numbers1: {
+        fontFamily:'Poppins-Medium',
+        fontSize: 12,
+        fontWeight: '500',
+    },
     imageBg: {
         width: 138,
         height: 134,

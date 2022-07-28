@@ -14,13 +14,13 @@ export const styles = StyleSheet.create({
         color: 'black'
     },
     numbers: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Medium',
         fontSize: 18,
         fontWeight: '500',
         color: 'black'
     },
     numbers1: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Medium',
         fontSize: 12,
         fontWeight: '500',
         color: 'black',
@@ -83,27 +83,28 @@ export const styles = StyleSheet.create({
         tintColor: 'white'
     },
     modalText: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Medium',
         fontSize: 16,
         fontWeight: '500',
         color: 'black',
-        marginLeft:'16%',
-        marginRight:'14%',
+        marginLeft:50,
+        marginRight:50,
         marginTop:27,
     },
     button1: {
+        width:'80%',
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         marginTop: 30,
         marginBottom:54,
-        marginLeft:10,
-        marginRight:10,
+        marginLeft:50,
+        marginRight:30,
     },
     align:{
         flexDirection:'row',
         justifyContent:"flex-end",
-        marginRight:30,
+        marginRight:20,
         marginTop:18,
         marginBootm:50,
     }

@@ -31,7 +31,7 @@ function GradientButton1(props) {
       <LinearGradient
         start={{x: 1, y: 2}}
         end={{x: 0, y: 0}}
-        colors={props.colors || ['#508ADF', '#1E61C6']}
+        colors={props.colors ?  props.colors : ['#508ADF', '#1E61C6']}
         style={styles.linearGradient}>
         {/* <Image style={styles.image} source={props.image} /> */}
         <Text style={styles.button_text}>{props.text}</Text>

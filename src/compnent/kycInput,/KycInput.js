@@ -5,7 +5,7 @@ import {styles} from './KycInputStyle'
 const KycInput = ({kycData}) => {
   return (
     <View>
-      <TextInput style={styles.input} placeholder={kycData.title}/>
+      <TextInput style={[styles.input, styles.inputText]} placeholder={kycData.title} placeholderTextColor={'black'}/>
     </View>
   )
 }

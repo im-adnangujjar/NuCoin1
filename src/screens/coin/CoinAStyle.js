@@ -61,7 +61,7 @@ export const styles = StyleSheet.create({
     color: 'black',
   },
   input: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     width: '100%',
     height: 58,
     borderColor: '#000000',
