@@ -8,9 +8,7 @@ import IconButton from '../button/IconButton';
 import icon from '../../assets/icons/check.png';
 import GradientButton from '../button/GradientButton';
 
-const NewCard1 = ({navigation, modal}) => {
-  const [isModalVisible2, setModalVisible2] = useState(false);
-
+const NewCard1 = ({navigation, modal ,closeModal}) => {
   const toggleModal2 = () => {
     navigation.navigate('ShowKey');
   };
@@ -29,7 +27,7 @@ const NewCard1 = ({navigation, modal}) => {
           borderRadius: 10,
           paddingBottom: 20,
         }}>
-        <CardB select={select[2]} toggleModal1={toggleModal2}>
+        <CardB select={select[2]} toggleModal1={toggleModal2} close={closeModal}>
           {data1.map((item, index) => {
             return (
               <GradientButton title={navigation} key={index} item={item} />

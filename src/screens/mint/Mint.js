@@ -23,12 +23,12 @@ const Mint = ({ navigation }) => {
                     <Text style={styles.numbers}> 01 . <Text style={styles.numbers1}>03</Text></Text>
                 </View>
                 <View >
-                    <TextInput style={styles.input} placeholder='Enter password' />
+                    <TextInput style={styles.input} placeholder='Enter Password' />
                     <Image style={styles.icon} source={eye} />
                 </View>
                 <Text style={styles.text}>Reset Password</Text>
                 <View style={styles.button}>
-                    <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancal' width='45%' bgColor='white' color='black' />
+                    <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancel' width='45%' bgColor='white' color='black' />
                     <Button  onPress={toggleModal} text='Mint' width='45%' bgColor='#34DDDC' color='black' />
                 </View>
                 <Modal isVisible={isModalVisible}>
@@ -40,7 +40,7 @@ const Mint = ({ navigation }) => {
                         </TouchableOpacity>
                         <Text style={styles.modalText}>Please retrieve and enter your mnemonics in the same order when you created this wallet.</Text>
                         <View style={styles.button1}>
-                            <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancal' width='45%' bgColor='white' color='black' />
+                            <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancel' width='45%' bgColor='white' color='black' />
                             <Button  onPress={() => {
                                 setModalVisible(false)
                                 navigation.navigate('Mint2')

@@ -37,7 +37,7 @@ const Mint3 = ({ navigation }) => {
         </View>
         <Button onPress={()=>navigation.navigate('Wallet2')}text='Load Mnemonic' width='100%' bgColor='#282B33' />
         <View style={styles.button}>
-          <Button  onPress={()=>navigation.goBack('Mint4')}text='Cancal' bgColor='white' color='black' width='45%' />
+          <Button  onPress={()=>navigation.goBack('Mint4')}text='Cancel' bgColor='white' color='black' width='45%' />
           <Button  onPress={()=>navigation.navigate('Mint4')}text='Continue' width='45%' bgColor='#34DDDC' />
         </View>
 

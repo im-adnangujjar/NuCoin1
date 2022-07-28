@@ -8,7 +8,7 @@ const walletList = ({navigation,modal}) => {
   console.log('navigate',navigation);
   return (
     <View style={styles.container}>
-      <Text style={styles.list}>WalletList</Text>
+      <Text style={styles.list}>Wallet List</Text>
       <View style={styles.iconBg}>
         
       <TouchableOpacity onPress={modal}>

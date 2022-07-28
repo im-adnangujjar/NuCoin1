@@ -25,7 +25,7 @@ const ShowKey = ({navigation}) => {
                     </View>
                 </View>
                 <View>
-                    <TextInput style={styles.input} placeholder="Enter password" />
+                    <TextInput style={styles.input} placeholder="Enter Password" />
                     <Image  style={styles.image} source={eye} />
                 </View>
                 <View style={styles.button}>

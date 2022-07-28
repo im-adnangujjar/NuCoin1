@@ -16,7 +16,7 @@ const LastWallet = ({navigation}) => {
             <View style={styles.subContainer}>
               <Header logo={logo} nav={navigation}/>
 
-                <Text style={styles.text}>Congratulation</Text>
+                <Text style={styles.text}>Congratulation!</Text>
                 <View style={styles.image_center}>
                     <Image source={wallet} />
                 </View>

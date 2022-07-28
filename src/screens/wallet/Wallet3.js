@@ -43,7 +43,7 @@ const Wallet3 = ({navigation}) => {
         <View style={styles.button_flex}>
           <Button
             onPress={() => navigation.goBack('LastWallet')}
-            text="Cancal"
+            text="Cancel"
             width="45%"
             height={54}
             bgColor="white"

@@ -18,6 +18,7 @@ const WalletButton = ({ item }) => {
       fontSize:14,
       fontFamily:'Poppins-Medium',
       fontWeight:'500',
+      color:'black'
     }
   })
   return (

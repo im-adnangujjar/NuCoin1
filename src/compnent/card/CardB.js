@@ -3,9 +3,10 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
 import { styles } from './CardBStyle'
 
 
-const CardB = ({ select, toggleModal1,children }) => {
-    console.log('are you select', select);
+const CardB = ({ select, toggleModal1,children,close }) => {
+    // console.log('are you select', select);
     // console.log('toggal1', toggleModal1);
+    // console.log('close',close)
 
     return (
         <View style={styles.bgColor}>
@@ -17,7 +18,7 @@ const CardB = ({ select, toggleModal1,children }) => {
                             <Text style={styles.title}>{select.title}</Text>
                             <Text style={styles.text}>{select.date}</Text>
                         </View>
-                        <TouchableOpacity onPress={toggleModal1}>
+                        <TouchableOpacity onPress={toggleModal1} >
                             <View style={{backgroundColor:select.bgColor,borderRadius:20,width:32,height:32,flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
                                 <Image style={styles.icon} source={select.icon1} />
                             </View>

@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   subContainer: {
-    marginHorizontal: 24,
+    marginHorizontal: 20,
   },
   bar: {
     flexDirection: 'row',
@@ -23,11 +23,12 @@ export const styles = StyleSheet.create({
     fontFamily: 'Poppins-Bold',
     fontSize: 24,
     fontWeight: '700',
-    color:'black',
+    color: 'black',
+    lineHeight:36,
   },
   color: {
     borderRadius: 5,
-    marginTop:28,
+    marginTop: 28,
   },
   bgColor: {
     height: 156,
@@ -42,10 +43,10 @@ export const styles = StyleSheet.create({
     fontFamily: 'Poppins-medium',
     fontSize: 18,
     fontWeight: '500',
-    color:'black'
+    color: 'black',
   },
   numbers1: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-medium',
     fontSize: 12,
     fontWeight: '500',
     color: '#030303',
@@ -64,7 +65,8 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: '400',
     lineHeight: 18,
-    marginTop:9,
+    marginTop: 9,
+    color: 'black',
   },
   button_align: {
     flexDirection: 'row',
@@ -79,7 +81,7 @@ export const styles = StyleSheet.create({
     marginTop: 46,
   },
   copy: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 14,
     fontWeight: '500',
     color: 'black',

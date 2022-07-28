@@ -27,12 +27,13 @@ export default function Wallet({navigation}) {
         <View style={styles.display}>
           <Text style={styles.title}>Create Wallet</Text>
           <Text style={styles.numbers}>
-            01 .<Text style={styles.numbers1}>03</Text>
+            01. <Text style={styles.numbers1}>03</Text>
           </Text>
         </View>
         <LinearGradient
           style={styles.color}
-          start={{ x: -4, y: -2.5 }} end={{ x: 1, y: 0.5 }}
+          start={{x: -4, y: -2.5}}
+          end={{x: 1, y: 0.5}}
           colors={['#ECB8B8', '#FFFFFF']}>
           <View style={styles.bgColor}>
             <Image source={warning} />
@@ -49,7 +50,7 @@ export default function Wallet({navigation}) {
           })}
         </View>
         <View style={styles.text_flex}>
-          <Text styles={styles.copy}>Copy to Clipboard</Text>
+          <Text style={styles.copy}>Copy to Clipboard</Text>
           <Image style={styles.icon} source={copy} />
         </View>
         <View style={styles.button}>

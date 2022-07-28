@@ -16,8 +16,10 @@ function Button(props) {
             alignItems:'center'
         },
         button_text:{
-            color:props.color||'white',
-            fontFamily:'Poppins-Medium',
+            color: props.color || 'white',
+            fontFamily: 'Poppins-Medium',
+            fontSize: 16,
+            fontWeight: '500',
                 }
     })
     return (

@@ -41,7 +41,7 @@ export const styles = StyleSheet.create({
   },
   numbers1: {
     fontFamily: 'Poppins-Medium',
-    Weight: '500',
+    fontWeight: '500',
     fontSize: 12,
     color:'black'
   },
