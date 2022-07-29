@@ -21,7 +21,7 @@ const UploadImage= ({navigation}) => {
                 {
                     upload.map((item, index) => {
                         return (
-                            <UploadImages upload={item} />
+                            <UploadImages photoWarning={true} upload={item} />
                         )
                     })
                 }

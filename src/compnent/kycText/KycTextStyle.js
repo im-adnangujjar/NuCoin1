@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     marginRight: 18,
   },
   descripation: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 12,
     fontWeight: '400',
     color: 'black',
