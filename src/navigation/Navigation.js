@@ -24,7 +24,7 @@ import ShowKey3 from '../screens/showKey/ShowKey3'
 import ShowKey4 from '../screens/showKey/ShowKey4'
 import Kyc from '../screens/kyc/KYc'
 import Kyc1 from '../screens/kyc/Kyc1';
-import UploadImage from '../screens/kyc/UploadImage'
+import  Verification from '../screens/kyc/ Verification'
 import Notification from '../screens/notification/Notification'
 import Notification1 from '../screens/notification/Notification1'
 import Notification2 from '../screens/notification/Notification2'
@@ -36,9 +36,15 @@ import Mint4 from '../screens/mint/Mint4'
 import Mint5 from '../screens/mint/Mint5'
 import KycText from '../compnent/kycText/kycText'
 import NotificationTabView from '../screens/notification/NotificationTabView';
-import KycUpload from '../screens/kyc/KycUpload'
 import SelectCard from '../compnent/card/SelectCard'
 import PersonalInformation from '../screens/personalInformation/PersonalInformation'
+import Address from '../screens/kyc/Address'
+import PersonalDetails from '../screens/kyc/PersonalDetails'
+import UploadData from '../screens/kyc/UploadData'
+import UploadImage from '../screens/kyc/UploadImage'
+
+
+ import check from '../assets/icons/check.png'
 
 
 
@@ -85,6 +91,14 @@ function Navigation() {
                 <Stack.Screen name="Mint4" component={Mint4} />
                 <Stack.Screen name="Mint5" component={Mint5} />
                 <Stack.Screen name="Kyc" component={Tabs} />
+                <Stack.Screen name="personalDetails" component={PersonalDetails}/>
+                <Stack.Screen name="address" component={Address}/>
+                <Stack.Screen name="UploadData" component={UploadData}/>
+                <Stack.Screen name=" Verification" component={ Verification}/>
+                <Stack.Screen name="UploadImage" component={UploadImage}/>
+                
+
+
             </Stack.Navigator>
         </NavigationContainer>
     );
@@ -99,7 +113,7 @@ function Tabs({ navigation }) {
             <View style={{ paddingLeft: 19, backgroundColor: 'white', paddingBottom: 40 }}>
                 <HeaderA title='Kyc' Nav={navigation} />
                 
-                <KycText />
+                <KycText image={check} bgColor='#40C16C'/>
             </View>
             <Tab.Navigator
                
@@ -123,7 +137,7 @@ function Tabs({ navigation }) {
                 />
                 <Tab.Screen
                     name="trdfg"
-                    component={UploadImage}
+                    component={Verification}
                     options={{ tabBarLabel: 'IDs`' }}
                 />
 

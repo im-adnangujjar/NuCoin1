@@ -59,7 +59,7 @@ const Menu = ({navigation}) => {
             <View style={styles.icon_bg}>
               <Image style={styles.user} source={user} />
             </View>
-            <TouchableOpacity onPress={() => navigation.navigate('Kyc')}>
+            <TouchableOpacity onPress={() => navigation.navigate('personalDetails')}>
               <Text style={styles.kycText}>KYC</Text>
             </TouchableOpacity>
           </View>

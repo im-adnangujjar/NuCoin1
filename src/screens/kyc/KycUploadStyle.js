@@ -15,10 +15,14 @@ export const styles = StyleSheet.create({
         color: 'black',
         marginTop:25,
     },
+    text:{
+color:'FF2626'
+    },
     button: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        marginTop: 49
+        marginTop: 49,
+        marginBottom:70,
     },
 })

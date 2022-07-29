@@ -10,14 +10,14 @@ const UploadImages = ({ upload }) => {
             <View style={styles.bgColor}>
                 <View style={styles.iconflex}>
                     <View style={styles.flex}>
-                        <Image source={upload.img} />
+                        <Image style={styles.image} source={upload.img} />
                         <View>
                             <Text style={styles.title}>{upload.title1}</Text>
                             <Text style={styles.title}>{upload.text}</Text>
                         </View>
                     </View>
                     <View style={styles.iconBg}>
-                        <Image source={upload.icon} />
+                        <Image style={styles.icon} source={upload.icon} />
                     </View>
                 </View>
             </View>
