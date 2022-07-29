@@ -20,7 +20,7 @@ const Mint3 = ({ navigation }) => {
         <Text style={styles.title}>Confirm Mnemonic</Text>
         <View style={styles.imageCenter}>
           <View style={styles.imagBg}>
-            <Image source={block} />
+            <Image style={styles.blockImage} source={block} />
           </View>
         </View>
         <View style={styles.button_align}>

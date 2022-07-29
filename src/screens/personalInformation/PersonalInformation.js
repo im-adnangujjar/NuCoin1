@@ -26,7 +26,7 @@ const PersonalInformation = ({navigation}) => {
         <View style={styles.display}>
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <View style={styles.iconBg}>
-              <Image source={icon} />
+              <Image style={styles.leftArrow} source={icon} />
             </View>
           </TouchableOpacity>
           <View style={styles.iconBg1}>
@@ -49,7 +49,7 @@ const PersonalInformation = ({navigation}) => {
           <View style={styles.iconFlex}>
             <Text style={styles.update}>Update Account Password</Text>
             <View style={styles.moreIconBg}>
-              <Image source={more} />
+              <Image style={styles.moreIcon} source={more} />
             </View>
           </View>
         </View>

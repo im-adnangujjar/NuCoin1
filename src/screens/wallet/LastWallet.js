@@ -18,7 +18,7 @@ const LastWallet = ({navigation}) => {
 
                 <Text style={styles.text}>Congratulation!</Text>
                 <View style={styles.image_center}>
-                    <Image source={wallet} />
+                    <Image style={styles.walletLogo} source={wallet} />
                 </View>
                 <Text style={styles.title}>Your wallet with the name </Text>
                 <Text style={styles.title}><Text style={styles.jone}>Jhon Doe</Text> is created successfully</Text>

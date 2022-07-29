@@ -35,6 +35,10 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignContent: 'center',
   },
+  walletLogo: {
+    width: 183,
+    height: 183,
+  },
   jone: {
     color: '#40C16C',
     fontFamily: 'Poppins-SemiBold',

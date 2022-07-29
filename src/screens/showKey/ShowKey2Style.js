@@ -13,6 +13,10 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop: 105,
     },
+    walletLogo:{
+        width:183,
+        height:183,
+    },
     description: {
         fontFamily:'Poppins-Regular',
         width: '100%',

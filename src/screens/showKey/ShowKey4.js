@@ -43,7 +43,7 @@ const ShowKey4 = ({navigation}) => {
         </LinearGradient>
         <View style={styles.align}>
           <Text style={styles.text}>Copy to Clipboard</Text>
-          <Image source={copy} />
+          <Image style={styles.copyIcon} source={copy} />
         </View>
         <GradientButton1
           click={() => navigation.navigate('DashBoard')}

@@ -26,11 +26,11 @@ const SendCoin = ({navigation}) => {
         <View style={styles.flex}>
           <Text style={styles.title}>Transaction Success</Text>
           <View style={styles.image_bg}>
-            <Image source={check} />
+            <Image style={styles.check} source={check} />
           </View>
         </View>
         <View style={styles.image}>
-          <Image source={logo1} />
+          <Image style={styles.logo1}source={logo1} />
         </View>
         <Text style={styles.transaction}>Your transaction hash</Text>
         <Text style={styles.text}>0tiewjiofj43rx023943xwq9er0890x30</Text>

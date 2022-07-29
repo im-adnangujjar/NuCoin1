@@ -27,7 +27,7 @@ export default function Wallet2({ navigation }) {
      
         <LinearGradient start={{ x: -4, y: -2.5 }} end={{ x: 1, y: 0.5 }} colors={['#ECB8B8', '#FFFFFF']} style={styles.linearGradient}>
           <View  style={styles.bgColor}>
-          <Image  source={warning} />
+          <Image style={styles.warning} source={warning} />
 
             <Text style={styles.descripation}>PLease copy down the mnemonic for you new account below. If you loose these mnemonics, you will risk loosing your coins (wealth). You will have to confirm the mnemonic on the text sceen</Text></View>
         </LinearGradient>

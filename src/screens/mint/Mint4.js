@@ -31,7 +31,7 @@ const Mint4 = ({navigation}) => {
         <View style={styles.imageCenter}>
           <View style={styles.imageBg}>
             <View style={styles.image}>
-              <Image source={block} />
+              <Image style={styles.blockImage} source={block} />
             </View>
           </View>
         </View>

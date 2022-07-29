@@ -28,8 +28,12 @@ const Coin = ({navigation}) => {
             0.1 <Text style={styles.numbers1}>0.3</Text>{' '}
           </Text>
         </View>
-        <View style={styles.image}>
-          <Image source={block} />
+        <View style={styles.imageCenter}>
+          <View style={styles.imageBg}>
+            <View style={styles.image}>
+              <Image style={styles.blockImage} source={block} />
+            </View>
+          </View>
         </View>
         <TextInput style={styles.input} placeholder="Enter Reciever Address" />
         <TextInput style={styles.input} placeholder="Enter Amount" />

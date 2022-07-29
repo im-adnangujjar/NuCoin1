@@ -50,10 +50,14 @@ export const styles = StyleSheet.create({
         justifyContent: 'flex-end',
         position: 'absolute',
         right: 0,
-        bottom: 20,
+        bottom: 15,
+        width:24,
+        height:24,
     },
     iconImage: {
         tintColor: 'gray',
+        width:20,
+        height:14,
     },
     forget: {
         fontFamily:'Poppins-Regular',

@@ -23,6 +23,10 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  blockImage: {
+    width: 128,
+    height: 117,
+  },
   imageCenter: {
     flexDirection: 'row',
     justifyContent: 'center',

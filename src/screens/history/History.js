@@ -26,7 +26,7 @@ const History = ({navigation}) => {
         <View style={styles.bar}>
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <View style={styles.iconBg}>
-              <Image source={icon2} />
+              <Image style={styles.leftArrow} source={icon2} />
             </View>
           </TouchableOpacity>
           <View style={styles.image1}>
@@ -35,7 +35,7 @@ const History = ({navigation}) => {
               <Image style={styles.image_margin} source={icon1} />
             </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate('profile')}>
-              <Image source={image} />
+              <Image style={styles.person} source={image} />
             </TouchableOpacity>
           </View>
         </View>
@@ -44,7 +44,7 @@ const History = ({navigation}) => {
           <View style={styles.bgButton}>
             <View style={styles.iconAlign}>
               <Text style={styles.month}>This month</Text>
-              <Image source={drop} />
+              <Image style={styles.drop} source={drop} />
             </View>
           </View>
           <View style={styles.buttonFlex}>

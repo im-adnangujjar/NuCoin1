@@ -15,6 +15,8 @@ export const styles = StyleSheet.create({
   },
   image: {
     marginTop: 146,
+    width:164,
+    height:164,
   },
   text: {
     textAlign: 'center',

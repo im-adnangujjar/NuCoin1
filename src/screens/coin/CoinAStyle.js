@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 export const styles = StyleSheet.create({
   mainContainer: {
+    flex: 1,
     backgroundColor: 'white',
   },
   subContainer: {
@@ -12,7 +13,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   flex: {
-    marginTop:46,
+    marginTop: 46,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -27,6 +28,10 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     marginBottom: 77,
     marginTop: 88,
+  },
+  blockImage: {
+    width: 128,
+    height: 117,
   },
   imageCenter: {
     flexDirection: 'row',
@@ -47,6 +52,10 @@ export const styles = StyleSheet.create({
     // letter-spacing: 0em;
     // text-align: left;S
     color: 'black',
+  },
+  blockImage: {
+    width: 172,
+    height: 120,
   },
   numbers: {
     fontFamily: 'Poppins-Medium',
@@ -86,11 +95,15 @@ export const styles = StyleSheet.create({
     position: 'absolute',
     right: 10,
     bottom: 35,
+    width:20,
+    height:20,
   },
   eye: {
     position: 'absolute',
     right: 20,
     top: 22,
     tintColor: '#000000',
+    width: 20,
+    height: 15,
   },
 });

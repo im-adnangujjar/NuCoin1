@@ -32,12 +32,12 @@ const CoinA = ({navigation}) => {
         <View style={styles.imageCenter}>
           <View style={styles.imageBg}>
             <View style={styles.image}>
-              <Image source={block} />
+              <Image style={styles.blockImage} source={block} />
             </View>
           </View>
         </View>
         <View>
-          <TextInput style={styles.input} placeholder="Enter password" />
+          <TextInput style={styles.input} placeholder="Enter password" placeholderTextColor={'black'} />
           <Image style={styles.eye} source={eye} />
         </View>
 

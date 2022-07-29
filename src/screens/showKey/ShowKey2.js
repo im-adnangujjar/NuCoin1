@@ -16,7 +16,7 @@ const ShowKey2 = ({navigation}) => {
             <View style={styles.subContainer}>
                 <Header logo={logo} nav={navigation} />
                 <View style={styles.image}>
-                    <Image source={wallet} />
+                    <Image style={styles.walletLogo} source={wallet} />
                 </View>
                 <View style={styles.flex}>
                     <Text style={styles.description}>Dear customer, for security reasons in protecting your private key, please click below to send an OTP (One Time Pin) to your email for which you will need to provide in the next screen.</Text>

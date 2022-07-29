@@ -10,15 +10,21 @@ export const styles = StyleSheet.create({
 
   iconImage: {
     tintColor: 'black',
+    width:16,
+    height:17,
   },
   iconBg: {
     width: 30,
     height: 30,
     backgroundColor: '#F3F2F3',
-    borderRadius: 10,
+    borderRadius: 5,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  leftArrow: {
+    width: 24,
+    height: 24,
   },
   iconBg1: {
     width: 30,
@@ -29,7 +35,6 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     shadowOpacity: 0.5,
-
   },
   display: {
     flexDirection: 'row',
@@ -106,4 +111,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
   },
+  moreIcon:{
+    width:24,
+    height:24,
+  }
 });

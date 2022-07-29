@@ -9,7 +9,7 @@ const HeaderA = props => {
     <View style={styles.display}>
       <TouchableOpacity onPress={() => props.Nav.goBack('DashBoard')}>
         <View style={styles.iconBg}>
-          <Image source={icon} />
+          <Image style={styles.arrow} source={icon} />
         </View>
       </TouchableOpacity>
       <Text style={styles.title}>{props.title}</Text>

@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '700',
     color: 'black',
-    lineHeight:36,
+    lineHeight: 36,
   },
   color: {
     borderRadius: 5,
@@ -38,6 +38,10 @@ export const styles = StyleSheet.create({
     paddingLeft: '6%',
     paddingRight: '6%',
     // marginTop:28
+  },
+  warning: {
+    width: 24,
+    height: 24,
   },
   numbers: {
     fontFamily: 'Poppins-medium',
@@ -88,6 +92,8 @@ export const styles = StyleSheet.create({
   },
   icon: {
     marginLeft: 15,
+    width: 21,
+    height: 21,
   },
   button: {
     flexDirection: 'row',

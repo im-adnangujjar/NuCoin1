@@ -10,7 +10,7 @@ const CardA = ({card}) => {
             <View style={styles.card}>
                 <View style={styles.subContainer}>
                     <View style={styles.image}>
-                        <Image source={arrow} />
+                        <Image style={styles.arrow} source={arrow} />
                     </View>
                     <View style={styles.container_margin}>
                         <View style={styles.flex}>

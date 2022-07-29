@@ -46,6 +46,18 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  moreImage: {
+    width: 24,
+    height: 24,
+  },
+  user: {
+    width: 16,
+    height: 16,
+  },
+  moon:{
+width:22,
+height:22,
+  },
   icon_flex: {
     marginLeft: '10%',
     flexDirection: 'row',

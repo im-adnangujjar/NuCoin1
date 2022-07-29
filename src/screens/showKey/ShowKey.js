@@ -30,11 +30,11 @@ const ShowKey = ({navigation}) => {
         </View>
         <View style={styles.imageCenter}>
           <View style={styles.imageBg}>
-            <Image source={block} />
+            <Image style={styles.blockImage} source={block} />
           </View>
         </View>
         <View>
-          <TextInput style={styles.input} placeholder="Enter Password" />
+          <TextInput style={styles.input} placeholder="Enter Password" placeholderTextColor={'black'} />
           <Image style={styles.image} source={eye} />
         </View>
         <View style={styles.button}>

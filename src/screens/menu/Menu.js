@@ -35,7 +35,7 @@ const Menu = ({navigation}) => {
             <TouchableOpacity
               onPress={() => navigation.navigate('PersonalInformation')}>
               <View style={styles.iconBg}>
-                <Image source={more} />
+                <Image style={styles.moreImage} source={more} />
               </View>
             </TouchableOpacity>
           </View>
@@ -45,7 +45,7 @@ const Menu = ({navigation}) => {
         <View style={styles.kyc_flex}>
           <View style={styles.text_flex1}>
             <View style={styles.icon_bg}>
-              <Image source={moon} />
+              <Image style={styles.moon} source={moon} />
             </View>
             <Text style={styles.text}>Dark Mood</Text>
           </View>
@@ -57,7 +57,7 @@ const Menu = ({navigation}) => {
         <View style={styles.kyc_flex}>
           <View style={styles.text_flex}>
             <View style={styles.icon_bg}>
-              <Image source={user} />
+              <Image style={styles.user} source={user} />
             </View>
             <TouchableOpacity onPress={() => navigation.navigate('Kyc')}>
               <Text style={styles.kycText}>KYC</Text>
@@ -65,7 +65,7 @@ const Menu = ({navigation}) => {
           </View>
 
           <View style={styles.iconBg}>
-            <Image source={more} />
+            <Image style={styles.moreImage} source={more} />
           </View>
         </View>
         <IconButton

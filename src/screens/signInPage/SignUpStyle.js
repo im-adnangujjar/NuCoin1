@@ -54,6 +54,8 @@ export const styles = StyleSheet.create({
         position: 'absolute',
         right: 0,
         bottom: 45,
+        width:24,
+        height:24,
         // tintColor:'#EAEAEA'
     },
     buttons: {

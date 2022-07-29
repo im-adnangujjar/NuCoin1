@@ -36,7 +36,7 @@ export default function Wallet({navigation}) {
           end={{x: 1, y: 0.5}}
           colors={['#ECB8B8', '#FFFFFF']}>
           <View style={styles.bgColor}>
-            <Image source={warning} />
+            <Image style={styles.warning} source={warning} />
             <Text style={styles.descripation}>
               PLease copy down the mnemonic for you new account below. If you
               loose these mnemonics, you will risk loosing your coins (wealth).

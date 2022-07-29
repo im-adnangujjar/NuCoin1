@@ -64,7 +64,9 @@ export const styles = StyleSheet.create({
     tintColor: 'black',
     position: 'absolute',
     right: 20,
-    bottom: 35
+    bottom: 35,
+    width:20,
+    height:20,
 },
   button_flex: {
     flexDirection: 'row',

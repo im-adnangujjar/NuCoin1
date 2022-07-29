@@ -21,11 +21,15 @@ export const styles = StyleSheet.create({
   flage: {
     position: 'absolute',
     bottom: 45,
+    width:21,
+    height:21,
   },
   down: {
     position: 'absolute',
     bottom: 52,
     left:30,
+    width:10,
+    height:6,
   },
   numbers: {
     // font-family: Poppins;
@@ -59,8 +63,10 @@ export const styles = StyleSheet.create({
   image: {
     position: 'absolute',
     right: 0,
-    bottom: 40,
+    bottom: 50,
     tintColor: '#EAEAEA',
+    width:20,
+    height:14,
   },
 
   account: {
