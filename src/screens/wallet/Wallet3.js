@@ -27,15 +27,15 @@ const Wallet3 = ({navigation}) => {
             03. <Text style={styles.numbers1}>03</Text>
           </Text>
         </View>
-        <TextInput style={styles.input} placeholder="Enter Wallet Name" />
+        <TextInput style={styles.input} placeholder="Enter Wallet Name" placeholderTextColor={'black'} />
         <View>
-          <TextInput style={styles.input} placeholder="Enter Wallet Password" />
+          <TextInput style={styles.input} placeholder="Enter Wallet Password" placeholderTextColor={'black'} />
           <Image style={styles.image} source={eye} />
         </View>
         <View>
           <TextInput
             style={styles.input}
-            placeholder="Confirm Wallet Password"
+            placeholder="Confirm Wallet Password" placeholderTextColor={'black'}
           />
           <Image style={styles.image} source={eye} />
         </View>
@@ -46,7 +46,7 @@ const Wallet3 = ({navigation}) => {
             text="Cancel"
             width="45%"
             height={54}
-            bgColor="white"
+            bgColor="#F3F3F3"
             color="black"
           />
           <GradientButton1

@@ -31,9 +31,10 @@ export const styles = StyleSheet.create({
         fontFamily: 'Poppins-Medium',
         fontSize: 12,
         fontWeight: '500',
+        color:'#7B7B7B'
       },
     lable: {
-        // font-family: Poppins;
+        fontFamily: 'Poppins-Regular',
         fontSize: 12,
         fontWeight: '400',
         color: '#7B7B7B',
@@ -65,7 +66,6 @@ export const styles = StyleSheet.create({
         allignItems: 'center',
         marginBottom: 54
     },
-
     account: {
         fontSize: 12,
         fontWeight: '400',

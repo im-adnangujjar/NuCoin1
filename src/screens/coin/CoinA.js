@@ -26,7 +26,7 @@ const CoinA = ({navigation}) => {
         <View style={styles.flex}>
           <Text style={styles.text}>Set Password</Text>
           <Text style={styles.numbers}>
-            02.<Text style={styles.numbers1}>03</Text>
+            02. <Text style={styles.numbers1}>02</Text>
           </Text>
         </View>
         <View style={styles.imageCenter}>
@@ -48,11 +48,11 @@ const CoinA = ({navigation}) => {
             width="45%"
             height={54}
             color="black"
-            bgColor="white"
+            bgColor="#F3F3F3"
           />
           <IconButton
             click={() => navigation.navigate('SendCoin')}
-            text="Tarancfer"
+            text="Transfer"
             width="45%"
             height={54}
             icon={icon}

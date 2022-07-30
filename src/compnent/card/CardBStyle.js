@@ -5,11 +5,10 @@ export const styles = StyleSheet.create({
     backgroundColor: '#F3F2F3',
     width: '100%',
     height: 'auto',
-    marginTop: 10,
     borderRadius: 10,
     paddingLeft: 5,
     paddingRight: 5,
-    marginBottom: 10,
+    marginBottom: 20,
   },
   subContainer: {
     // marginBottom: 20,
@@ -24,24 +23,24 @@ export const styles = StyleSheet.create({
   },
   image: {
     marginRight: 10,
-    width:30,
-    height:30,
+    width: 30,
+    height: 30,
   },
   title: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 14,
     fontWeight: '500',
     color: 'black',
   },
   text: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-medium',
     fontSize: 10,
     fontWeight: '500',
     color: 'black',
   },
-  icon:{
-    width:15,
-    height:15,
+  icon: {
+    width: 15,
+    height: 15,
   },
   blance: {
     fontFamily: 'Poppins-Regular',
@@ -51,7 +50,7 @@ export const styles = StyleSheet.create({
     marginTop: 13,
   },
   number: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 20,
     fontWeight: '700',
     color: 'black',
@@ -71,16 +70,17 @@ export const styles = StyleSheet.create({
     height: 13,
   },
   aligns: {
+    width: '92%',
     flexDirection: 'row',
+    justifyContent: 'space-between',
     alignItems: 'center',
     marginTop: 8,
   },
   bundle: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 12,
     fontWeight: '500',
     color: 'black',
-    marginLeft: 50,
   },
 
   iconBg: {

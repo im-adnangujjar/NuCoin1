@@ -32,7 +32,7 @@ const SignIn = ({navigation}) => {
           </Text>
         </View>
         <Text style={styles.lable}>User Name</Text>
-        <TextInput style={styles.input} placeholder="" />
+        <TextInput style={styles.input} placeholder="jhondoe@mail.com" placeholderTextColor={'black'} />
         <Text style={styles.lable}>First Name</Text>
         <TextInput style={styles.input} placeholder="" />
         <Text style={styles.lable}>Last Name</Text>
@@ -47,7 +47,7 @@ const SignIn = ({navigation}) => {
         <View style={styles.buttons}>
           <IconButton
             text="Male"
-            width="45%"
+            width="48%"
             height={40}
             color={active === 'male' ? 'white' : 'black'}
             colors={
@@ -59,7 +59,7 @@ const SignIn = ({navigation}) => {
           />
           <IconButton
             text="Female"
-            width="45%"
+            width="48%"
             height={40}
             color={active === 'female' ? 'white' : 'black'}
             colors={

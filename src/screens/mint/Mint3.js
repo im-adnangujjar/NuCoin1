@@ -38,7 +38,7 @@ const Mint3 = ({ navigation }) => {
         </View>
         <Button onPress={()=>navigation.navigate('Wallet2')}text='Load Mnemonic' width='100%' bgColor='#282B33' />
         <View style={styles.button}>
-          <Button  onPress={()=>navigation.goBack('Mint4')}text='Cancel' bgColor='white' color='black' width='45%' height={54} />
+          <Button  onPress={()=>navigation.goBack('Mint4')}text='Cancel' bgColor='#F3F3F3' color='black' width='45%' height={54} />
           <GradientButton1  click={() => navigation.navigate('Mint4')} text='Continue' width={170}  colors={['#50E6CA','#34DDDC']} height={54} color='black' />
         </View>
 

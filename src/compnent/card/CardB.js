@@ -27,7 +27,7 @@ const CardB = ({ select, toggleModal1,children,close }) => {
                 </View>
                 <Text style={styles.blance}>{select.blance}</Text>
                 <Text style={styles.number}>{select.coins}</Text>
-                <Text style={styles.text}>{select.mint}02-10-2022 | 08:08:20 am</Text>
+                <Text style={styles.text}>{select.mint} <Text style={styles.mint}>02-10-2022 | 08:08:20 am</Text></Text>
                 <View style={styles.aligns}>
                     <View style={styles.flex}>
                         <Text style={styles.text}>{select.id}</Text>

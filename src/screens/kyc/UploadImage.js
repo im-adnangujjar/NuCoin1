@@ -14,7 +14,7 @@ const UploadImage= ({navigation}) => {
         <ScrollView style={styles.container}>
             <SafeAreaView />
             <View style={styles.subContainer}>
-                <HeaderA title='kyc' Nav={navigation} />
+                <HeaderA title='kyc'bgColor='#F3F2F3' Nav={navigation} />
                 <KycText number1='04 . 'number2='04' image={kyc} bgColor='#F3F2F3' />
                 <Text style={styles.descripation}>Your KYC is <Text style={styles.text}>not yet complete.</Text>  Please make sure that all you’re id’s and photo you provide from us are succesfully validated.
 </Text>
@@ -26,7 +26,7 @@ const UploadImage= ({navigation}) => {
                     })
                 }
                 <View style={styles.button}>
-                    <Button  onPress={()=>navigation.goBack()}text='Back' width='45%' bgColor='white' color='black' height={54} />
+                    <Button  onPress={()=>navigation.goBack()}text='Back' width='45%' bgColor='#F3F3F3' color='black' height={54} />
                     <GradientButton1 click={()=>navigation.navigate('tabs')} height={54}  text='Next' width='45%'/>
                 </View>
             </View>

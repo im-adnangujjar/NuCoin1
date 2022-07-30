@@ -42,7 +42,7 @@ const ShowKey = ({navigation}) => {
             onPress={() => navigation.navigate('DashBoard')}
             text="Cancel"
             color="black"
-            bgColor="white"
+            bgColor="#F3F3F3"
             width="45%"
             height={54}
           />

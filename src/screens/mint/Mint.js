@@ -31,7 +31,7 @@ const Mint = ({ navigation }) => {
                 </View>
                 <Text style={styles.text}>Reset Password</Text>
                 <View style={styles.button}>
-                    <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancel' width='45%' bgColor='white' height={54} color='black' />
+                    <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancel' width='45%' bgColor='#F3F3F3' height={54} color='black' />
                     <GradientButton1  click={toggleModal} text='Mint' width='45%' colors={['#50E6CA','#34DDDC']} height={54} color='black' />
                 </View>
                 <Modal isVisible={isModalVisible}>
@@ -43,7 +43,7 @@ const Mint = ({ navigation }) => {
                         </TouchableOpacity>
                         <Text style={styles.modalText}>Please retrieve and enter your mnemonics in the same order when you created this wallet.</Text>
                         <View style={styles.button1}>
-                            <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancel' width='46%' bgColor='white' color='black' height={54} />
+                            <Button  onPress={() => navigation.navigate('DashBoard')} text='Cancel' width='46%' bgColor='#F3F3F3' color='black' height={54} />
                             <GradientButton1 click={() => {
                                 setModalVisible(false)
                                 navigation.navigate('Mint2')

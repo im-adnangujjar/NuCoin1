@@ -23,7 +23,7 @@ const Menu = ({navigation}) => {
     <ScrollView style={styles.container}>
       <SafeAreaView />
       <View style={styles.subContainer}>
-        <HeaderA title="Menu" Nav={navigation} />
+        <HeaderA bgColor='#F3F2F3' title="Menu" Nav={navigation} />
         <Text style={styles.title}>Account</Text>
         <View style={styles.flex}>
           <Image style={styles.image} source={person} />

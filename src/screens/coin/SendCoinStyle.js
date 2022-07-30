@@ -21,8 +21,8 @@ export const styles = StyleSheet.create({
     marginRight: 18,
   },
   check:{
-width:16,
-height:16,
+width:12,
+height:12,
   },
   logo1: {
     width: 183,
@@ -64,6 +64,6 @@ height:16,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 68,
+    marginTop:Platform.OS === 'ios' ? 68 : 40
   },
 });

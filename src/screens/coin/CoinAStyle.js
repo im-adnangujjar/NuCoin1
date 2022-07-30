@@ -101,9 +101,9 @@ export const styles = StyleSheet.create({
   eye: {
     position: 'absolute',
     right: 20,
-    top: 22,
+    top: 24,
     tintColor: '#000000',
     width: 20,
-    height: 15,
+    height: 14,
   },
 });

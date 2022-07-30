@@ -14,7 +14,7 @@ const UploadData = ({navigation}) => {
     <ScrollView style={styles.container}>
       <SafeAreaView />
       <View style={styles.subContainer}>
-        <HeaderA title="kyc" Nav={navigation} />
+        <HeaderA bgColor='#F3F2F3' title="kyc" Nav={navigation} />
         <KycText  bgColor='#F3F2F3' image={kyc} />
         {kycUpload.map((item, index) => {
           return <UploadImageCard kycUpload={item} />;
@@ -24,7 +24,7 @@ const UploadData = ({navigation}) => {
             onPress={() => navigation.goBack()}
             text="Back"
             width="45%"
-            bgColor="white"
+            bgColor="#F3F3F3"
             height={54}
             color="black"
           />

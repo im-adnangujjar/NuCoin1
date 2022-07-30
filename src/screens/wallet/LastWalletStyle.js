@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
     color: 'black',
   },
   button: {
-    marginTop: 85,
+    marginTop: Platform.OS === 'ios' ? 85 : 50 ,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',

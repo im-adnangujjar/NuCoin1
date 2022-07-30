@@ -22,7 +22,7 @@ const ShowKey2 = ({navigation}) => {
                     <Text style={styles.description}>Dear customer, for security reasons in protecting your private key, please click below to send an OTP (One Time Pin) to your email for which you will need to provide in the next screen.</Text>
                 </View>
                 <View style={styles.button}>
-                    <Button onPress={()=>navigation.goBack()} text='Cancel' bgColor='white' color='black'  width='45%' />
+                    <Button onPress={()=>navigation.goBack()} text='Cancel' bgColor='#F3F3F3' color='black'  width='45%' />
                     <GradientButton1 click={()=>navigation.navigate('ShowKey3')}text='Proceed' width='45%' height={57}/>
                 </View>
 

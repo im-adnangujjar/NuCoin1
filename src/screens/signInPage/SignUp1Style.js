@@ -9,8 +9,10 @@ export const styles = StyleSheet.create({
     paddingTop: Platform.OS === 'ios' ? 146 : 50,
   },
   title: {
+    fontFamily: 'Poppins-Bold',
     fontSize: 30,
     fontWeight: '700',
+    color: 'black',
   },
   titleFlex: {
     flexDirection: 'row',
@@ -21,23 +23,24 @@ export const styles = StyleSheet.create({
   flage: {
     position: 'absolute',
     bottom: 45,
-    width:21,
-    height:21,
+    width: 21,
+    height: 21,
   },
   down: {
     position: 'absolute',
     bottom: 52,
-    left:30,
-    width:10,
-    height:6,
+    left: 30,
+    width: 10,
+    height: 6,
   },
   numbers: {
-    // font-family: Poppins;
+    fontFamily: 'Poppins-Medium',
     fontSize: 18,
     fontWeight: '500',
+    color: 'black',
   },
   numbers2: {
-    // font-family: Poppins;
+    fontFamily: 'Poppins-Medium',
     fontSize: 12,
     fontWeight: '500',
     color: '#CFCFCF',
@@ -65,8 +68,8 @@ export const styles = StyleSheet.create({
     right: 0,
     bottom: 50,
     tintColor: '#EAEAEA',
-    width:20,
-    height:14,
+    width: 20,
+    height: 14,
   },
 
   account: {
@@ -92,7 +95,7 @@ export const styles = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     color: '#7B7B7B',
-    marginTop:0,
+    marginTop: 0,
   },
   terms: {
     fontSize: 12,
@@ -100,7 +103,7 @@ export const styles = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     color: '#1F62C6',
-    marginBottom:50,
+    marginBottom: 50,
   },
   color: {
     color: '#7B7B7B',

@@ -9,8 +9,8 @@ function Button(props) {
             borderRadius:10,
             width:props.width || 200,
             height:props.height || 57,
-            borderWidth:1,
-            borderColor:'#E7E7E7',
+            // borderWidth:1,
+            // borderColor:'#E7E7E7',
             flexDirection:'row',
             justifyContent:'center',
             alignItems:'center'

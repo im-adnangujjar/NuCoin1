@@ -24,13 +24,14 @@ const Profile = ({navigation}) => {
           <Text style={styles.title}>to continue</Text>
           <Text style={styles.input_title}>Email Address</Text>
           <View>
-            <TextInput style={styles.input} placeholder="jhondoe@mail.com" />
+            <TextInput style={styles.input} placeholder="jhondoe@mail.com" placeholderTextColor={'black'} />
             <Image style={styles.image} source={icon} alt="icon" />
           </View>
           <View>
             <TextInput
               style={styles.passWord_input}
               placeholder="Enter password"
+              placeholderTextColor={'#7B7B7B'}
             />
             <View style={styles.image}>
               <Image style={styles.iconImage} source={icon1} alt="icon" />

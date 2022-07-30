@@ -2,7 +2,9 @@ import { StyleSheet, Platform } from 'react-native'
 
 export const styles = StyleSheet.create({
     container: {
-        marginHorizontal: 50,
+        flex:1,
+        backgroundColor:'white',
+        paddingHorizontal: 50,
         paddingTop: Platform.OS === 'ios' ? 146 : 50,
     },
 
@@ -24,7 +26,7 @@ export const styles = StyleSheet.create({
     input: {
         width: '100%',
         height: 40,
-        borderColor: 'blue',
+        borderColor: '#2063C6',
         borderBottomWidth: 1,
         fontSize: 14,
         fontWeight: '700',
@@ -55,7 +57,7 @@ export const styles = StyleSheet.create({
         height:24,
     },
     iconImage: {
-        tintColor: 'gray',
+        tintColor: '#EAEAEA',
         width:20,
         height:14,
     },

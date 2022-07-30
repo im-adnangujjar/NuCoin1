@@ -19,7 +19,7 @@ const NotificationTabView = ({navigation}) => {
     <ScrollView style={styles.container}>
       <View>
         <SafeAreaView />
-        <HeaderA title="kyc" Nav={navigation} />
+        <HeaderA title="Notification" bgColor='#F3F2F3' Nav={navigation} />
         <View style={styles.subContainer}>
           <TouchableOpacity onPress={() => setSelected('Announcements')}>
             <View
@@ -30,7 +30,7 @@ const NotificationTabView = ({navigation}) => {
               <Text
                 style={[
                   styles.title,
-                  {opacity: selected === 'Announcements' ? 1 : 0.6},
+                  {opacity: selected === 'Announcements' ? 1 : 0.3},
                 ]}>
                 Announcements
               </Text>
@@ -43,7 +43,7 @@ const NotificationTabView = ({navigation}) => {
                 {borderBottomWidth: selected === 'All' ? 6 : 0},
               ]}>
               <Text
-                style={[styles.title, {opacity: selected === 'All' ? 1 : 0.6}]}>
+                style={[styles.title, {opacity: selected === 'All' ? 1 : 0.3}]}>
                 All
               </Text>
               <View style={styles.bgColor}>
@@ -60,7 +60,7 @@ const NotificationTabView = ({navigation}) => {
               <Text
                 style={[
                   styles.title,
-                  {opacity: selected === 'unread' ? 1 : 0.6},
+                  {opacity: selected === 'unread' ? 1 : 0.3},
                 ]}>
                 Unread
               </Text>

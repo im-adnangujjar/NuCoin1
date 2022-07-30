@@ -18,7 +18,7 @@ function IconButton(props) {
     },
     button_text: {
       color: props.color || 'white',
-      fontFamily:'Poppins-Bold',
+      fontFamily:'Poppins-Medium',
     },
     image: {
       tintColor: props.iconColor || 'green',

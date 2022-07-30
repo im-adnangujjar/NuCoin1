@@ -53,13 +53,12 @@ export const style = StyleSheet.create({
     marginBottom: 39,
   },
   agree: {
-    // font-family: Poppins;
+    fontFamily: 'Poppins-Regular',
     fontSize: 12,
     fontWeight: '400',
     lineHeight: 18,
     textAlign: 'center',
     color: '#7B7B7B',
-    marginTop: 30,
   },
   terms: {
     fontSize: 12,
@@ -67,7 +66,7 @@ export const style = StyleSheet.create({
     lineHeight: 18,
     textAlign: 'center',
     color: '#1F62C6',
-    marginBottom: 20,
+    marginBottom: 40,
   },
   NuGenesis: {
     fontFamily: 'Poppins-Regular',
@@ -77,7 +76,7 @@ export const style = StyleSheet.create({
     width: 214,
     textAlign: 'center',
     color: '#7B7B7B',
-    marginBottom: 100,
+    marginBottom: 76,
   },
   color: {
     color: '#7B7B7B',

@@ -40,10 +40,10 @@ export default function Wallet2({ navigation }) {
         </View>
         
         <View style={styles.button}>
-          <Button onPress={() => navigation.goBack('Wallet3')} text='Reset'  color='black' bgColor=' #E5E5E5' width='45%' height={54}  />
+          <Button onPress={() => navigation.goBack('Wallet3')} text='Reset'  color='black' bgColor='#F3F3F3' width='45%' height={54}  />
           <GradientButton1
           click={() => navigation.navigate('Wallet3')} 
-          text='Continue' width='45%' height={54}  />
+          text='Continue' width='45%' height={54} />
         </View>
       </View>
     </ScrollView>

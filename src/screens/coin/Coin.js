@@ -35,16 +35,24 @@ const Coin = ({navigation}) => {
             </View>
           </View>
         </View>
-        <TextInput style={styles.input} placeholder="Enter Reciever Address" />
-        <TextInput style={styles.input} placeholder="Enter Amount" />
+        <TextInput
+          style={styles.input}
+          placeholder="Enter Reciever Address"
+          placeholderTextColor={'black'}
+        />
+        <TextInput
+          style={styles.input}
+          placeholder="Enter Amount"
+          placeholderTextColor={'black'}
+        />
         <View style={styles.button}>
           <Button
             onPress={() => navigation.goBack()}
-            text="Cancal"
+            text="Cancel"
             width="45%"
             height={54}
             color="black"
-            bgColor="white"
+            bgColor="#F3F3F3"
           />
           <GradientButton1
             click={() => navigation.navigate('CoinA')}

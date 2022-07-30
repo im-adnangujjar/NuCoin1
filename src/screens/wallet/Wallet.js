@@ -58,7 +58,7 @@ export default function Wallet({navigation}) {
             text="Cancel"
             onPress={() => navigation.goBack('Wallet2')}
             color="black"
-            bgColor=" #E5E5E5"
+            bgColor="#F3F3F3"
             width="45%"
             height={54}
           />

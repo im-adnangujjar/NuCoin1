@@ -15,7 +15,7 @@ const Adderss = ({navigation}) => {
     <ScrollView style={styles.container}>
       <SafeAreaView />
       <View style={styles.subContainer}>
-        <HeaderA title="kyc" Nav={navigation} />
+        <HeaderA bgColor='#F3F2F3' title="kyc" Nav={navigation} />
         <KycText number1='02 . ' number2='4' image={kyc} bgColor='#F3F2F3'  />
 
         <Text style={styles.title}>Address</Text>
@@ -27,7 +27,7 @@ const Adderss = ({navigation}) => {
             text="Back"
             onPress={() => navigation.goBack()}
             width="45%"
-            bgColor="white"
+            bgColor="#F3F3F3"
             color="black"
             height={54}
           />

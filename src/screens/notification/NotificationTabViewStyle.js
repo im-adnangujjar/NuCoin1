@@ -37,8 +37,8 @@ export const styles = StyleSheet.create({
   },
   line: {
     marginTop: -0,
-    borderWidth: 1,
-    borderColor: 'black',
+    borderWidth: 0.5,
+    borderColor: '#E7E7E7',
   },
   tabs: {
     paddingBottom: 14,

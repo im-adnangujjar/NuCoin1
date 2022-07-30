@@ -48,7 +48,7 @@ const Mint4 = ({navigation}) => {
             onPress={() => navigation.goBack('Mint5')}
             text="Cancel"
             width={160}
-            bgColor="white"
+            bgColor="#F3F3F3"
             color="black"
             height={54}
           />
