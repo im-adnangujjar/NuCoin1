@@ -32,7 +32,7 @@ const CardB = ({ select, toggleModal1,children,close }) => {
                     <View style={styles.flex}>
                         <Text style={styles.text}>{select.id}</Text>
                         <Text style={styles.copy}>Copy</Text>
-                        <Image source={select.icon} />
+                        <Image style={styles.copyIcon} source={select.icon} />
                     </View>
                     <Text style={styles.bundle}>{select.bundal}</Text>
                 </View>

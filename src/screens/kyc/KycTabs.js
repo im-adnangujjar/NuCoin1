@@ -64,7 +64,7 @@ const KycTabs = ({navigation}) => {
                   styles.title,
                   {opacity: activeTab === 'Ids' ? 1 : 0.6},
                 ]}>
-                IDS`
+                ID`s
               </Text>
             </View>
           </TouchableOpacity>

@@ -19,4 +19,8 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  close: {
+    width: 14,
+    height: 14,
+  },
 });

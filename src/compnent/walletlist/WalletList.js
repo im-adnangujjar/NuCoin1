@@ -12,7 +12,7 @@ const walletList = ({navigation,modal}) => {
       <View style={styles.iconBg}>
         
       <TouchableOpacity onPress={modal}>
-          <Image source={close} />
+          <Image style={styles.close} source={close} />
       </TouchableOpacity>
       </View>
 
