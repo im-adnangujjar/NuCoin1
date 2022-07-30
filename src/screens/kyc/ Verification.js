@@ -6,9 +6,9 @@ import UploadImages from '../../compnent/uploadImageCard/UploadImages';
 
 const Verification = ({navigation}) => {
   return (
-    <ScrollView style={styles.container}>
+    <View style={styles.container}>
       <SafeAreaView />
-      <View style={styles.subContainer}>
+      {/* <View style={styles.subContainer}> */}
         <Text style={styles.descripation}>
           Your KYC is <Text style={styles.completeText}>complete</Text>. Now you
           can proceed with further operation on our website like, you can create
@@ -17,8 +17,8 @@ const Verification = ({navigation}) => {
         {upload.map((item, index) => {
           return <UploadImages upload={item} />;
         })}
-      </View>
-    </ScrollView>
+      {/* </View> */}
+    </View>
   );
 };
 

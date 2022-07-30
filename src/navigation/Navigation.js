@@ -22,7 +22,7 @@ import ShowKey from '../screens/showKey/ShowKey';
 import ShowKey2 from '../screens/showKey/ShowKey2';
 import ShowKey3 from '../screens/showKey/ShowKey3';
 import ShowKey4 from '../screens/showKey/ShowKey4';
-import Kyc from '../screens/kyc/KYc';
+import Kyc from '../screens/kyc/Kyc';
 import Kyc1 from '../screens/kyc/Kyc1';
 import Verification from '../screens/kyc/ Verification';
 import Notification from '../screens/notification/Notification';
@@ -42,9 +42,7 @@ import Address from '../screens/kyc/Address';
 import PersonalDetails from '../screens/kyc/PersonalDetails';
 import UploadData from '../screens/kyc/UploadData';
 import UploadImage from '../screens/kyc/UploadImage';
-
-import check from '../assets/icons/check.png';
-
+import KycTabs from '../screens/kyc/KycTabs';
 const Tab = createMaterialTopTabNavigator();
 const Stack = createNativeStackNavigator();
 
@@ -65,10 +63,7 @@ function Navigation() {
         <Stack.Screen name="LastWallet" component={LastWallet} />
         <Stack.Screen name="DashBoard" component={DashBoard} />
         <Stack.Screen name="profile" component={Menu} />
-        <Stack.Screen
-          name="PersonalInformation"
-          component={PersonalInformation}
-        />
+        <Stack.Screen name="PersonalInformation" component={PersonalInformation}/>
         <Stack.Screen name="Notification" component={NotificationTabView} />
         <Stack.Screen name="Notifications" component={Notification} />
         <Stack.Screen name="Notification1" component={Notification1} />
@@ -86,7 +81,7 @@ function Navigation() {
         <Stack.Screen name="Mint3" component={Mint3} />
         <Stack.Screen name="Mint4" component={Mint4} />
         <Stack.Screen name="Mint5" component={Mint5} />
-        <Stack.Screen name="Kyc" component={Tabs} />
+        <Stack.Screen name="tabs" component={KycTabs} />
         <Stack.Screen name="personalDetails" component={PersonalDetails} />
         <Stack.Screen name="address" component={Address} />
         <Stack.Screen name="UploadData" component={UploadData} />
@@ -98,46 +93,46 @@ function Navigation() {
 }
 export default Navigation;
 
-function Tabs({navigation}) {
-  return (
-    <>
-      <View
-        style={{paddingLeft: 19, backgroundColor: 'white', paddingBottom: 40}}>
-        <HeaderA title="Kyc" Nav={navigation} bgColor='black' color='white' />
+// function Tabs({navigation}) {
+//   return (
+//     <>
+//       <View
+//         style={{paddingLeft: 19, backgroundColor: 'white', paddingBottom: 40}}>
+//         <HeaderA title="Kyc" Nav={navigation} bgColor="black" color="white" />
 
-        <KycText image={check} bgColor="#40C16C" />
-      </View>
-      <Tab.Navigator
-        screenOptions={{
-          // tabBarActiveTintColor: '#e91e63',
-          tabBarLabelStyle: {fontSize: 8, fontWeight: '400'},
-          tabBarStyle: {
-            backgroundColor: 'white',
-            elevation: 0,
-            marginRight: 19,
-            marginLeft: 19,
-          },
-        }}
-        style={{backgroundColor: 'white'}}>
-        <Tab.Screen
-          name="Feed"
-          component={Kyc}
-          options={{tabBarLabel: 'Personal Details'}}
-        />
-        <Tab.Screen
-          name="Notifications"
-          component={Kyc1}
-          options={{tabBarLabel: 'Address'}}
-        />
-        <Tab.Screen
-          name="trdfg"
-          component={Verification}
-          options={{tabBarLabel: 'IDs`'}}
-        />
-      </Tab.Navigator>
-    </>
-  );
-}
+//         <KycText image={check} bgColor="#40C16C" />
+//       </View>
+//       <Tab.Navigator
+//         screenOptions={{
+//           // tabBarActiveTintColor: '#e91e63',
+//           tabBarLabelStyle: {fontSize: 8, fontWeight: '400'},
+//           tabBarStyle: {
+//             backgroundColor: 'white',
+//             elevation: 0,
+//             marginRight: 19,
+//             marginLeft: 19,
+//           },
+//         }}
+//         style={{backgroundColor: 'white'}}>
+//         <Tab.Screen
+//           name="Feed"
+//           component={Kyc}
+//           options={{tabBarLabel: 'Personal Details'}}
+//         />
+//         <Tab.Screen
+//           name="Notifications"
+//           component={Kyc1}
+//           options={{tabBarLabel: 'Address'}}
+//         />
+//         <Tab.Screen
+//           name="trdfg"
+//           component={Verification}
+//           options={{tabBarLabel: 'IDs`'}}
+//         />
+//       </Tab.Navigator>
+//     </>
+//   );
+// }
 // function MyTabs({ navigation }) {
 //     return (
 //         < >

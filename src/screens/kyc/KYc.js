@@ -10,9 +10,8 @@ import { kycData } from '../../constant/constant'
 const KYc = () => {
     return (
         <View style={styles.container}>
-            <ScrollView >
                 <SafeAreaView />
-                <View style={styles.subContainer}>
+                {/* <View style={styles.subContainer}> */}
                     {/* <HeaderA title='kyc' /> */}
                     {/* <KycText /> */}
 
@@ -28,8 +27,7 @@ const KYc = () => {
                     <Button text='Next' width='100%' />
 
                     </View> */}
-                </View>
-            </ScrollView>
+                {/* </View> */}
         </View>
     )
 }

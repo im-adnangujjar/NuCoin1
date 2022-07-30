@@ -4,12 +4,12 @@ import {styles} from './HeaderAStyle';
 // import more from '../../assets/icons/more.png'
 import icon from '../../assets/icons/arrow-left.png';
 
-const HeaderA = props => {
+const HeaderA = (props) => {
   return (
     <View style={styles.display}>
-      <TouchableOpacity onPress={() => props.Nav.goBack('DashBoard')}>
-        <View style={[styles.iconBg,props.bgColor]}>
-          <Image style={styles.arrow} source={icon} />
+      <TouchableOpacity onPress={() => props.Nav.goBack()}>
+        <View style={[styles.iconBg,{backgroundColor:props.bgColor}]}>
+          <Image style={[styles.arrow, {tintColor:props.color}]} source={icon} />
         </View>
       </TouchableOpacity>
       <Text style={styles.title}>{props.title}</Text>
