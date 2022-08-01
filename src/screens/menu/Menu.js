@@ -41,7 +41,7 @@ const Menu = ({navigation}) => {
           </View>
         </View>
 
-        <Text style={styles.title}>Setting</Text>
+        <Text style={styles.title}>Settings</Text>
         <View style={styles.kyc_flex}>
           <View style={styles.text_flex1}>
             <View style={styles.icon_bg}>
@@ -69,11 +69,13 @@ const Menu = ({navigation}) => {
           </View>
         </View>
         <IconButton
-          text="LogOut"
+          text="Log Out"
           click={() => navigation.navigate('SplashScreen')}
           height={57}
           width="100%"
-          icon={icon}
+          icon={icon} 
+          icomWidth={21}
+          iconHeight={21}
           iconColor="white"
         />
       </View>

@@ -31,7 +31,7 @@ const DashBoard = ({navigation}) => {
 
   return (
     <ScrollView style={styles.container}>
-      <SafeAreaView />
+      {/* <SafeAreaView /> */}
       <View style={styles.subContainer}>
         <Header logo={logo} nav={navigation} />
         <View style={styles.image_flex}>

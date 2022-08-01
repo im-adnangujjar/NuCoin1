@@ -23,8 +23,8 @@ function IconButton(props) {
     image: {
       tintColor: props.iconColor || 'green',
       marginRight: 10,
-      width:12,
-      height:9,
+      width:props.iconwidth || 12,
+      height:props.iconHeight||9,
     },
   });
   return (

@@ -56,6 +56,8 @@ const CoinA = ({navigation}) => {
             width="45%"
             height={54}
             icon={icon}
+            iconWidth={17}
+            iconHeight={17}
             iconColor="white"
           />
         </View>

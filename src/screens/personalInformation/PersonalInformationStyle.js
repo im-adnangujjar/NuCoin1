@@ -10,12 +10,12 @@ export const styles = StyleSheet.create({
 
   iconImage: {
     tintColor: 'black',
-    width:16,
-    height:17,
+    width: 16,
+    height: 17,
   },
   iconBg: {
-    width: 30,
-    height: 30,
+    width: 38,
+    height: 38,
     backgroundColor: '#F3F2F3',
     borderRadius: 5,
     flexDirection: 'row',
@@ -27,14 +27,15 @@ export const styles = StyleSheet.create({
     height: 24,
   },
   iconBg1: {
-    width: 30,
-    height: 30,
+    width: 36,
+    height: 37,
     backgroundColor: '#32DCDF',
     borderRadius: 10,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     shadowOpacity: 0.5,
+    shadowColor: '#48E4D08A',
   },
   display: {
     flexDirection: 'row',
@@ -97,8 +98,8 @@ export const styles = StyleSheet.create({
   },
   lockBg: {
     backgroundColor: '#F3F2F3',
-    width: 40,
-    height: 40,
+    width: 38,
+    height: 38,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 40,
@@ -111,8 +112,12 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
   },
-  moreIcon:{
-    width:24,
-    height:24,
-  }
+  lockIcon: {
+    width: 15,
+    height: 15,
+  },
+  moreIcon: {
+    width: 24,
+    height: 24,
+  },
 });

@@ -3,22 +3,24 @@ import {StyleSheet, Platform} from 'react-native';
 export const style = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: 'white',
     // marginBottom:100,
+    paddingTop: 20,
   },
   Text: {
     flexDirection: 'column',
     alignItems: 'center',
   },
   logo: {
-    marginTop: Platform.OS === 'ios' ?-70 : -100,
-    width:225,
-    height:236,
+    marginTop: Platform.OS === 'ios' ? 160 : -100,
+    width: 225,
+    height: 236,
   },
   welcom: {
     fontSize: 30,
     fontWeight: '400',
     lineHeight: 45,
-    marginTop: 20,
+    marginTop: 60,
     color: 'black',
     fontFamily: 'Poppins-Regular',
   },
@@ -28,7 +30,7 @@ export const style = StyleSheet.create({
     fontWeight: '700',
     lineHeight: 45,
     textAlign: 'center',
-    marginBottom: 10,
+    marginBottom: 16,
     color: 'black',
   },
   text: {

@@ -33,7 +33,7 @@ const PersonalInformation = ({navigation}) => {
             <Image style={styles.iconImage} source={icon1} />
           </View>
         </View>
-        <Text style={styles.title}>PersonalInformation</Text>
+        <Text style={styles.title}>Personal Information</Text>
         <Text style={styles.text}>Photo</Text>
         <View style={styles.flex}>
           <Image style={styles.image} source={person} />
@@ -44,7 +44,7 @@ const PersonalInformation = ({navigation}) => {
         })}
         <View style={styles.imageFlex}>
           <View style={styles.lockBg}>
-            <Image source={lock} />
+            <Image style={styles.lockIcon} source={lock} />
           </View>
           <View style={styles.iconFlex}>
             <Text style={styles.update}>Update Account Password</Text>

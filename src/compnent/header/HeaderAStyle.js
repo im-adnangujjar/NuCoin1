@@ -2,8 +2,8 @@ import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   iconBg: {
-    width: 30,
-    height: 30,
+    width: 38,
+    height: 38,
     backgroundColor: '#F3F2F3',
     borderRadius: 5,
     flexDirection: 'row',

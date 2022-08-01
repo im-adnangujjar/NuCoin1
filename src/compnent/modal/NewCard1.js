@@ -39,7 +39,7 @@ console.log('closeModal',closeModal);
           <IconButton
             text="primry wallet"
             icon={icon}
-            colors={['white', 'white']}
+            colors={['#F3F2F3', '#F3F2F3']}
             color="green"
             border="green"
           />
