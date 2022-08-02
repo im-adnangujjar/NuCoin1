@@ -59,7 +59,7 @@ export const styles = StyleSheet.create({
     tintColor: 'black',
     position: 'absolute',
     right: 10,
-    bottom: 10,
+    bottom: 14,
     width:20,
     height:20,
   },

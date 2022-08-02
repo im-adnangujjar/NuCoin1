@@ -27,14 +27,14 @@ export const styles = StyleSheet.create({
     height: 24,
   },
   iconBg1: {
-    width: 36,
-    height: 37,
+    width: 38,
+    height: 38,
     backgroundColor: '#32DCDF',
     borderRadius: 10,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    shadowOpacity: 0.5,
+    shadowOpacity: 1,
     shadowColor: '#48E4D08A',
   },
   display: {

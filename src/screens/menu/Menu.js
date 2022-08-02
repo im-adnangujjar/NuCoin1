@@ -74,7 +74,7 @@ const Menu = ({navigation}) => {
           height={57}
           width="100%"
           icon={icon} 
-          icomWidth={21}
+          iconWidth={21}
           iconHeight={21}
           iconColor="white"
         />

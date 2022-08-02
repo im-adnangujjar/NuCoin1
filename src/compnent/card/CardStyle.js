@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
   },
   linearGradient: {
     borderRadius: 10,
-    opacity:0.5,
+    opacity: 0.5,
   },
   title: {
     fontFamily: 'Poppins-Regular',
@@ -56,8 +56,8 @@ export const styles = StyleSheet.create({
     marginLeft: 4,
   },
   image: {
-    width:13,
-    height:13,
+    width: 13,
+    height: 13,
     tintColor: 'white',
     marginLeft: 5,
   },
@@ -67,7 +67,6 @@ export const styles = StyleSheet.create({
     marginTop: 5,
   },
   icon_flex: {
-    
     flexDirection: 'row',
     alignItems: 'center',
     marginLeft: 27,

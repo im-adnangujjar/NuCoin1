@@ -27,13 +27,13 @@ const ShowKey4 = ({navigation}) => {
             Enter the OTP you recieved in your email
           </Text>
           <Text style={styles.numbers}>
-            02. <Text style={styles.numbers1}>03</Text>
+            03. <Text style={styles.numbers1}>03</Text>
           </Text>
         </View>
-        <TextInput style={styles.input} placeholder="252272" />
+        <TextInput style={styles.input} placeholder="252272"  placeholderTextColor={'black'}/>
         <LinearGradient
-          start={{x: 0, y: 0}}
-          end={{x: 1, y: 1}}
+          start={{x:0.1, y: 0.1}}
+          end={{x: 0.2, y: 1}}
           colors={['#8FA7FF', '#FFFFFF']}
           style={styles.linearGradient}>
           <Text style={styles.name}>

@@ -46,11 +46,20 @@ export const styles = StyleSheet.create({
         marginTop: 45,
         marginBottom: 30
     },
+    descripation1: {
+        fontFamily:'Poppins-Regular',
+        fontSize: 14,
+        fontWeight: '500',
+        color: 'red'
+    },
     descripation: {
         fontFamily:'Poppins-Regular',
         fontSize: 14,
-        fontWeight: '700',
+        fontWeight: '500',
         color: 'black'
+    },
+    again:{
+        fontWeight: '700',
     },
     button: {
         flexDirection: 'row',

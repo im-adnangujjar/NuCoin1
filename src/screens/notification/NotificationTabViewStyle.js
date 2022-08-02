@@ -24,26 +24,31 @@ export const styles = StyleSheet.create({
     width: 17,
     height: 17,
     justifyContent: 'center',
-    alignItems: 'center',
     borderRadius: 20,
+    alignItems: 'center',
     marginLeft: 7,
+  },
+  text: {
+    fontFamily: 'Poppins-Regular',
+    fontSize: 10,
+    fontWeight: '400',
+    lineHeight: 15,
+    color: 'black',
   },
   align: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderBottomWidth: 6,
-    borderColor: '#286ACC',
-    paddingBottom: 14,
   },
   line: {
     marginTop: -0,
     borderWidth: 0.5,
     borderColor: '#E7E7E7',
-    borderBottomRadius:3
+    borderBottomRadius: 3,
   },
   tabs: {
-    paddingBottom: 14,
-    borderBottomWidth: 5,
+    borderWidth: 1,
+    borderRadius: 5,
+    marginTop: 12,
     borderColor: '#286ACC',
   },
 });

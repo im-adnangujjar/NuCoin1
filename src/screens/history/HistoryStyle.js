@@ -8,13 +8,12 @@ export const styles = StyleSheet.create({
     marginHorizontal: '5%',
   },
   image: {
-    tintColor: 'blue',
-    width:14,
-    height:16,
+    width: 14,
+    height: 16,
   },
   iconBg: {
-    width: 30,
-    height: 30,
+    width: 38,
+    height: 38,
     backgroundColor: '#F3F2F3',
     borderRadius: 5,
     flexDirection: 'row',
@@ -22,8 +21,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   leftArrow: {
-    width: 16,
-    height: 14,
+    width: 24,
+    height: 24,
   },
   bar: {
     flexDirection: 'row',
@@ -68,7 +67,7 @@ export const styles = StyleSheet.create({
     height: 18,
   },
   bgButton: {
-    width: '40%',
+    width: '43%',
     height: 41,
     borderWidth: 1,
     borderColor: '#F3F2F3',
@@ -79,11 +78,11 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     height: 41,
-    paddingLeft: 4,
+    // paddingLeft: 4,
     paddingRight: 4,
   },
   text: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 14,
     fontWeight: '500',
     color: 'blue',

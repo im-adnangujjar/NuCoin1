@@ -22,11 +22,7 @@ const NotificationTabView = ({navigation}) => {
         <HeaderA title="Notification" bgColor="#F3F2F3" Nav={navigation} />
         <View style={styles.subContainer}>
           <TouchableOpacity onPress={() => setSelected('Announcements')}>
-            <View
-              style={[
-                styles.tabs,
-                {borderBottomWidth: selected === 'Announcements' ? 6 : 0},
-              ]}>
+            
               <Text
                 style={[
                   styles.title,
@@ -34,29 +30,33 @@ const NotificationTabView = ({navigation}) => {
                 ]}>
                 Announcements
               </Text>
-            </View>
+              <View
+              style={[
+                styles.tabs,
+                {borderWidth: selected === 'Announcements' ? 3 : 0},
+              ]}></View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => setSelected('All')}>
             <View
-              style={[
-                styles.align,
-                {borderBottomWidth: selected === 'All' ? 6 : 0},
-              ]}>
+              style={
+                styles.align}>
               <Text
                 style={[styles.title, {opacity: selected === 'All' ? 1 : 0.3}]}>
                 All
               </Text>
+
               <View style={styles.bgColor}>
                 <Text style={styles.text}>2</Text>
               </View>
             </View>
+            <View style={[
+                styles.tabs,
+                {borderWidth: selected === 'All' ? 4 : 0},
+              ]}></View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => setSelected('unread')}>
             <View
-              style={[
-                styles.tabs,
-                {borderBottomWidth: selected === 'unread' ? 6 : 0},
-              ]}>
+             >
               <Text
                 style={[
                   styles.title,
@@ -64,6 +64,10 @@ const NotificationTabView = ({navigation}) => {
                 ]}>
                 Unread
               </Text>
+              <View style={[
+                styles.tabs,
+                {borderWidth: selected === 'unread' ? 3: 0},
+              ]}></View>
             </View>
           </TouchableOpacity>
         </View>

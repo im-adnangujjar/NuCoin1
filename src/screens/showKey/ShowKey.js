@@ -25,7 +25,7 @@ const ShowKey = ({navigation}) => {
         <View style={styles.textFlex}>
           <Text style={styles.title}>Show Key</Text>
           <Text style={styles.numbers}>
-            01 .<Text style={styles.numbers1}>03</Text>
+            01. <Text style={styles.numbers1}>03</Text>
           </Text>
         </View>
         <View style={styles.imageCenter}>

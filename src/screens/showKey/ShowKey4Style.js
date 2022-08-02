@@ -72,6 +72,8 @@ export const styles = StyleSheet.create({
   },
   linearGradient: {
     paddingLeft: 33,
+    opacity: 0.3,
+    borderRadius: 5,
     paddingTop: 23,
     paddingBottom: 21,
     marginBottom: 20,

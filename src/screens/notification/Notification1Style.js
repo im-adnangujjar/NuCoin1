@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
@@ -32,6 +32,7 @@ export const styles = StyleSheet.create({
   title: {
     fontFamily: 'Poppins-Regular',
     fontSize: 16,
+    width:Platform.OS==='ios'? '100%':'98%',
     fontWeight: '400',
     color: 'black',
   },
@@ -46,6 +47,7 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '500',
     color: 'black',
+    width: Platform.OS==='ios'? '100%':'98%',
   },
   text: {
     fontFamily: 'Poppins-Medium',
