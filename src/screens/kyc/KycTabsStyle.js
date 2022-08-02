@@ -17,11 +17,13 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '700',
     lineHeight: 24,
-    marginBottom: 11,
+    // marginBottom: 11,
   },
   tabs: {
-    borderBottomWidth: 4,
-    borderColor: 'blue',
+    borderWidth: 1,
+    borderRadius: 5,
+    marginTop: 12,
+    borderColor: '#286ACC',
   },
   border: {
     borderBottomWidth: 1,

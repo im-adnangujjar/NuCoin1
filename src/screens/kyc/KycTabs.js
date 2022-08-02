@@ -23,51 +23,46 @@ const KycTabs = ({navigation}) => {
         <KycText bgColor="#40C16C" image={check} width={12} />
         <View style={styles.flex}>
           <TouchableOpacity onPress={() => setActiveTab('personalDetails')}>
+            <Text
+              style={[
+                styles.title,
+                {opacity: activeTab === 'personalDetails' ? 1 : 0.6},
+              ]}>
+              PersonalDetails
+            </Text>
             <View
               style={[
                 styles.tabs,
-                {borderBottomWidth: activeTab === 'personalDetails' ? 6 : 0},
-              ]}>
-              <Text
-                style={[
-                  styles.title,
-                  {opacity: activeTab === 'personalDetails' ? 1 : 0.6},
-                ]}>
-                PersonalDetails
-              </Text>
-            </View>
+                {borderWidth: activeTab === 'personalDetails' ? 3 : 0},
+              ]}></View>
           </TouchableOpacity>
 
           <TouchableOpacity onPress={() => setActiveTab('Address')}>
+            <Text
+              style={[
+                styles.title,
+                {opacity: activeTab === 'Address' ? 1 : 0.6},
+              ]}>
+              Address
+            </Text>
+
             <View
               style={[
                 styles.tabs,
-                {borderBottomWidth: activeTab === 'Address' ? 6 : 0},
-              ]}>
-              <Text
-                style={[
-                  styles.title,
-                  {opacity: activeTab === 'Address' ? 1 : 0.6},
-                ]}>
-                Address
-              </Text>
-            </View>
+                {borderWidth: activeTab === 'Address' ? 3 : 0},
+              ]}></View>
           </TouchableOpacity>
 
           <TouchableOpacity onPress={() => setActiveTab('Ids')}>
+            <Text
+              style={[styles.title, {opacity: activeTab === 'Ids' ? 1 : 0.6}]}>
+              ID`s
+            </Text>
             <View
               style={[
                 styles.tabs,
-                {borderBottomWidth: activeTab === 'Ids' ? 6 : 0},
-              ]}>
-              <Text
-                style={[
-                  styles.title,
-                  {opacity: activeTab === 'Ids' ? 1 : 0.6},
-                ]}>
-                ID`s
-              </Text>
-            </View>
+                {borderWidth: activeTab === 'Ids' ? 3 : 0},
+              ]}></View>
           </TouchableOpacity>
         </View>
         <View style={styles.border}></View>
