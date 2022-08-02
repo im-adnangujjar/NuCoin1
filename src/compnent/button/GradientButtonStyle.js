@@ -20,6 +20,7 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
   },
   iconSize:{
+    tintColor:'white',
 width:18,
 height:21,
   },

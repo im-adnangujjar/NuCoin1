@@ -72,9 +72,10 @@ export const styles = StyleSheet.create({
   },
   linearGradient: {
     paddingLeft: 33,
-    opacity: 0.3,
+    opacity: 0.6,
     borderRadius: 5,
     paddingTop: 23,
+    backdropFilterBlur:50,
     paddingBottom: 21,
     marginBottom: 20,
   },

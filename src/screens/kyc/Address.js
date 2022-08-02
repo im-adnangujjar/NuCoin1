@@ -15,7 +15,7 @@ const Adderss = ({navigation}) => {
     <ScrollView style={styles.container}>
       <SafeAreaView />
       <View style={styles.subContainer}>
-        <HeaderA bgColor='#F3F2F3' title="kyc" Nav={navigation} />
+        <HeaderA bgColor='#F3F2F3' title="KYC" Nav={navigation} />
         <KycText number1='02 . ' number2='04' image={kyc} bgColor='#F3F2F3' width={15}  />
 
         <Text style={styles.title}>Address</Text>

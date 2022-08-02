@@ -6,6 +6,7 @@ import {
   SafeAreaView,
   Image,
   ScrollView,
+  Platform,
 } from 'react-native';
 import React from 'react';
 import {styles} from '../coin/CoinAStyle';
@@ -47,7 +48,7 @@ const Mint4 = ({navigation}) => {
           <Button
             onPress={() => navigation.goBack('Mint5')}
             text="Cancel"
-            width={160}
+            width={Platform.OS==='ios'?160:150}
             bgColor="#F3F3F3"
             color="black"
             height={54}
@@ -55,7 +56,7 @@ const Mint4 = ({navigation}) => {
           <GradientButton1
             click={() => navigation.navigate('Mint5')}
             text="Continue to Mint"
-            width={170}
+            width={Platform.OS ==='ios'?170:150}
             colors={['#50E6CA', '#34DDDC']}
             height={54}
             color="black"
