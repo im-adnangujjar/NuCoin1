@@ -12,7 +12,7 @@ export const style = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    marginTop: Platform.OS === 'ios' ? 160 : -100,
+    marginTop: Platform.OS === 'ios' ? 160 : 160,
     width: 225,
     height: 236,
   },

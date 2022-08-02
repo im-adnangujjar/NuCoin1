@@ -10,6 +10,8 @@ export const styles = StyleSheet.create({
   },
   image: {
     tintColor: 'black',
+    width: 17,
+    height: 20,
   },
   imageBg: {
     backgroundColor: '#F3F2F3',
@@ -33,7 +35,7 @@ export const styles = StyleSheet.create({
     fontWeight: '400',
     color: 'black',
   },
-  jhon:{
+  jhon: {
     fontFamily: 'Poppins-Medium',
     fontSize: 16,
     fontWeight: '600',
@@ -49,6 +51,6 @@ export const styles = StyleSheet.create({
     fontFamily: 'Poppins-Medium',
     fontSize: 10,
     fontWeight: '400',
-    color:'#646464'
+    color: '#646464',
   },
 });

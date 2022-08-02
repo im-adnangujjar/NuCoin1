@@ -56,6 +56,8 @@ const SignIn = ({navigation}) => {
             click={() => setActive('male')}
             iconColor="white"
             icon={active === 'male' ? check : ''}
+            marginRight={active==='male' ? '10%' :''}
+
           />
           <IconButton
             text="Female"
@@ -68,6 +70,7 @@ const SignIn = ({navigation}) => {
             click={() => setActive('female')}
             iconColor="white"
             icon={active === 'female' ? check : ''}
+            marginRight={active==='female' ? '10%' :''}
           />
         </View>
         <GradientButton1

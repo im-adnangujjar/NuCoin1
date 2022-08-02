@@ -9,9 +9,10 @@ export const styles = StyleSheet.create({
         marginHorizontal: 19
     },
     title: {
-        fontFamily:'Poppins-Regular',
+        fontFamily:'Poppins-Bold',
         fontSize: 16,
-        fontWeight: '700'
+        fontWeight: '700',
+        color:'black'
     },
     button: {
         flexDirection: 'row',

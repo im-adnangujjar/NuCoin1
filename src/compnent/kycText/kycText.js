@@ -7,8 +7,8 @@ export default function kycText(props) {
         <View>
             <View style={styles.imageFlex}>
                 <Text style={styles.title} >KYC Verification</Text>
-                <View style={[styles.iconBg  , {backgroundColor:props.bgColor}]}>
-                    <Image style={styles.check} source={props.image} />
+                <View style={[styles.iconBg  , {backgroundColor:props.bgColor }]}>
+                    <Image style={[styles.check , {width:props.width }]} source={props.image} />
                 </View>
 
             </View>

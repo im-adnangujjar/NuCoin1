@@ -19,7 +19,7 @@ const NotificationTabView = ({navigation}) => {
     <ScrollView style={styles.container}>
       <View>
         <SafeAreaView />
-        <HeaderA title="Notification" bgColor='#F3F2F3' Nav={navigation} />
+        <HeaderA title="Notification" bgColor="#F3F2F3" Nav={navigation} />
         <View style={styles.subContainer}>
           <TouchableOpacity onPress={() => setSelected('Announcements')}>
             <View

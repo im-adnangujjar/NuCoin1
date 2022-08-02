@@ -15,7 +15,7 @@ const UploadData = ({navigation}) => {
       <SafeAreaView />
       <View style={styles.subContainer}>
         <HeaderA bgColor='#F3F2F3' title="kyc" Nav={navigation} />
-        <KycText  bgColor='#F3F2F3' image={kyc} />
+        <KycText  bgColor='#F3F2F3' image={kyc} width={15} />
         {kycUpload.map((item, index) => {
           return <UploadImageCard kycUpload={item} />;
         })}

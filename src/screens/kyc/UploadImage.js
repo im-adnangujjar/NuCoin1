@@ -15,7 +15,7 @@ const UploadImage= ({navigation}) => {
             <SafeAreaView />
             <View style={styles.subContainer}>
                 <HeaderA title='kyc'bgColor='#F3F2F3' Nav={navigation} />
-                <KycText number1='04 . 'number2='04' image={kyc} bgColor='#F3F2F3' />
+                <KycText number1='04 . 'number2='04' image={kyc} bgColor='#F3F2F3' width={15} />
                 <Text style={styles.descripation}>Your KYC is <Text style={styles.text}>not yet complete.</Text>  Please make sure that all you’re id’s and photo you provide from us are succesfully validated.
 </Text>
                 {

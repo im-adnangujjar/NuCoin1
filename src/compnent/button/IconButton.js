@@ -22,9 +22,9 @@ function IconButton(props) {
     },
     image: {
       tintColor: props.iconColor || 'green',
-      marginRight: 10,
+      marginRight: props.marginRight || 10,
       width:props.iconwidth || 12,
-      height:props.iconHeight||9,
+      height:props.iconHeight||12,
     },
   });
   return (

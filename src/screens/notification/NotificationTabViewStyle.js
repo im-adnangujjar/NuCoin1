@@ -39,6 +39,7 @@ export const styles = StyleSheet.create({
     marginTop: -0,
     borderWidth: 0.5,
     borderColor: '#E7E7E7',
+    borderBottomRadius:3
   },
   tabs: {
     paddingBottom: 14,

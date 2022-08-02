@@ -33,7 +33,7 @@ const SignUp1 = ({navigation}) => {
         </View>
         <Text style={styles.lable}>Phone Number</Text>
         <View>
-          <TextInput style={styles.input} placeholder="+44" />
+          <TextInput style={styles.phoneInput} placeholder="+44" />
           <Image style={styles.flage} source={flage} />
           <Image style={styles.down}source={down}/>
 

@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
     marginLeft: 17,
   },
   title: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Bold',
     fontSize: 14,
     fontWeight: '700',
     color: '#000000',
@@ -59,7 +59,7 @@ export const styles = StyleSheet.create({
     width: '80%',
   },
   descripation: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 12,
     fontWeight: '500',
     color: '#000000',

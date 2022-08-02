@@ -57,6 +57,10 @@ export const styles = StyleSheet.create({
     marginTop: 5,
     marginBottom: 18,
   },
+  mint: {
+    color: 'black',
+    marginLeft:11,
+  },
   copy: {
     fontFamily: 'Poppins-Regular',
     fontSize: 10,

@@ -14,5 +14,6 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '500',
     lineHeight: 21,
+    color:'black'
   },
 });

@@ -11,6 +11,7 @@ import HeaderA from '../../compnent/header/HeaderA';
 import KycText from '../../compnent/kycText/kycText';
 import Kyc from './Kyc';
 import Kyc1 from './Kyc1';
+import check from '../../assets/icons/check.png';
 import Verification from './ Verification';
 
 const KycTabs = ({navigation}) => {
@@ -18,8 +19,8 @@ const KycTabs = ({navigation}) => {
   return (
     <View style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <HeaderA title="kyc" bgColor='black' Nav={navigation} color='white' />
-        <KycText />
+        <HeaderA title="kyc" bgColor="black" Nav={navigation} color="white" />
+        <KycText bgColor="#40C16C" image={check} width={12} />
         <View style={styles.flex}>
           <TouchableOpacity onPress={() => setActiveTab('personalDetails')}>
             <View
