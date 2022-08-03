@@ -43,6 +43,7 @@ import PersonalDetails from '../screens/kyc/PersonalDetails';
 import UploadData from '../screens/kyc/UploadData';
 import UploadImage from '../screens/kyc/UploadImage';
 import KycTabs from '../screens/kyc/KycTabs';
+import Animate from '../screens/mint/Animate';
 const Tab = createMaterialTopTabNavigator();
 const Stack = createNativeStackNavigator();
 
@@ -53,6 +54,7 @@ function Navigation() {
         screenOptions={{
           headerShown: false,
         }}>
+
         <Stack.Screen name="SplashScreen" component={SplashScreen} />
         <Stack.Screen name="RaceDetail" component={LogIn} />
         <Stack.Screen name="SignUp1" component={SignUp1} />
@@ -87,6 +89,9 @@ function Navigation() {
         <Stack.Screen name="UploadData" component={UploadData} />
         <Stack.Screen name=" Verification" component={Verification} />
         <Stack.Screen name="UploadImage" component={UploadImage} />
+        <Stack.Screen name="animate" component={Animate} />
+
+
       </Stack.Navigator>
     </NavigationContainer>
   );

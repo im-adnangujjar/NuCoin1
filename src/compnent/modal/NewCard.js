@@ -34,7 +34,8 @@ const NewCard = ({navigation,modal}) => {
                 <CardB select={select[1]} toggleModal1={toggleModal1} />
             </View>
             <Modal  backdropOpacity={0} style={{margin:0}} isVisible={isModalVisible1}>
-                <NewCard1 modal={modal} navigation={navigation} closeModale={setModalVisible1}/>
+                <NewCard1 modal={modal} navigation={navigation} 
+                />
             </Modal>
         </View>
 

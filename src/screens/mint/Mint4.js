@@ -54,7 +54,7 @@ const Mint4 = ({navigation}) => {
             height={54}
           />
           <GradientButton1
-            click={() => navigation.navigate('Mint5')}
+            click={() => navigation.navigate('animate')}
             text="Continue to Mint"
             width={Platform.OS ==='ios'?170:150}
             colors={['#50E6CA', '#34DDDC']}
