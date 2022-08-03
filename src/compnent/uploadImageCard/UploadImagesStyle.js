@@ -43,10 +43,12 @@ export const styles = StyleSheet.create({
   icon: {
     width: 12,
     height: 12,
+    tintColor:'white',
+
   },
   iconBg: {
-    width: 20,
-    height: 20,
+    width: 25,
+    height: 25,
     backgroundColor: '#40C16C',
     flexDirection: 'row',
     justifyContent: 'center',

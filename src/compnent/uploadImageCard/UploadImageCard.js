@@ -7,7 +7,7 @@ const UploadImageCard = ({kycUpload}) => {
     <View>
       <Text style={styles.title}>{kycUpload.title}</Text>
       <View style={styles.ImageBg}>
-        <Image source={kycUpload.img} />
+        <Image style={styles.image} source={kycUpload.img} />
         <Text style={styles.upload}>{kycUpload.text}</Text>
       </View>
     </View>

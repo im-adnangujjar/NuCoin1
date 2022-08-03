@@ -22,7 +22,7 @@ const KYc = ({navigation}) => {
         <SafeAreaView />
         <View style={styles.subContainer}>
           <HeaderA bgColor='#F3F2F3' title="KYC" Nav={navigation} />
-          <KycText number1="01 . " number2="04" image={kyc} bgColor="#F3F2F3" width={15}/>
+          <KycText text='Verication Icompleted' number1="01 . " number2="04" image={kyc} bgColor="#F3F2F3" width={15}/>
           <Text style={styles.title}>Personal Details</Text>
           {kycData.map(item => {
             return <KycInput kycData={item} />;

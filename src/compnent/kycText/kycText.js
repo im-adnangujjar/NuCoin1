@@ -13,7 +13,7 @@ export default function kycText(props) {
 
             </View>
             <View style={styles.flex}>
-                <Text style={styles.descripation}>Verication completed</Text>
+                <Text style={styles.descripation}>{props.text}</Text>
                 <Text style={styles.text}>{props.number1}<Text style={styles.descripation}>{props.number2}</Text></Text>
             </View>
         </View>

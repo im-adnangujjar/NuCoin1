@@ -239,7 +239,7 @@ const Animate = ({navigation}) => {
   const expandBorderWidth = () => {
     Animated.timing(borderExpand, {
       toValue: 400,
-      duration: 1000,
+      duration: 3000,
       useNativeDriver: false,
     }).start();
   };
@@ -264,7 +264,7 @@ const Animate = ({navigation}) => {
   const fadeOut = () => {
     Animated.timing(fadeAnim, {
       toValue: 295,
-      duration: 1500,
+      duration: 3000,
       useNativeDriver: false,
     }).start();
   };
@@ -274,7 +274,7 @@ const Animate = ({navigation}) => {
       duration: 1500,
       useNativeDriver: false,
     }).stop();
-    expandBorderWidth();
+    expandBorderWidth();;
   };
 
   return (
@@ -284,8 +284,8 @@ const Animate = ({navigation}) => {
       <View style={styles.container}>
         <Animated.View
           style={{
-            // width: borderExpand,
-            // height:borderExpand,
+            width: borderExpand,
+            height:borderExpand,
             justifyContent: 'center',
             alignItems: 'center',
           }}>

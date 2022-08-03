@@ -10,9 +10,9 @@ export const styles = StyleSheet.create({
     marginHorizontal: 19,
   },
   descripation: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     FontSize: 14,
-    FontWeight: '700',
+    FontWeight: '400',
     LineHeight: 21,
     color: 'black',
     marginTop: 25,
@@ -21,7 +21,11 @@ export const styles = StyleSheet.create({
     color: '#40C16C',
   },
   text: {
+    fontFamily: 'Poppins-Bold',
     color: '#FF2626',
+    FontWeight: '700',
+
+    
   },
   button: {
     flexDirection: 'row',
