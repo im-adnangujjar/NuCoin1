@@ -13,6 +13,10 @@ export const styles = StyleSheet.create({
     width: 17,
     height: 20,
   },
+  image1:{
+    width:13,
+    height:16,
+  },
   imageBg: {
     backgroundColor: '#F3F2F3',
     width: 38,

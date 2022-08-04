@@ -30,7 +30,7 @@ const Notification1 = () => {
         </View>
         <View style={styles.flex}>
           <View style={styles.imageBg}>
-            <Image style={styles.image} source={transfer} />
+            <Image style={styles.image1} source={transfer} />
           </View>
           <View>
             <Text style={styles.title}>

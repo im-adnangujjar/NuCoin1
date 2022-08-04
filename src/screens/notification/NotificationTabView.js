@@ -33,7 +33,7 @@ const NotificationTabView = ({navigation}) => {
               <View
               style={[
                 styles.tabs,
-                {borderWidth: selected === 'Announcements' ? 3 : 0},
+                {borderWidth: selected === 'Announcements' ? 2 : 0},
               ]}></View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => setSelected('All')}>
@@ -51,7 +51,7 @@ const NotificationTabView = ({navigation}) => {
             </View>
             <View style={[
                 styles.tabs,
-                {borderWidth: selected === 'All' ? 4 : 0},
+                {borderWidth: selected === 'All' ? 2 : 0},
               ]}></View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => setSelected('unread')}>
@@ -66,7 +66,7 @@ const NotificationTabView = ({navigation}) => {
               </Text>
               <View style={[
                 styles.tabs,
-                {borderWidth: selected === 'unread' ? 3: 0},
+                {borderWidth: selected === 'unread' ? 2: 0},
               ]}></View>
             </View>
           </TouchableOpacity>
