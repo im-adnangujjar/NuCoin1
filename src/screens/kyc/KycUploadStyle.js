@@ -18,6 +18,8 @@ export const styles = StyleSheet.create({
     marginTop: 25,
   },
   completeText: {
+    fontFamily:'Poppins-Bold',
+    fontWeight:'700',
     color: '#40C16C',
   },
   text: {

@@ -274,7 +274,7 @@ const Animate = ({navigation}) => {
       duration: 1500,
       useNativeDriver: false,
     }).stop();
-    expandBorderWidth();;
+    expandBorderWidth();
   };
 
   return (

@@ -27,7 +27,9 @@ const Adderss = ({navigation}) => {
             text="Back"
             onPress={() => navigation.goBack()}
             width="45%"
-            bgColor="#F3F3F3"
+            bgColor="white"
+            bdColor='#E7E7E7'
+            bdWidth={1}
             color="black"
             height={54}
           />

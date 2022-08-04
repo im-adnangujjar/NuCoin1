@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
     borderRadius: 60,
   },
   text: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     fontSize: 18,
     fontWeight: '500',
     color: 'black',

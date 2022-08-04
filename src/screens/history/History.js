@@ -32,7 +32,7 @@ const History = ({navigation}) => {
           <View style={styles.image1}>
             <TouchableOpacity
               onPress={() => navigation.navigate('Notification')}>
-              <Image style={styles.image_margin} source={icon1} />
+              <Image style={styles.image_margin} source={icon1}/>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate('profile')}>
               <Image style={styles.person} source={image} />

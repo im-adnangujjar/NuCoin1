@@ -26,7 +26,7 @@ const UploadImage= ({navigation}) => {
                     })
                 }
                 <View style={styles.button}>
-                    <Button  onPress={()=>navigation.goBack()}text='Back' width='45%' bgColor='#F3F3F3' color='black' height={54} />
+                    <Button  onPress={()=>navigation.goBack()}text='Back' width='45%' bdColor='#E7E7E7' bdWidth={1} bgColor='white' color='black' height={54} />
                     <GradientButton1 click={()=>navigation.navigate('tabs')} height={54}  text='Next' width='45%'/>
                 </View>
             </View>

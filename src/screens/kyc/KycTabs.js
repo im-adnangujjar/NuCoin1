@@ -20,7 +20,7 @@ const KycTabs = ({navigation}) => {
     <View style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <HeaderA title="kyc" bgColor="black" Nav={navigation} color="white" />
-        <KycText text='Verication completed' bgColor="#40C16C" image={check} width={12} />
+        <KycText text='Verication Completed' bgColor="#40C16C" image={check} width={12} />
         <View style={styles.flex}>
           <TouchableOpacity onPress={() => setActiveTab('personalDetails')}>
             <Text

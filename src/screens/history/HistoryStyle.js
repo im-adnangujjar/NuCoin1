@@ -36,6 +36,8 @@ export const styles = StyleSheet.create({
   },
   image_margin: {
     marginRight: 23,
+    width:24,
+    height:24,
   },
   person: {
     width: 35,
@@ -85,7 +87,7 @@ export const styles = StyleSheet.create({
     fontFamily: 'Poppins-Medium',
     fontSize: 14,
     fontWeight: '500',
-    color: 'blue',
+    color: '#1E61C6',
     marginLeft: 10,
   },
   flex: {

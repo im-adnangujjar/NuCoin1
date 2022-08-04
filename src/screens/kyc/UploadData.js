@@ -24,7 +24,9 @@ const UploadData = ({navigation}) => {
             onPress={() => navigation.goBack()}
             text="Back"
             width="45%"
-            bgColor="#F3F3F3"
+            bdColor='#E7E7E7'
+            bdWidth={1}
+            bgColor="white"
             height={54}
             color="black"
           />

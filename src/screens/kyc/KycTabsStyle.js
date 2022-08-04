@@ -17,6 +17,7 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '700',
     lineHeight: 24,
+    color:'black',
     // marginBottom: 11,
   },
   tabs: {
@@ -27,6 +28,7 @@ export const styles = StyleSheet.create({
   },
   border: {
     borderBottomWidth: 1,
+    borderColor:'#E7E7E7',
     marginTop: -0,
   },
 });

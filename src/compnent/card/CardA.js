@@ -22,7 +22,7 @@ const CardA = ({card}) => {
                 </View>
                 <View style={styles.flex1}>
                     <Text style={styles.descripation}>{card.text}</Text>
-                    <Text style={styles.descripation}>{card.text}</Text>
+                    <Text style={styles.descripation}>{card.text1}</Text>
             </View>
             </View>
 
