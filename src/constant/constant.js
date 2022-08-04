@@ -246,6 +246,8 @@ export const upload = [
     text: ' successfully validated',
     color: 'red',
     icon: check,
+    choose:'choose different image',
+    image:image
   },
   {
     title: 'Selfie Image',

@@ -19,8 +19,18 @@ const KycTabs = ({navigation}) => {
   return (
     <View style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <HeaderA title="kyc" bgColor="black" Nav={navigation} color="white" />
-        <KycText text='Verication Completed' bgColor="#40C16C" image={check} width={12} />
+        <HeaderA
+          title="kyc"
+          bgColor={activeTab === 'Ids' ? 'black' : '#F3F2F3'}
+          Nav={navigation}
+          color={activeTab === 'Ids' ? 'white' : 'black'}
+        />
+        <KycText
+          text="Verication Completed"
+          bgColor="#40C16C"
+          image={check}
+          width={12}
+        />
         <View style={styles.flex}>
           <TouchableOpacity onPress={() => setActiveTab('personalDetails')}>
             <Text
@@ -33,7 +43,7 @@ const KycTabs = ({navigation}) => {
             <View
               style={[
                 styles.tabs,
-                {borderWidth: activeTab === 'personalDetails' ? 3 : 0},
+                {borderWidth: activeTab === 'personalDetails' ? 2 : 0},
               ]}></View>
           </TouchableOpacity>
 
@@ -49,7 +59,7 @@ const KycTabs = ({navigation}) => {
             <View
               style={[
                 styles.tabs,
-                {borderWidth: activeTab === 'Address' ? 3 : 0},
+                {borderWidth: activeTab === 'Address' ? 2 : 0},
               ]}></View>
           </TouchableOpacity>
 
@@ -61,7 +71,7 @@ const KycTabs = ({navigation}) => {
             <View
               style={[
                 styles.tabs,
-                {borderWidth: activeTab === 'Ids' ? 3 : 0},
+                {borderWidth: activeTab === 'Ids' ? 2 : 0},
               ]}></View>
           </TouchableOpacity>
         </View>

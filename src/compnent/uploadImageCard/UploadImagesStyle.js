@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   bgColor: {
@@ -17,9 +17,30 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  selectImage: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: Platform.OS === 'ios' ? 10 : 7,
+    marginLeft: 32,
+  },
   image: {
     width: 70,
     height: 70,
+  },
+  choose: {
+    fontFamily: 'Poppins-Medium',
+    fontSize: 10,
+    fontWeight: '500',
+    lineHeight: 15,
+    marginLeft: 5,
+
+    color: 'white',
+  },
+  imageIcon: {
+    tintColor: 'white',
+    width: 18,
+    height: 18,
   },
   text: {
     fontFamily: 'Poppins-Regular',
@@ -43,8 +64,7 @@ export const styles = StyleSheet.create({
   icon: {
     width: 12,
     height: 12,
-    tintColor:'white',
-
+    tintColor: 'white',
   },
   iconBg: {
     width: 25,

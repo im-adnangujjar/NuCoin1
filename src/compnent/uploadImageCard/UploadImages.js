@@ -2,7 +2,8 @@ import {StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
 import {styles} from './UploadImagesStyle';
 import {ScrollView} from 'react-native-gesture-handler';
-import close from '../../assets/icons/close_icon.png'
+import close from '../../assets/icons/close_icon.png';
+// import image from '../../assets/icons/imageIcon.png';
 
 const UploadImages = ({upload, photoWarning = false}) => {
   return (
@@ -21,6 +22,10 @@ const UploadImages = ({upload, photoWarning = false}) => {
                   <Text style={[styles.title, {color: 'red'}]}>
                     {upload.text}
                   </Text>
+                  <View style={styles.selectImage}>
+                    <Image style={styles.imageIcon} source={upload.image} />
+                    <Text style={styles.choose}>{upload.choose}</Text>
+                  </View>
                 </>
               ) : (
                 <>
@@ -30,16 +35,15 @@ const UploadImages = ({upload, photoWarning = false}) => {
               )}
             </View>
           </View>
-            {photoWarning && upload.title === 'Photo ID' ? (
-          <View style={[styles.iconBg,{backgroundColor:'#FF2626'} ]}>
+          {photoWarning && upload.title === 'Photo ID' ? (
+            <View style={[styles.iconBg, {backgroundColor: '#FF2626'}]}>
               <Image style={styles.icon} source={close} />
-          </View>
-
-            ) : (
-          <View style={styles.iconBg}>
+            </View>
+          ) : (
+            <View style={styles.iconBg}>
               <Image style={styles.icon} source={upload.icon} />
-          </View>
-            )}
+            </View>
+          )}
         </View>
       </View>
     </ScrollView>
