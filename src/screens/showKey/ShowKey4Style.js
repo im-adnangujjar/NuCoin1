@@ -63,7 +63,7 @@ export const styles = StyleSheet.create({
     marginBottom: 119,
   },
   name: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Poppins-Medium',
     width: '100%',
     fontSize: 14,
     fontWeight: '500',
@@ -72,7 +72,7 @@ export const styles = StyleSheet.create({
   },
   linearGradient: {
     paddingLeft: 33,
-    opacity: 0.6,
+    // opacity: 0.6,
     borderRadius: 5,
     paddingTop: 23,
     backdropFilterBlur:50,

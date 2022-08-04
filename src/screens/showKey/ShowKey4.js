@@ -32,9 +32,9 @@ const ShowKey4 = ({navigation}) => {
         </View>
         <TextInput style={styles.input} placeholder="252272"  placeholderTextColor={'black'}/>
         <LinearGradient
-          start={{x:0.1, y: 0.1}}
-          end={{x: 0.2, y: 1}}
-          colors={['#8FA7FF', '#FFFFFF']}
+          start={{x:0.1, y: 0}}
+          end={{x: 0.4, y: 1}}
+          colors={['rgba(143, 167, 255, 0.4)', '#FFFFFF']}
           style={styles.linearGradient}>
           <Text style={styles.name}>
             pipe, rush, chance, peel, bottom, apparatus, chew, democratic, wash,
