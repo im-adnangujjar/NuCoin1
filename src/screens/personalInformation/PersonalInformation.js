@@ -16,7 +16,7 @@ import lock from '../../assets/icons/lock.png';
 import PersonalInput from '../../compnent/personalInput/PersonalInput';
 import {input} from '../../constant/constant';
 import icon from '../../assets/icons/arrow-left.png';
-import icon1 from '../../assets/icons/check.png';
+import icon1 from '../../assets/icons/personalCheck.png';
 
 const PersonalInformation = ({navigation}) => {
   return (
@@ -29,8 +29,10 @@ const PersonalInformation = ({navigation}) => {
               <Image style={styles.leftArrow} source={icon} />
             </View>
           </TouchableOpacity>
-          <View style={styles.iconBg1}>
-            <Image style={styles.iconImage} source={icon1} />
+          <View style={styles.shadow}>
+            <View style={styles.iconBg1}>
+              <Image style={styles.iconImage} source={icon1} />
+            </View>
           </View>
         </View>
         <Text style={styles.title}>Personal Information</Text>

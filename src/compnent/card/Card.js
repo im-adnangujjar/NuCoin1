@@ -11,7 +11,7 @@ const Card = () => {
         <ScrollView>
             <SafeAreaView />
             <View>
-                <LinearGradient start={{ x: .1, y:1  }}  end={{ x: 1, y:0.1}} colors={['#00EAFF','#BADAFF','#303E57']} style={styles.linearGradient}>
+                <LinearGradient start={{ x: 1, y:0.1 }}  end={{ x: 0.1, y: 2}} colors={['#0025CE','#00EAFF','#303E57']} style={styles.linearGradient}>
                     <View style={styles.bgColor}>
                         <View style={styles.title_flex}>
                             <Text style={styles.name}>Jhon Doe</Text>

@@ -9,7 +9,6 @@ export const styles = StyleSheet.create({
   },
 
   iconImage: {
-    tintColor: 'black',
     width: 16,
     height: 17,
   },
@@ -26,6 +25,13 @@ export const styles = StyleSheet.create({
     width: 24,
     height: 24,
   },
+  shadow: {
+    shadowOffset: 10,
+    elevation: 120,
+    shadowRadius: 20,
+    shadowColor: '#48E4D0',
+    shadowOpacity: 0.7,
+  },
   iconBg1: {
     width: 38,
     height: 38,
@@ -34,8 +40,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    shadowOpacity: 1,
-    shadowColor: '#48E4D08A',
+   
   },
   display: {
     flexDirection: 'row',
