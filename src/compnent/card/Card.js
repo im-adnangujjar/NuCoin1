@@ -5,23 +5,26 @@ import {
   Image,
   ScrollView,
   SafeAreaView,
+  ImageBackground,
 } from 'react-native';
 import React from 'react';
 import {styles} from './CardStyle';
 import LinearGradient from 'react-native-linear-gradient';
 import coin from '../../assets/icons/coin.png';
 import icon from '../../assets/icons/copy_icon.png';
+import card from '../../assets/images/dashboardCard.png';
 
 const Card = () => {
   return (
     <ScrollView>
       <SafeAreaView />
       <View>
-        <LinearGradient
+        {/* <LinearGradient
           start={{x: 2, y: 0}}
           end={{x: 0, y: 2}}
-          colors={['rgba(0, 234, 255, 1)', 'rgba(77, 53, 137, 0.4)', '#00EAFF']}
-          style={styles.linearGradient}>
+          colors={['rgba(0, 234, 255, 0.1)', 'rgba(77, 53, 137, 0.6)', 'rgba(0, 234, 255, 0.9)']}
+          style={styles.linearGradient}> */}
+        <ImageBackground imageStyle={{borderRadius: 10}} source={card}>
           <View style={styles.bgColor}>
             <View style={styles.title_flex}>
               <Text style={styles.name}>Jhon Doe</Text>
@@ -44,7 +47,8 @@ const Card = () => {
               </View>
             </View>
           </View>
-        </LinearGradient>
+        </ImageBackground>
+        {/* </LinearGradient> */}
       </View>
     </ScrollView>
   );

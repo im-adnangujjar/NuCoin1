@@ -1,10 +1,14 @@
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
+  card: {
+    borderWidth:7,
+    borderRadius: 50,
+    overflow:'hidden'
+  },
   bgColor: {
     width: '100%',
     height: 209,
-    borderRadius: 10,
     paddingTop: 18,
     paddingLeft: 33,
     paddingRight: 26,
