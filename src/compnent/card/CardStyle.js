@@ -24,6 +24,7 @@ export const styles = StyleSheet.create({
   linearGradient: {
     borderRadius: 10,
     // opacity: 0.8,
+    // shadowOpacity:
   },
   title: {
     fontFamily: 'Poppins-Regular',

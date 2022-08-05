@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
   },
   shadow: {
     shadowOffset: 10,
-    elevation: 120,
+    elevation: 150,
     shadowRadius: 20,
     shadowColor: '#48E4D0',
     shadowOpacity: 0.7,
