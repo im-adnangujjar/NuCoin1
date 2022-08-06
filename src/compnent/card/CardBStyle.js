@@ -39,8 +39,8 @@ export const styles = StyleSheet.create({
     color: 'black',
   },
   icon: {
-    width: 15,
-    height: 15,
+    width: 11,
+    height: 8,
   },
   blance: {
     fontFamily: 'Poppins-Regular',

@@ -33,7 +33,7 @@ const CardB = ({select, toggleModal1, children, close}) => {
             </TouchableOpacity>
           </View>
         </View>
-                <Text style={styles.text}>{select.mint} </Text>
+        <Text style={styles.text}>{select.mint} </Text>
         <Text style={styles.blance}>{select.blance}</Text>
         <Text style={styles.number}>{select.coins}</Text>
         <View style={styles.flex}>
