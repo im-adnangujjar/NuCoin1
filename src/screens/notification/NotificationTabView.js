@@ -5,12 +5,14 @@ import {
   SafeAreaView,
   ScrollView,
   TouchableOpacity,
+  Image
 } from 'react-native';
 import React, {useState} from 'react';
 import HeaderA from '../../compnent/header/HeaderA';
 import {styles} from './NotificationTabViewStyle';
 import Notification from './Notification';
 import Notification1 from './Notification1';
+import icon from '../../assets/icons/arrow-left.png'
 
 const NotificationTabView = ({navigation}) => {
   const [selected, setSelected] = useState('Announcements');
@@ -19,7 +21,14 @@ const NotificationTabView = ({navigation}) => {
     <ScrollView style={styles.container}>
       <View>
         <SafeAreaView />
-        <HeaderA title="Notification" bgColor="#F3F2F3" Nav={navigation} />
+        <View style={styles.display}>
+      <TouchableOpacity onPress={() => navigation.goBack()}>
+        <View style={styles.iconBg}>
+          <Image style={styles.arrow} source={icon} />
+        </View>
+      </TouchableOpacity>
+      <Text style={styles.title}>Notification</Text>
+    </View>
         <View style={styles.subContainer}>
           <TouchableOpacity onPress={() => setSelected('Announcements')}>
             

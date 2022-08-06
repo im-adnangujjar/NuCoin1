@@ -13,7 +13,10 @@ const NewCard1 = ({navigation, modal ,}) => {
 
 // console.log('closeModal',closeModal);
 
-  const toggleModal2 = () => {
+  const toggleModal2 = (changeScreen=true) => {
+    setModalVisible2(!isModalVisible2);
+    modal();
+    if(changeScreen)
     navigation.navigate('ShowKey');
   };
   return (
@@ -22,7 +25,7 @@ const NewCard1 = ({navigation, modal ,}) => {
         <View style={styles.border}></View>
       </View>
       <View style={styles.wallet}>
-        <WalletList modal={modal} navigation={navigation} />
+        <WalletList modal={()=>toggleModal2(false)} navigation={navigation} />
       </View>
       <CardB select={select[0]} />
       <View
